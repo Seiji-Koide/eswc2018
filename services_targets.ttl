@@ -1,0 +1,3763 @@
+@prefix action: <http://tp.lodac.nii.ac.jp/action/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix service: <http://tp.lodac.nii.ac.jp/service/> .
+@prefix servicevoc: <http://tp.lodac.nii.ac.jp/ns/service#> .
+@prefix target: <http://tp.lodac.nii.ac.jp/target/> .
+
+service:NHK放送受信料_サービス a owl:Class;
+   rdfs:label "NHK放送受信料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:NHK放送受信料;
+   rdfs:subClassOf service:放送受信料_サービス .
+
+service:あさり_サービス a owl:Class;
+   rdfs:label "あさり_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:あさり;
+   rdfs:subClassOf service:貝類_サービス .
+
+service:あじ_サービス a owl:Class;
+   rdfs:label "あじ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:あじ;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:いか_サービス a owl:Class;
+   rdfs:label "いか_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:いか;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:いちご_サービス a owl:Class;
+   rdfs:label "いちご_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:いちご;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:いわし_サービス a owl:Class;
+   rdfs:label "いわし_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:いわし;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:うなぎのかば焼き_サービス a owl:Class;
+   rdfs:label "うなぎのかば焼き_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:うなぎのかば焼き;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:えのきたけ_サービス a owl:Class;
+   rdfs:label "えのきたけ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:えのきたけ;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:えび_サービス a owl:Class;
+   rdfs:label "えび_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:えび;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:おにぎり・その他_サービス a owl:Class;
+   rdfs:label "おにぎり・その他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:おにぎり・その他;
+   rdfs:subClassOf service:主食的調理食品_サービス .
+
+service:かき（貝）_サービス a owl:Class;
+   rdfs:label "かき（貝）_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かき（貝）;
+   rdfs:subClassOf service:貝類_サービス .
+
+service:かつお_サービス a owl:Class;
+   rdfs:label "かつお_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かつお;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:かつお節･削り節_サービス a owl:Class;
+   rdfs:label "かつお節･削り節_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かつお節･削り節;
+   rdfs:subClassOf service:他の魚介加工品_サービス .
+
+service:かに_サービス a owl:Class;
+   rdfs:label "かに_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かに;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:かぼちゃ_サービス a owl:Class;
+   rdfs:label "かぼちゃ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かぼちゃ;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:かまぼこ_サービス a owl:Class;
+   rdfs:label "かまぼこ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かまぼこ;
+   rdfs:subClassOf service:魚肉練製品_サービス .
+
+service:かれい_サービス a owl:Class;
+   rdfs:label "かれい_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かれい;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:きゅうり_サービス a owl:Class;
+   rdfs:label "きゅうり_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:きゅうり;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:ぎょうざ_サービス a owl:Class;
+   rdfs:label "ぎょうざ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ぎょうざ;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:こんにゃく_サービス a owl:Class;
+   rdfs:label "こんにゃく_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:こんにゃく;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:こんぶ_サービス a owl:Class;
+   rdfs:label "こんぶ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:こんぶ;
+   rdfs:subClassOf service:乾物・海藻_サービス .
+
+service:こんぶつくだ煮_サービス a owl:Class;
+   rdfs:label "こんぶつくだ煮_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:こんぶつくだ煮;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:ごぼう_サービス a owl:Class;
+   rdfs:label "ごぼう_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ごぼう;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:さけ_サービス a owl:Class;
+   rdfs:label "さけ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:さけ;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:さしみ盛合わせ_サービス a owl:Class;
+   rdfs:label "さしみ盛合わせ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:さしみ盛合わせ;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:さつまいも_サービス a owl:Class;
+   rdfs:label "さつまいも_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:さつまいも;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:さといも_サービス a owl:Class;
+   rdfs:label "さといも_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:さといも;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:さば_サービス a owl:Class;
+   rdfs:label "さば_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:さば;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:さやまめ_サービス a owl:Class;
+   rdfs:label "さやまめ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:さやまめ;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:さんま_サービス a owl:Class;
+   rdfs:label "さんま_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:さんま;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:しじみ_サービス a owl:Class;
+   rdfs:label "しじみ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:しじみ;
+   rdfs:subClassOf service:貝類_サービス .
+
+service:しめじ_サービス a owl:Class;
+   rdfs:label "しめじ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:しめじ;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:しゅうまい_サービス a owl:Class;
+   rdfs:label "しゅうまい_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:しゅうまい;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:しょう油_サービス a owl:Class;
+   rdfs:label "しょう油_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:しょう油;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:しらす干し_サービス a owl:Class;
+   rdfs:label "しらす干し_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:しらす干し;
+   rdfs:subClassOf service:塩干魚介_サービス .
+
+service:じゃがいも_サービス a owl:Class;
+   rdfs:label "じゃがいも_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:じゃがいも;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:すいか_サービス a owl:Class;
+   rdfs:label "すいか_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:すいか;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:すし（外食）_サービス a owl:Class;
+   rdfs:label "すし（外食）_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:すし（外食）;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:すし（弁当）_サービス a owl:Class;
+   rdfs:label "すし（弁当）_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:すし（弁当）;
+   rdfs:subClassOf service:主食的調理食品_サービス .
+
+service:せんべい_サービス a owl:Class;
+   rdfs:label "せんべい_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:せんべい;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:そうざい材料セット_サービス a owl:Class;
+   rdfs:label "そうざい材料セット_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:そうざい材料セット;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:たい_サービス a owl:Class;
+   rdfs:label "たい_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:たい;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:たけのこ_サービス a owl:Class;
+   rdfs:label "たけのこ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:たけのこ;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:たこ_サービス a owl:Class;
+   rdfs:label "たこ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:たこ;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:たばこ_サービス a owl:Class;
+   rdfs:label "たばこ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:たばこ;
+   rdfs:subClassOf service:諸雑費_サービス .
+
+service:たまねぎ_サービス a owl:Class;
+   rdfs:label "たまねぎ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:たまねぎ;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:たらこ_サービス a owl:Class;
+   rdfs:label "たらこ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:たらこ;
+   rdfs:subClassOf service:塩干魚介_サービス .
+
+service:たんす_サービス a owl:Class;
+   rdfs:label "たんす_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:たんす;
+   rdfs:subClassOf service:一般家具_サービス .
+
+service:だいこん_サービス a owl:Class;
+   rdfs:label "だいこん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:だいこん;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:だいこん漬_サービス a owl:Class;
+   rdfs:label "だいこん漬_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:だいこん漬;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:ちくわ_サービス a owl:Class;
+   rdfs:label "ちくわ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ちくわ;
+   rdfs:subClassOf service:魚肉練製品_サービス .
+
+service:つゆ・たれ_サービス a owl:Class;
+   rdfs:label "つゆ・たれ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:つゆ・たれ;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:なす_サービス a owl:Class;
+   rdfs:label "なす_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:なす;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:にんじん_サービス a owl:Class;
+   rdfs:label "にんじん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:にんじん;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:ねぎ_サービス a owl:Class;
+   rdfs:label "ねぎ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ねぎ;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:はくさい_サービス a owl:Class;
+   rdfs:label "はくさい_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:はくさい;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:はくさい漬_サービス a owl:Class;
+   rdfs:label "はくさい漬_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:はくさい漬;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:ふりかけ_サービス a owl:Class;
+   rdfs:label "ふりかけ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ふりかけ;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:ぶどう_サービス a owl:Class;
+   rdfs:label "ぶどう_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ぶどう;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:ぶり_サービス a owl:Class;
+   rdfs:label "ぶり_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ぶり;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:ほうれんそう_サービス a owl:Class;
+   rdfs:label "ほうれんそう_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ほうれんそう;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:ほたて貝_サービス a owl:Class;
+   rdfs:label "ほたて貝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ほたて貝;
+   rdfs:subClassOf service:貝類_サービス .
+
+service:まぐろ_サービス a owl:Class;
+   rdfs:label "まぐろ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:まぐろ;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:まんじゅう_サービス a owl:Class;
+   rdfs:label "まんじゅう_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:まんじゅう;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:みかん_サービス a owl:Class;
+   rdfs:label "みかん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:みかん;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:みそ_サービス a owl:Class;
+   rdfs:label "みそ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:みそ;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:もち_サービス a owl:Class;
+   rdfs:label "もち_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:もち;
+   rdfs:subClassOf service:他の穀類_サービス .
+
+service:もやし_サービス a owl:Class;
+   rdfs:label "もやし_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:もやし;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:やきとり_サービス a owl:Class;
+   rdfs:label "やきとり_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:やきとり;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:ようかん_サービス a owl:Class;
+   rdfs:label "ようかん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ようかん;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:りんご_サービス a owl:Class;
+   rdfs:label "りんご_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:りんご;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:れんこん_サービス a owl:Class;
+   rdfs:label "れんこん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:れんこん;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:わかめ_サービス a owl:Class;
+   rdfs:label "わかめ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:わかめ;
+   rdfs:subClassOf service:乾物・海藻_サービス .
+
+service:アイスクリーム・シャーベット_サービス a owl:Class;
+   rdfs:label "アイスクリーム・シャーベット_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:アイスクリーム・シャーベット;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:インターネット接続料_サービス a owl:Class;
+   rdfs:label "インターネット接続料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:インターネット接続料;
+   rdfs:subClassOf service:他の教養娯楽サービス_サービス .
+
+service:ウイスキー_サービス a owl:Class;
+   rdfs:label "ウイスキー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ウイスキー;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:エアコンディショナ_サービス a owl:Class;
+   rdfs:label "エアコンディショナ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:エアコンディショナ;
+   rdfs:subClassOf service:冷暖房用器具_サービス .
+
+service:オレンジ_サービス a owl:Class;
+   rdfs:label "オレンジ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:オレンジ;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:カステラ_サービス a owl:Class;
+   rdfs:label "カステラ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:カステラ;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:カット代_サービス a owl:Class;
+   rdfs:label "カット代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:カット代;
+   rdfs:subClassOf service:理美容サービス_サービス .
+
+service:カップ麺_サービス a owl:Class;
+   rdfs:label "カップ麺_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:カップ麺;
+   rdfs:subClassOf service:麺類_サービス .
+
+service:カツレツ_サービス a owl:Class;
+   rdfs:label "カツレツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:カツレツ;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:カメラ_サービス a owl:Class;
+   rdfs:label "カメラ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:カメラ;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:カレールウ_サービス a owl:Class;
+   rdfs:label "カレールウ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:カレールウ;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:カーテン_サービス a owl:Class;
+   rdfs:label "カーテン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:カーテン;
+   rdfs:subClassOf service:室内装備・装飾品_サービス .
+
+service:ガソリン_サービス a owl:Class;
+   rdfs:label "ガソリン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ガソリン;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:キウイフルーツ_サービス a owl:Class;
+   rdfs:label "キウイフルーツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:キウイフルーツ;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:キャベツ_サービス a owl:Class;
+   rdfs:label "キャベツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:キャベツ;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:キャンデー_サービス a owl:Class;
+   rdfs:label "キャンデー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:キャンデー;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:グレープフルーツ_サービス a owl:Class;
+   rdfs:label "グレープフルーツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:グレープフルーツ;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:ケチャップ_サービス a owl:Class;
+   rdfs:label "ケチャップ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ケチャップ;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:ケーキ_サービス a owl:Class;
+   rdfs:label "ケーキ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ケーキ;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:ケーブルテレビ放送受信料_サービス a owl:Class;
+   rdfs:label "ケーブルテレビ放送受信料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:ケーブルテレビ放送受信料;
+   rdfs:subClassOf service:放送受信料_サービス .
+
+service:ゲームソフト等_サービス a owl:Class;
+   rdfs:label "ゲームソフト等_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ゲームソフト等;
+   rdfs:subClassOf service:玩具_サービス .
+
+service:ココア・ココア飲料_サービス a owl:Class;
+   rdfs:label "ココア・ココア飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:ココア・ココア飲料;
+   rdfs:subClassOf service:コーヒー・ココア_サービス .
+
+service:コロッケ_サービス a owl:Class;
+   rdfs:label "コロッケ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:コロッケ;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:コンタクトレンズ_サービス a owl:Class;
+   rdfs:label "コンタクトレンズ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:コンタクトレンズ;
+   rdfs:subClassOf service:保健医療用品･器具_サービス .
+
+service:コーヒー_サービス a owl:Class;
+   rdfs:label "コーヒー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:コーヒー;
+   rdfs:subClassOf service:コーヒー・ココア_サービス .
+
+service:コーヒー飲料_サービス a owl:Class;
+   rdfs:label "コーヒー飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:コーヒー飲料;
+   rdfs:subClassOf service:コーヒー・ココア_サービス .
+
+service:ゴルフプレー料金_サービス a owl:Class;
+   rdfs:label "ゴルフプレー料金_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ゴルフプレー料金;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:ゴルフ用具_サービス a owl:Class;
+   rdfs:label "ゴルフ用具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ゴルフ用具;
+   rdfs:subClassOf service:運動用具類_サービス .
+
+service:サラダ_サービス a owl:Class;
+   rdfs:label "サラダ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:サラダ;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:サンダル_サービス a owl:Class;
+   rdfs:label "サンダル_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:サンダル;
+   rdfs:subClassOf service:履物類_サービス .
+
+service:シャンプー_サービス a owl:Class;
+   rdfs:label "シャンプー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:シャンプー;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:ジャム_サービス a owl:Class;
+   rdfs:label "ジャム_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ジャム;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:スカート_サービス a owl:Class;
+   rdfs:label "スカート_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:スカート;
+   rdfs:subClassOf service:婦人用洋服_サービス .
+
+service:ストーブ・温風ヒーター_サービス a owl:Class;
+   rdfs:label "ストーブ・温風ヒーター_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ストーブ・温風ヒーター;
+   rdfs:subClassOf service:冷暖房用器具_サービス .
+
+service:スナック菓子_サービス a owl:Class;
+   rdfs:label "スナック菓子_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:スナック菓子;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:スパゲッティ_サービス a owl:Class;
+   rdfs:label "スパゲッティ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:スパゲッティ;
+   rdfs:subClassOf service:麺類_サービス .
+
+service:スポーツクラブ使用料_サービス a owl:Class;
+   rdfs:label "スポーツクラブ使用料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:スポーツクラブ使用料;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:スポーツドリンク_サービス a owl:Class;
+   rdfs:label "スポーツドリンク_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:スポーツドリンク;
+   rdfs:subClassOf service:他の飲料_サービス .
+
+service:スポーツ月謝_サービス a owl:Class;
+   rdfs:label "スポーツ月謝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:スポーツ月謝;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:スポーツ用品_サービス a owl:Class;
+   rdfs:label "スポーツ用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:スポーツ用品;
+   rdfs:subClassOf service:運動用具類_サービス .
+
+service:スポーツ観覧料_サービス a owl:Class;
+   rdfs:label "スポーツ観覧料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:スポーツ観覧料;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:ゼリー_サービス a owl:Class;
+   rdfs:label "ゼリー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ゼリー;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:ソース_サービス a owl:Class;
+   rdfs:label "ソース_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ソース;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:ソーセージ_サービス a owl:Class;
+   rdfs:label "ソーセージ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ソーセージ;
+   rdfs:subClassOf service:加工肉_サービス .
+
+service:タオル_サービス a owl:Class;
+   rdfs:label "タオル_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:タオル;
+   rdfs:subClassOf service:家事雑貨_サービス .
+
+service:タクシー代_サービス a owl:Class;
+   rdfs:label "タクシー代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:タクシー代;
+   rdfs:subClassOf service:交通_サービス .
+
+service:チューハイ・カクテル_サービス a owl:Class;
+   rdfs:label "チューハイ・カクテル_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:チューハイ・カクテル;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:チョコレート_サービス a owl:Class;
+   rdfs:label "チョコレート_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:チョコレート;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:チョコレート菓子_サービス a owl:Class;
+   rdfs:label "チョコレート菓子_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:チョコレート菓子;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:チーズ_サービス a owl:Class;
+   rdfs:label "チーズ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:チーズ;
+   rdfs:subClassOf service:乳製品_サービス .
+
+service:ティッシュペーパー_サービス a owl:Class;
+   rdfs:label "ティッシュペーパー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ティッシュペーパー;
+   rdfs:subClassOf service:ティッシュペーパー・トイレットペーパー_サービス .
+
+service:テレビ_サービス a owl:Class;
+   rdfs:label "テレビ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:テレビ;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:テレビゲーム機_サービス a owl:Class;
+   rdfs:label "テレビゲーム機_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:テレビゲーム機;
+   rdfs:subClassOf service:玩具_サービス .
+
+service:トイレットペーパー_サービス a owl:Class;
+   rdfs:label "トイレットペーパー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:トイレットペーパー;
+   rdfs:subClassOf service:ティッシュペーパー・トイレットペーパー_サービス .
+
+service:トマト_サービス a owl:Class;
+   rdfs:label "トマト_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:トマト;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:ドレッシング_サービス a owl:Class;
+   rdfs:label "ドレッシング_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ドレッシング;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:ネクタイ_サービス a owl:Class;
+   rdfs:label "ネクタイ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ネクタイ;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:ノート・紙製品_サービス a owl:Class;
+   rdfs:label "ノート・紙製品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ノート・紙製品;
+   rdfs:subClassOf service:文房具_サービス .
+
+service:ハム_サービス a owl:Class;
+   rdfs:label "ハム_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ハム;
+   rdfs:subClassOf service:加工肉_サービス .
+
+service:ハンドバッグ_サービス a owl:Class;
+   rdfs:label "ハンドバッグ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ハンドバッグ;
+   rdfs:subClassOf service:かばん類_サービス .
+
+service:ハンバーガー_サービス a owl:Class;
+   rdfs:label "ハンバーガー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ハンバーガー;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:ハンバーグ_サービス a owl:Class;
+   rdfs:label "ハンバーグ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ハンバーグ;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:バス代_サービス a owl:Class;
+   rdfs:label "バス代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:バス代;
+   rdfs:subClassOf service:交通_サービス .
+
+service:バス通勤定期代_サービス a owl:Class;
+   rdfs:label "バス通勤定期代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:バス通勤定期代;
+   rdfs:subClassOf service:交通_サービス .
+
+service:バス通学定期代_サービス a owl:Class;
+   rdfs:label "バス通学定期代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:バス通学定期代;
+   rdfs:subClassOf service:交通_サービス .
+
+service:バター_サービス a owl:Class;
+   rdfs:label "バター_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:バター;
+   rdfs:subClassOf service:乳製品_サービス .
+
+service:バナナ_サービス a owl:Class;
+   rdfs:label "バナナ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:バナナ;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:パーソナルコンピュータ_サービス a owl:Class;
+   rdfs:label "パーソナルコンピュータ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:パーソナルコンピュータ;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:パーマネント代_サービス a owl:Class;
+   rdfs:label "パーマネント代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:パーマネント代;
+   rdfs:subClassOf service:理美容サービス_サービス .
+
+service:ビスケット_サービス a owl:Class;
+   rdfs:label "ビスケット_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ビスケット;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:ビデオカメラ_サービス a owl:Class;
+   rdfs:label "ビデオカメラ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ビデオカメラ;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:ビデオレコーダー・プレイヤー_サービス a owl:Class;
+   rdfs:label "ビデオレコーダー・プレイヤー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ビデオレコーダー・プレイヤー;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:ビール_サービス a owl:Class;
+   rdfs:label "ビール_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ビール;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:ピーマン_サービス a owl:Class;
+   rdfs:label "ピーマン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ピーマン;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:ファンデーション_サービス a owl:Class;
+   rdfs:label "ファンデーション_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ファンデーション;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:ブラウス_サービス a owl:Class;
+   rdfs:label "ブラウス_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ブラウス;
+   rdfs:subClassOf service:婦人用シャツ・セーター類_サービス .
+
+service:ブロッコリー_サービス a owl:Class;
+   rdfs:label "ブロッコリー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ブロッコリー;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:プリン_サービス a owl:Class;
+   rdfs:label "プリン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:プリン;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:プロパンガス_サービス a owl:Class;
+   rdfs:label "プロパンガス_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:プロパンガス;
+   rdfs:subClassOf service:ガス代_サービス .
+
+service:ヘアカラーリング剤_サービス a owl:Class;
+   rdfs:label "ヘアカラーリング剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ヘアカラーリング剤;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:ヘアリンス・ヘアトリートメント_サービス a owl:Class;
+   rdfs:label "ヘアリンス・ヘアトリートメント_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ヘアリンス・ヘアトリートメント;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:ベッド_サービス a owl:Class;
+   rdfs:label "ベッド_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ベッド;
+   rdfs:subClassOf service:寝具類_サービス .
+
+service:ベーコン_サービス a owl:Class;
+   rdfs:label "ベーコン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ベーコン;
+   rdfs:subClassOf service:加工肉_サービス .
+
+service:ペットフード_サービス a owl:Class;
+   rdfs:label "ペットフード_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ペットフード;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:ポリ袋・ラップ_サービス a owl:Class;
+   rdfs:label "ポリ袋・ラップ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ポリ袋・ラップ;
+   rdfs:subClassOf service:他の家事用消耗品_サービス .
+
+service:マッサージ料金等（診療外）_サービス a owl:Class;
+   rdfs:label "マッサージ料金等（診療外）_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:マッサージ料金等（診療外）;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:マフラー・スカーフ_サービス a owl:Class;
+   rdfs:label "マフラー・スカーフ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:マフラー・スカーフ;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:マヨネーズ・マヨネーズ風調味料_サービス a owl:Class;
+   rdfs:label "マヨネーズ・マヨネーズ風調味料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:マヨネーズ・マヨネーズ風調味料;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:マーガリン_サービス a owl:Class;
+   rdfs:label "マーガリン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:マーガリン;
+   rdfs:subClassOf service:油脂_サービス .
+
+service:ミネラルウォーター_サービス a owl:Class;
+   rdfs:label "ミネラルウォーター_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ミネラルウォーター;
+   rdfs:subClassOf service:他の飲料_サービス .
+
+service:メロン_サービス a owl:Class;
+   rdfs:label "メロン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:メロン;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:ヨーグルト_サービス a owl:Class;
+   rdfs:label "ヨーグルト_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ヨーグルト;
+   rdfs:subClassOf service:乳製品_サービス .
+
+service:レタス_サービス a owl:Class;
+   rdfs:label "レタス_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:レタス;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:レンタカー・カーシェアリング料金_サービス a owl:Class;
+   rdfs:label "レンタカー・カーシェアリング料金_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:レンタカー・カーシェアリング料金;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:ワイシャツ_サービス a owl:Class;
+   rdfs:label "ワイシャツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ワイシャツ;
+   rdfs:subClassOf service:男子用シャツ・セーター類_サービス .
+
+service:ワイン_サービス a owl:Class;
+   rdfs:label "ワイン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ワイン;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:上下水道料_サービス a owl:Class;
+   rdfs:label "上下水道料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:上下水道料;
+   rdfs:subClassOf service:光熱・水道_サービス .
+
+service:中学校補習教育_サービス a owl:Class;
+   rdfs:label "中学校補習教育_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:中学校補習教育;
+   rdfs:subClassOf service:補習教育_サービス .
+
+service:中華そば_サービス a owl:Class;
+   rdfs:label "中華そば_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:中華そば;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:中華食_サービス a owl:Class;
+   rdfs:label "中華食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:中華食;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:中華麺_サービス a owl:Class;
+   rdfs:label "中華麺_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:中華麺;
+   rdfs:subClassOf service:麺類_サービス .
+
+service:乳児服_サービス a owl:Class;
+   rdfs:label "乳児服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:乳児服;
+   rdfs:subClassOf service:子供用洋服_サービス .
+
+service:乳液_サービス a owl:Class;
+   rdfs:label "乳液_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:乳液;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:乳酸菌飲料_サービス a owl:Class;
+   rdfs:label "乳酸菌飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:乳酸菌飲料;
+   rdfs:subClassOf service:他の飲料_サービス .
+
+service:乳飲料_サービス a owl:Class;
+   rdfs:label "乳飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:乳飲料;
+   rdfs:subClassOf service:他の飲料_サービス .
+
+service:乾うどん・そば_サービス a owl:Class;
+   rdfs:label "乾うどん・そば_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:乾うどん・そば;
+   rdfs:subClassOf service:麺類_サービス .
+
+service:乾燥ス－プ_サービス a owl:Class;
+   rdfs:label "乾燥ス－プ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:乾燥ス－プ;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:人間ドック等受診料_サービス a owl:Class;
+   rdfs:label "人間ドック等受診料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:人間ドック等受診料;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:介護サービス_サービス a owl:Class;
+   rdfs:label "介護サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:介護サービス;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:他のきのこ_サービス a owl:Class;
+   rdfs:label "他のきのこ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他のきのこ;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:他のスポーツ施設使用料_サービス a owl:Class;
+   rdfs:label "他のスポーツ施設使用料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他のスポーツ施設使用料;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:他のバッグ_サービス a owl:Class;
+   rdfs:label "他のバッグ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他のバッグ;
+   rdfs:subClassOf service:かばん類_サービス .
+
+service:他のパン_サービス a owl:Class;
+   rdfs:label "他のパン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他のパン;
+   rdfs:subClassOf service:パン_サービス .
+
+service:他の主食的外食_サービス a owl:Class;
+   rdfs:label "他の主食的外食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の主食的外食;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:他の主食的調理食品_サービス a owl:Class;
+   rdfs:label "他の主食的調理食品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の主食的調理食品;
+   rdfs:subClassOf service:主食的調理食品_サービス .
+
+service:他の乳製品_サービス a owl:Class;
+   rdfs:label "他の乳製品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の乳製品;
+   rdfs:subClassOf service:乳製品_サービス .
+
+service:他の乾物･海藻_サービス a owl:Class;
+   rdfs:label "他の乾物･海藻_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の乾物･海藻;
+   rdfs:subClassOf service:乾物・海藻_サービス .
+
+service:他の交通_サービス a owl:Class;
+   rdfs:label "他の交通_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の交通;
+   rdfs:subClassOf service:交通_サービス .
+
+service:他の保健医療サービス_サービス a owl:Class;
+   rdfs:label "他の保健医療サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の保健医療サービス;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:他の保健医療用品･器具_サービス a owl:Class;
+   rdfs:label "他の保健医療用品･器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の保健医療用品･器具;
+   rdfs:subClassOf service:保健医療用品･器具_サービス .
+
+service:他の光熱のその他_サービス a owl:Class;
+   rdfs:label "他の光熱のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の光熱のその他;
+   rdfs:subClassOf service:他の光熱_サービス .
+
+service:他の入場･ゲーム代_サービス a owl:Class;
+   rdfs:label "他の入場･ゲーム代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の入場･ゲーム代;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:他の入院料_サービス a owl:Class;
+   rdfs:label "他の入院料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の入院料;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:他の冠婚葬祭費_サービス a owl:Class;
+   rdfs:label "他の冠婚葬祭費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の冠婚葬祭費;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:他の冷暖房用器具_サービス a owl:Class;
+   rdfs:label "他の冷暖房用器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の冷暖房用器具;
+   rdfs:subClassOf service:冷暖房用器具_サービス .
+
+service:他の加工肉_サービス a owl:Class;
+   rdfs:label "他の加工肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の加工肉;
+   rdfs:subClassOf service:加工肉_サービス .
+
+service:他の化粧品_サービス a owl:Class;
+   rdfs:label "他の化粧品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の化粧品;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:他の医薬品_サービス a owl:Class;
+   rdfs:label "他の医薬品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の医薬品;
+   rdfs:subClassOf service:医薬品_サービス .
+
+service:他の印刷物_サービス a owl:Class;
+   rdfs:label "他の印刷物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の印刷物;
+   rdfs:subClassOf service:書籍・他の印刷物_サービス .
+
+service:他の台所用品_サービス a owl:Class;
+   rdfs:label "他の台所用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の台所用品;
+   rdfs:subClassOf service:家事雑貨_サービス .
+
+service:他の和生菓子_サービス a owl:Class;
+   rdfs:label "他の和生菓子_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の和生菓子;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:他の塩干魚介_サービス a owl:Class;
+   rdfs:label "他の塩干魚介_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の塩干魚介;
+   rdfs:subClassOf service:塩干魚介_サービス .
+
+service:他の外用薬_サービス a owl:Class;
+   rdfs:label "他の外用薬_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の外用薬;
+   rdfs:subClassOf service:医薬品_サービス .
+
+service:他の大豆製品_サービス a owl:Class;
+   rdfs:label "他の大豆製品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の大豆製品;
+   rdfs:subClassOf service:大豆加工品_サービス .
+
+service:他の婦人用シャツ_サービス a owl:Class;
+   rdfs:label "他の婦人用シャツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の婦人用シャツ;
+   rdfs:subClassOf service:婦人用シャツ・セーター類_サービス .
+
+service:他の婦人用下着_サービス a owl:Class;
+   rdfs:label "他の婦人用下着_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の婦人用下着;
+   rdfs:subClassOf service:婦人用下着類_サービス .
+
+service:他の婦人用和服_サービス a owl:Class;
+   rdfs:label "他の婦人用和服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の婦人用和服;
+   rdfs:subClassOf service:和服_サービス .
+
+service:他の婦人用洋服_サービス a owl:Class;
+   rdfs:label "他の婦人用洋服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の婦人用洋服;
+   rdfs:subClassOf service:婦人用洋服_サービス .
+
+service:他の学習用文房具_サービス a owl:Class;
+   rdfs:label "他の学習用文房具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の学習用文房具;
+   rdfs:subClassOf service:文房具_サービス .
+
+service:他の学習用消耗品_サービス a owl:Class;
+   rdfs:label "他の学習用消耗品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の学習用消耗品;
+   rdfs:subClassOf service:文房具_サービス .
+
+service:他の室内装備品_サービス a owl:Class;
+   rdfs:label "他の室内装備品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の室内装備品;
+   rdfs:subClassOf service:室内装備・装飾品_サービス .
+
+service:他の家事用消耗品その他_サービス a owl:Class;
+   rdfs:label "他の家事用消耗品その他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の家事用消耗品その他;
+   rdfs:subClassOf service:他の家事用消耗品_サービス .
+
+service:他の家事用耐久財_サービス a owl:Class;
+   rdfs:label "他の家事用耐久財_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の家事用耐久財;
+   rdfs:subClassOf service:家事用耐久財_サービス .
+
+service:他の家事雑貨_サービス a owl:Class;
+   rdfs:label "他の家事雑貨_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の家事雑貨;
+   rdfs:subClassOf service:家事雑貨_サービス .
+
+service:他の家具_サービス a owl:Class;
+   rdfs:label "他の家具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の家具;
+   rdfs:subClassOf service:一般家具_サービス .
+
+service:他の家賃地代_サービス a owl:Class;
+   rdfs:label "他の家賃地代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の家賃地代;
+   rdfs:subClassOf service:家賃地代_サービス .
+
+service:他の寝具類_サービス a owl:Class;
+   rdfs:label "他の寝具類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の寝具類;
+   rdfs:subClassOf service:寝具類_サービス .
+
+service:他の履物_サービス a owl:Class;
+   rdfs:label "他の履物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の履物;
+   rdfs:subClassOf service:履物類_サービス .
+
+service:他の工事費_サービス a owl:Class;
+   rdfs:label "他の工事費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の工事費;
+   rdfs:subClassOf service:工事その他のサービス_サービス .
+
+service:他の愛玩動物・同用品_サービス a owl:Class;
+   rdfs:label "他の愛玩動物・同用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の愛玩動物・同用品;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:他の愛玩動物関連サービス_サービス a owl:Class;
+   rdfs:label "他の愛玩動物関連サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の愛玩動物関連サービス;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:他の放送受信料_サービス a owl:Class;
+   rdfs:label "他の放送受信料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の放送受信料;
+   rdfs:subClassOf service:放送受信料_サービス .
+
+service:他の教育的月謝_サービス a owl:Class;
+   rdfs:label "他の教育的月謝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の教育的月謝;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:他の教養娯楽サービスのその他_サービス a owl:Class;
+   rdfs:label "他の教養娯楽サービスのその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の教養娯楽サービスのその他;
+   rdfs:subClassOf service:他の教養娯楽サービス_サービス .
+
+service:他の教養娯楽用品のその他_サービス a owl:Class;
+   rdfs:label "他の教養娯楽用品のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の教養娯楽用品のその他;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:他の教養娯楽用耐久財_サービス a owl:Class;
+   rdfs:label "他の教養娯楽用耐久財_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の教養娯楽用耐久財;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:他の教養的月謝_サービス a owl:Class;
+   rdfs:label "他の教養的月謝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の教養的月謝;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:他の文房具_サービス a owl:Class;
+   rdfs:label "他の文房具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の文房具;
+   rdfs:subClassOf service:文房具_サービス .
+
+service:他の月謝類_サービス a owl:Class;
+   rdfs:label "他の月謝類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の月謝類;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:他の果物_サービス a owl:Class;
+   rdfs:label "他の果物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の果物;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:他の柑きつ類_サービス a owl:Class;
+   rdfs:label "他の柑きつ類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の柑きつ類;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:他の根菜_サービス a owl:Class;
+   rdfs:label "他の根菜_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の根菜;
+   rdfs:subClassOf service:根菜_サービス .
+
+service:他の洋生菓子_サービス a owl:Class;
+   rdfs:label "他の洋生菓子_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の洋生菓子;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:他の玩具_サービス a owl:Class;
+   rdfs:label "他の玩具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の玩具;
+   rdfs:subClassOf service:玩具_サービス .
+
+service:他の理美容代_サービス a owl:Class;
+   rdfs:label "他の理美容代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の理美容代;
+   rdfs:subClassOf service:理美容サービス_サービス .
+
+service:他の理美容用品_サービス a owl:Class;
+   rdfs:label "他の理美容用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の理美容用品;
+   rdfs:subClassOf service:理美容用品_サービス .
+
+service:他の生地・糸類_サービス a owl:Class;
+   rdfs:label "他の生地・糸類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の生地・糸類;
+   rdfs:subClassOf service:生地・糸類_サービス .
+
+service:他の生鮮肉_サービス a owl:Class;
+   rdfs:label "他の生鮮肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の生鮮肉;
+   rdfs:subClassOf service:生鮮肉_サービス .
+
+service:他の男子用シャツ_サービス a owl:Class;
+   rdfs:label "他の男子用シャツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の男子用シャツ;
+   rdfs:subClassOf service:男子用シャツ・セーター類_サービス .
+
+service:他の男子用洋服_サービス a owl:Class;
+   rdfs:label "他の男子用洋服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の男子用洋服;
+   rdfs:subClassOf service:男子用洋服_サービス .
+
+service:他の穀類のその他_サービス a owl:Class;
+   rdfs:label "他の穀類のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の穀類のその他;
+   rdfs:subClassOf service:他の穀類_サービス .
+
+service:他の自動車等関連サービス_サービス a owl:Class;
+   rdfs:label "他の自動車等関連サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の自動車等関連サービス;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:他の茶葉_サービス a owl:Class;
+   rdfs:label "他の茶葉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の茶葉;
+   rdfs:subClassOf service:茶類_サービス .
+
+service:他の菓子_サービス a owl:Class;
+   rdfs:label "他の菓子_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の菓子;
+   rdfs:subClassOf service:菓子類_サービス .
+
+service:他の葉茎菜_サービス a owl:Class;
+   rdfs:label "他の葉茎菜_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の葉茎菜;
+   rdfs:subClassOf service:葉茎菜_サービス .
+
+service:他の被服のその他_サービス a owl:Class;
+   rdfs:label "他の被服のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の被服のその他;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:他の被服関連サービス_サービス a owl:Class;
+   rdfs:label "他の被服関連サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の被服関連サービス;
+   rdfs:subClassOf service:被服関連サービス_サービス .
+
+service:他の調味料_サービス a owl:Class;
+   rdfs:label "他の調味料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の調味料;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:他の調理食品のその他_サービス a owl:Class;
+   rdfs:label "他の調理食品のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の調理食品のその他;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:他の諸雑費のその他_サービス a owl:Class;
+   rdfs:label "他の諸雑費のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の諸雑費のその他;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:他の貝_サービス a owl:Class;
+   rdfs:label "他の貝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の貝;
+   rdfs:subClassOf service:貝類_サービス .
+
+service:他の身の回り用品_サービス a owl:Class;
+   rdfs:label "他の身の回り用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の身の回り用品;
+   rdfs:subClassOf service:身の回り用品_サービス .
+
+service:他の通信機器_サービス a owl:Class;
+   rdfs:label "他の通信機器_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の通信機器;
+   rdfs:subClassOf service:通信_サービス .
+
+service:他の運動用具_サービス a owl:Class;
+   rdfs:label "他の運動用具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の運動用具;
+   rdfs:subClassOf service:運動用具類_サービス .
+
+service:他の酒_サービス a owl:Class;
+   rdfs:label "他の酒_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の酒;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:他の野菜のその他_サービス a owl:Class;
+   rdfs:label "他の野菜のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の野菜のその他;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:他の野菜の漬物_サービス a owl:Class;
+   rdfs:label "他の野菜の漬物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の野菜の漬物;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:他の野菜･海藻のつくだ煮_サービス a owl:Class;
+   rdfs:label "他の野菜･海藻のつくだ煮_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の野菜･海藻のつくだ煮;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:他の野菜･海藻加工品のその他_サービス a owl:Class;
+   rdfs:label "他の野菜･海藻加工品のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の野菜･海藻加工品のその他;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:他の電気代_サービス a owl:Class;
+   rdfs:label "他の電気代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の電気代;
+   rdfs:subClassOf service:電気代_サービス .
+
+service:他の非貯蓄型保険料_サービス a owl:Class;
+   rdfs:label "他の非貯蓄型保険料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の非貯蓄型保険料;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:他の食卓用品_サービス a owl:Class;
+   rdfs:label "他の食卓用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の食卓用品;
+   rdfs:subClassOf service:家事雑貨_サービス .
+
+service:他の飲料のその他_サービス a owl:Class;
+   rdfs:label "他の飲料のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の飲料のその他;
+   rdfs:subClassOf service:他の飲料_サービス .
+
+service:他の駐車場借料_サービス a owl:Class;
+   rdfs:label "他の駐車場借料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の駐車場借料;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:他の魚介加工品のその他_サービス a owl:Class;
+   rdfs:label "他の魚介加工品のその他_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の魚介加工品のその他;
+   rdfs:subClassOf service:他の魚介加工品_サービス .
+
+service:他の魚肉練製品_サービス a owl:Class;
+   rdfs:label "他の魚肉練製品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の魚肉練製品;
+   rdfs:subClassOf service:魚肉練製品_サービス .
+
+service:他の鮮魚_サービス a owl:Class;
+   rdfs:label "他の鮮魚_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の鮮魚;
+   rdfs:subClassOf service:鮮魚_サービス .
+
+service:他の麺類_サービス a owl:Class;
+   rdfs:label "他の麺類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の麺類;
+   rdfs:subClassOf service:麺類_サービス .
+
+service:他の麺類外食_サービス a owl:Class;
+   rdfs:label "他の麺類外食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の麺類外食;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:保健用消耗品_サービス a owl:Class;
+   rdfs:label "保健用消耗品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:保健用消耗品;
+   rdfs:subClassOf service:保健医療用品･器具_サービス .
+
+service:保育費用_サービス a owl:Class;
+   rdfs:label "保育費用_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:保育費用;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:信仰・祭祀費_サービス a owl:Class;
+   rdfs:label "信仰・祭祀費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:信仰・祭祀費;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:修繕材料_サービス a owl:Class;
+   rdfs:label "修繕材料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:修繕材料;
+   rdfs:subClassOf service:設備材料_サービス .
+
+service:傘_サービス a owl:Class;
+   rdfs:label "傘_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:傘;
+   rdfs:subClassOf service:身の回り用品_サービス .
+
+service:公営家賃_サービス a owl:Class;
+   rdfs:label "公営家賃_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:公営家賃;
+   rdfs:subClassOf service:家賃地代_サービス .
+
+service:写真撮影・プリント代_サービス a owl:Class;
+   rdfs:label "写真撮影・プリント代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:写真撮影・プリント代;
+   rdfs:subClassOf service:他の教養娯楽サービス_サービス .
+
+service:冷凍調理食品_サービス a owl:Class;
+   rdfs:label "冷凍調理食品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:冷凍調理食品;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:出産入院料_サービス a owl:Class;
+   rdfs:label "出産入院料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:出産入院料;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:切り花_サービス a owl:Class;
+   rdfs:label "切り花_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:切り花;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:動物病院代_サービス a owl:Class;
+   rdfs:label "動物病院代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:動物病院代;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:化粧クリーム_サービス a owl:Class;
+   rdfs:label "化粧クリーム_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:化粧クリーム;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:化粧水_サービス a owl:Class;
+   rdfs:label "化粧水_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:化粧水;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:医療保険料_サービス a owl:Class;
+   rdfs:label "医療保険料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:医療保険料;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:医科診療代_サービス a owl:Class;
+   rdfs:label "医科診療代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:医科診療代;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:即席麺_サービス a owl:Class;
+   rdfs:label "即席麺_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:即席麺;
+   rdfs:subClassOf service:麺類_サービス .
+
+service:卵_サービス a owl:Class;
+   rdfs:label "卵_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:卵;
+   rdfs:subClassOf service:乳卵類_サービス .
+
+service:口紅_サービス a owl:Class;
+   rdfs:label "口紅_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:口紅;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:台所・住居用洗剤_サービス a owl:Class;
+   rdfs:label "台所・住居用洗剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:台所・住居用洗剤;
+   rdfs:subClassOf service:洗剤_サービス .
+
+service:合いびき肉_サービス a owl:Class;
+   rdfs:label "合いびき肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:合いびき肉;
+   rdfs:subClassOf service:生鮮肉_サービス .
+
+service:和食_サービス a owl:Class;
+   rdfs:label "和食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:和食;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:喫茶代_サービス a owl:Class;
+   rdfs:label "喫茶代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:喫茶代;
+   rdfs:subClassOf service:一般外食_サービス .
+
+service:固定電話通信料_サービス a owl:Class;
+   rdfs:label "固定電話通信料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:固定電話通信料;
+   rdfs:subClassOf service:通信_サービス .
+
+service:国公立中学校_サービス a owl:Class;
+   rdfs:label "国公立中学校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:国公立中学校;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:国公立大学_サービス a owl:Class;
+   rdfs:label "国公立大学_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:国公立大学;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:国公立小学校_サービス a owl:Class;
+   rdfs:label "国公立小学校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:国公立小学校;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:国公立高校_サービス a owl:Class;
+   rdfs:label "国公立高校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:国公立高校;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:国内パック旅行費_サービス a owl:Class;
+   rdfs:label "国内パック旅行費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:国内パック旅行費;
+   rdfs:subClassOf service:パック旅行費_サービス .
+
+service:園芸用品_サービス a owl:Class;
+   rdfs:label "園芸用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:園芸用品;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:園芸用植物_サービス a owl:Class;
+   rdfs:label "園芸用植物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:園芸用植物;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:地代_サービス a owl:Class;
+   rdfs:label "地代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:地代;
+   rdfs:subClassOf service:家賃地代_サービス .
+
+service:塩さけ_サービス a owl:Class;
+   rdfs:label "塩さけ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:塩さけ;
+   rdfs:subClassOf service:塩干魚介_サービス .
+
+service:外傷・皮膚病薬_サービス a owl:Class;
+   rdfs:label "外傷・皮膚病薬_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:外傷・皮膚病薬;
+   rdfs:subClassOf service:医薬品_サービス .
+
+service:外国パック旅行費_サービス a owl:Class;
+   rdfs:label "外国パック旅行費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:外国パック旅行費;
+   rdfs:subClassOf service:パック旅行費_サービス .
+
+service:外壁・塀等工事費_サービス a owl:Class;
+   rdfs:label "外壁・塀等工事費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:外壁・塀等工事費;
+   rdfs:subClassOf service:工事その他のサービス_サービス .
+
+service:天ぷら・フライ_サービス a owl:Class;
+   rdfs:label "天ぷら・フライ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:天ぷら・フライ;
+   rdfs:subClassOf service:他の調理食品_サービス .
+
+service:女子用学校制服_サービス a owl:Class;
+   rdfs:label "女子用学校制服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:女子用学校制服;
+   rdfs:subClassOf service:婦人用洋服_サービス .
+
+service:婚礼関係費_サービス a owl:Class;
+   rdfs:label "婚礼関係費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:婚礼関係費;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:婦人服_サービス a owl:Class;
+   rdfs:label "婦人服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人服;
+   rdfs:subClassOf service:婦人用洋服_サービス .
+
+service:婦人用コート_サービス a owl:Class;
+   rdfs:label "婦人用コート_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用コート;
+   rdfs:subClassOf service:婦人用洋服_サービス .
+
+service:婦人用ストッキング_サービス a owl:Class;
+   rdfs:label "婦人用ストッキング_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用ストッキング;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:婦人用スラックス_サービス a owl:Class;
+   rdfs:label "婦人用スラックス_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用スラックス;
+   rdfs:subClassOf service:婦人用洋服_サービス .
+
+service:婦人用セーター_サービス a owl:Class;
+   rdfs:label "婦人用セーター_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用セーター;
+   rdfs:subClassOf service:婦人用シャツ・セーター類_サービス .
+
+service:婦人用ソックス_サービス a owl:Class;
+   rdfs:label "婦人用ソックス_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用ソックス;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:婦人用ファンデーション_サービス a owl:Class;
+   rdfs:label "婦人用ファンデーション_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用ファンデーション;
+   rdfs:subClassOf service:婦人用下着類_サービス .
+
+service:婦人用上着_サービス a owl:Class;
+   rdfs:label "婦人用上着_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用上着;
+   rdfs:subClassOf service:婦人用洋服_サービス .
+
+service:婦人用寝巻き_サービス a owl:Class;
+   rdfs:label "婦人用寝巻き_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用寝巻き;
+   rdfs:subClassOf service:婦人用下着類_サービス .
+
+service:婦人用帯_サービス a owl:Class;
+   rdfs:label "婦人用帯_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用帯;
+   rdfs:subClassOf service:和服_サービス .
+
+service:婦人用着物_サービス a owl:Class;
+   rdfs:label "婦人用着物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用着物;
+   rdfs:subClassOf service:和服_サービス .
+
+service:婦人靴_サービス a owl:Class;
+   rdfs:label "婦人靴_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人靴;
+   rdfs:subClassOf service:履物類_サービス .
+
+service:子供服_サービス a owl:Class;
+   rdfs:label "子供服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供服;
+   rdfs:subClassOf service:子供用洋服_サービス .
+
+service:子供用シャツ_サービス a owl:Class;
+   rdfs:label "子供用シャツ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用シャツ;
+   rdfs:subClassOf service:子供用シャツ・セーター類_サービス .
+
+service:子供用セーター_サービス a owl:Class;
+   rdfs:label "子供用セーター_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用セーター;
+   rdfs:subClassOf service:子供用シャツ・セーター類_サービス .
+
+service:子供用下着_サービス a owl:Class;
+   rdfs:label "子供用下着_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用下着;
+   rdfs:subClassOf service:子供用下着類_サービス .
+
+service:子供用和服_サービス a owl:Class;
+   rdfs:label "子供用和服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用和服;
+   rdfs:subClassOf service:和服_サービス .
+
+service:子供用寝巻き_サービス a owl:Class;
+   rdfs:label "子供用寝巻き_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用寝巻き;
+   rdfs:subClassOf service:子供用下着類_サービス .
+
+service:子供用靴下_サービス a owl:Class;
+   rdfs:label "子供用靴下_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用靴下;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:子供靴_サービス a owl:Class;
+   rdfs:label "子供靴_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供靴;
+   rdfs:subClassOf service:履物類_サービス .
+
+service:学校給食_サービス a owl:Class;
+   rdfs:label "学校給食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:学校給食;
+   rdfs:subClassOf service:外食_サービス .
+
+service:学習参考教材_サービス a owl:Class;
+   rdfs:label "学習参考教材_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:学習参考教材;
+   rdfs:subClassOf service:教科書･学習参考教材_サービス .
+
+service:室内装飾品_サービス a owl:Class;
+   rdfs:label "室内装飾品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:室内装飾品;
+   rdfs:subClassOf service:室内装備・装飾品_サービス .
+
+service:家事代行料_サービス a owl:Class;
+   rdfs:label "家事代行料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:家事代行料;
+   rdfs:subClassOf service:家事サービス_サービス .
+
+service:家事月謝_サービス a owl:Class;
+   rdfs:label "家事月謝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:家事月謝;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:家具・家事用品関連サービス_サービス a owl:Class;
+   rdfs:label "家具・家事用品関連サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:家具・家事用品関連サービス;
+   rdfs:subClassOf service:家事サービス_サービス .
+
+service:宿泊料_サービス a owl:Class;
+   rdfs:label "宿泊料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:宿泊料;
+   rdfs:subClassOf service:教養娯楽サービス_サービス .
+
+service:寄付金_サービス a owl:Class;
+   rdfs:label "寄付金_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:寄付金;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:専修学校_サービス a owl:Class;
+   rdfs:label "専修学校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:専修学校;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:小麦粉_サービス a owl:Class;
+   rdfs:label "小麦粉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:小麦粉;
+   rdfs:subClassOf service:他の穀類_サービス .
+
+service:布団_サービス a owl:Class;
+   rdfs:label "布団_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:布団;
+   rdfs:subClassOf service:寝具類_サービス .
+
+service:帽子_サービス a owl:Class;
+   rdfs:label "帽子_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:帽子;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:干しあじ_サービス a owl:Class;
+   rdfs:label "干しあじ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:干しあじ;
+   rdfs:subClassOf service:塩干魚介_サービス .
+
+service:干ししいたけ_サービス a owl:Class;
+   rdfs:label "干ししいたけ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:干ししいたけ;
+   rdfs:subClassOf service:乾物・海藻_サービス .
+
+service:干しのり_サービス a owl:Class;
+   rdfs:label "干しのり_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:干しのり;
+   rdfs:subClassOf service:乾物・海藻_サービス .
+
+service:年極・月極駐車場借料_サービス a owl:Class;
+   rdfs:label "年極・月極駐車場借料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:年極・月極駐車場借料;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:幼児・小学校補習教育_サービス a owl:Class;
+   rdfs:label "幼児・小学校補習教育_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:幼児・小学校補習教育;
+   rdfs:subClassOf service:補習教育_サービス .
+
+service:幼児教育費用_サービス a owl:Class;
+   rdfs:label "幼児教育費用_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:幼児教育費用;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:弁当_サービス a owl:Class;
+   rdfs:label "弁当_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:弁当;
+   rdfs:subClassOf service:主食的調理食品_サービス .
+
+service:応接セット_サービス a owl:Class;
+   rdfs:label "応接セット_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:応接セット;
+   rdfs:subClassOf service:一般家具_サービス .
+
+service:感冒薬_サービス a owl:Class;
+   rdfs:label "感冒薬_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:感冒薬;
+   rdfs:subClassOf service:医薬品_サービス .
+
+service:手芸・工芸材料_サービス a owl:Class;
+   rdfs:label "手芸・工芸材料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:手芸・工芸材料;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:手袋_サービス a owl:Class;
+   rdfs:label "手袋_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:手袋;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:揚げかまぼこ_サービス a owl:Class;
+   rdfs:label "揚げかまぼこ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:揚げかまぼこ;
+   rdfs:subClassOf service:魚肉練製品_サービス .
+
+service:携帯型音楽・映像用機器_サービス a owl:Class;
+   rdfs:label "携帯型音楽・映像用機器_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:携帯型音楽・映像用機器;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:教科書_サービス a owl:Class;
+   rdfs:label "教科書_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:教科書;
+   rdfs:subClassOf service:教科書･学習参考教材_サービス .
+
+service:教養娯楽用品修理代_サービス a owl:Class;
+   rdfs:label "教養娯楽用品修理代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:教養娯楽用品修理代;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:教養娯楽用耐久財修理代_サービス a owl:Class;
+   rdfs:label "教養娯楽用耐久財修理代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:教養娯楽用耐久財修理代;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:教養娯楽賃借料_サービス a owl:Class;
+   rdfs:label "教養娯楽賃借料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:教養娯楽賃借料;
+   rdfs:subClassOf service:他の教養娯楽サービス_サービス .
+
+service:整骨（接骨）・鍼灸院治療代_サービス a owl:Class;
+   rdfs:label "整骨（接骨）・鍼灸院治療代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:整骨（接骨）・鍼灸院治療代;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:整髪・養毛剤_サービス a owl:Class;
+   rdfs:label "整髪・養毛剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:整髪・養毛剤;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:敷布_サービス a owl:Class;
+   rdfs:label "敷布_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:敷布;
+   rdfs:subClassOf service:寝具類_サービス .
+
+service:敷物_サービス a owl:Class;
+   rdfs:label "敷物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:敷物;
+   rdfs:subClassOf service:室内装備・装飾品_サービス .
+
+service:文化施設入場料_サービス a owl:Class;
+   rdfs:label "文化施設入場料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:文化施設入場料;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:新聞_サービス a owl:Class;
+   rdfs:label "新聞_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:新聞;
+   rdfs:subClassOf service:書籍・他の印刷物_サービス .
+
+service:旅行用かばん_サービス a owl:Class;
+   rdfs:label "旅行用かばん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:旅行用かばん;
+   rdfs:subClassOf service:かばん類_サービス .
+
+service:日本そば・うどん_サービス a owl:Class;
+   rdfs:label "日本そば・うどん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:日本そば・うどん;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:映画・演劇等入場料_サービス a owl:Class;
+   rdfs:label "映画・演劇等入場料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:映画・演劇等入場料;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:書斎・学習用机・椅子_サービス a owl:Class;
+   rdfs:label "書斎・学習用机・椅子_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:書斎・学習用机・椅子;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:書籍_サービス a owl:Class;
+   rdfs:label "書籍_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:書籍;
+   rdfs:subClassOf service:書籍・他の印刷物_サービス .
+
+service:有料道路料_サービス a owl:Class;
+   rdfs:label "有料道路料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:有料道路料;
+   rdfs:subClassOf service:交通_サービス .
+
+service:果実・野菜ジュース_サービス a owl:Class;
+   rdfs:label "果実・野菜ジュース_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:果実・野菜ジュース;
+   rdfs:subClassOf service:他の飲料_サービス .
+
+service:果物加工品_サービス a owl:Class;
+   rdfs:label "果物加工品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:果物加工品;
+   rdfs:subClassOf service:果物_サービス .
+
+service:柔軟仕上剤_サービス a owl:Class;
+   rdfs:label "柔軟仕上剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:柔軟仕上剤;
+   rdfs:subClassOf service:他の家事用消耗品_サービス .
+
+service:柿_サービス a owl:Class;
+   rdfs:label "柿_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:柿;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:栄養剤_サービス a owl:Class;
+   rdfs:label "栄養剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:栄養剤;
+   rdfs:subClassOf service:医薬品_サービス .
+
+service:桃_サービス a owl:Class;
+   rdfs:label "桃_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:桃;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:梅干し_サービス a owl:Class;
+   rdfs:label "梅干し_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:梅干し;
+   rdfs:subClassOf service:他の野菜･海藻加工品_サービス .
+
+service:梨_サービス a owl:Class;
+   rdfs:label "梨_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:梨;
+   rdfs:subClassOf service:生鮮果物_サービス .
+
+service:植木・庭手入れ代_サービス a owl:Class;
+   rdfs:label "植木・庭手入れ代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:植木・庭手入れ代;
+   rdfs:subClassOf service:工事その他のサービス_サービス .
+
+service:楽器_サービス a owl:Class;
+   rdfs:label "楽器_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:楽器;
+   rdfs:subClassOf service:教養娯楽用耐久財_サービス .
+
+service:歯ブラシ_サービス a owl:Class;
+   rdfs:label "歯ブラシ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:歯ブラシ;
+   rdfs:subClassOf service:理美容用品_サービス .
+
+service:歯磨き_サービス a owl:Class;
+   rdfs:label "歯磨き_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:歯磨き;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:歯科診療代_サービス a owl:Class;
+   rdfs:label "歯科診療代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:歯科診療代;
+   rdfs:subClassOf service:保健医療サービス_サービス .
+
+service:殺虫･防虫剤_サービス a owl:Class;
+   rdfs:label "殺虫･防虫剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:殺虫･防虫剤;
+   rdfs:subClassOf service:他の家事用消耗品_サービス .
+
+service:毛布_サービス a owl:Class;
+   rdfs:label "毛布_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:毛布;
+   rdfs:subClassOf service:寝具類_サービス .
+
+service:民営家賃_サービス a owl:Class;
+   rdfs:label "民営家賃_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:民営家賃;
+   rdfs:subClassOf service:家賃地代_サービス .
+
+service:油揚げ・がんもどき_サービス a owl:Class;
+   rdfs:label "油揚げ・がんもどき_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:油揚げ・がんもどき;
+   rdfs:subClassOf service:大豆加工品_サービス .
+
+service:洋食_サービス a owl:Class;
+   rdfs:label "洋食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:洋食;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:洗濯代_サービス a owl:Class;
+   rdfs:label "洗濯代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:洗濯代;
+   rdfs:subClassOf service:被服関連サービス_サービス .
+
+service:洗濯用洗剤_サービス a owl:Class;
+   rdfs:label "洗濯用洗剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:洗濯用洗剤;
+   rdfs:subClassOf service:洗剤_サービス .
+
+service:活動_サービス a owl:Class;
+   rdfs:label "活動_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:活動;
+   rdfs:subClassOf service:施設_サービス .
+
+service:浴用・洗顔石けん_サービス a owl:Class;
+   rdfs:label "浴用・洗顔石けん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:浴用・洗顔石けん;
+   rdfs:subClassOf service:石けん類・化粧品_サービス .
+
+service:深夜電力電気代_サービス a owl:Class;
+   rdfs:label "深夜電力電気代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:深夜電力電気代;
+   rdfs:subClassOf service:電気代_サービス .
+
+service:清掃代_サービス a owl:Class;
+   rdfs:label "清掃代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:清掃代;
+   rdfs:subClassOf service:家事サービス_サービス .
+
+service:清酒_サービス a owl:Class;
+   rdfs:label "清酒_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:清酒;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:温泉・銭湯入浴料_サービス a owl:Class;
+   rdfs:label "温泉・銭湯入浴料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:温泉・銭湯入浴料;
+   rdfs:subClassOf service:理美容サービス_サービス .
+
+service:火災・地震保険料_サービス a owl:Class;
+   rdfs:label "火災・地震保険料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:火災・地震保険料;
+   rdfs:subClassOf service:工事その他のサービス_サービス .
+
+service:灯油_サービス a owl:Class;
+   rdfs:label "灯油_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:灯油;
+   rdfs:subClassOf service:他の光熱_サービス .
+
+service:炊事用ガス器具_サービス a owl:Class;
+   rdfs:label "炊事用ガス器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:炊事用ガス器具;
+   rdfs:subClassOf service:家事用耐久財_サービス .
+
+service:炊事用電気器具_サービス a owl:Class;
+   rdfs:label "炊事用電気器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:炊事用電気器具;
+   rdfs:subClassOf service:家事用耐久財_サービス .
+
+service:炭酸飲料_サービス a owl:Class;
+   rdfs:label "炭酸飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:炭酸飲料;
+   rdfs:subClassOf service:他の飲料_サービス .
+
+service:焼肉_サービス a owl:Class;
+   rdfs:label "焼肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:焼肉;
+   rdfs:subClassOf service:食事代_サービス .
+
+service:焼酎_サービス a owl:Class;
+   rdfs:label "焼酎_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:焼酎;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:照明器具_サービス a owl:Class;
+   rdfs:label "照明器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:照明器具;
+   rdfs:subClassOf service:室内装備・装飾品_サービス .
+
+service:牛乳_サービス a owl:Class;
+   rdfs:label "牛乳_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:牛乳;
+   rdfs:subClassOf service:乳卵類_サービス .
+
+service:牛肉_サービス a owl:Class;
+   rdfs:label "牛肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:牛肉;
+   rdfs:subClassOf service:生鮮肉_サービス .
+
+service:理美容用電気器具_サービス a owl:Class;
+   rdfs:label "理美容用電気器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:理美容用電気器具;
+   rdfs:subClassOf service:理美容用品_サービス .
+
+service:理髪料_サービス a owl:Class;
+   rdfs:label "理髪料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:理髪料;
+   rdfs:subClassOf service:理美容サービス_サービス .
+
+service:生うどん・そば_サービス a owl:Class;
+   rdfs:label "生うどん・そば_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:生うどん・そば;
+   rdfs:subClassOf service:麺類_サービス .
+
+service:生しいたけ_サービス a owl:Class;
+   rdfs:label "生しいたけ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:生しいたけ;
+   rdfs:subClassOf service:他の野菜_サービス .
+
+service:男子用コート_サービス a owl:Class;
+   rdfs:label "男子用コート_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用コート;
+   rdfs:subClassOf service:男子用洋服_サービス .
+
+service:男子用ズボン_サービス a owl:Class;
+   rdfs:label "男子用ズボン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用ズボン;
+   rdfs:subClassOf service:男子用洋服_サービス .
+
+service:男子用セーター_サービス a owl:Class;
+   rdfs:label "男子用セーター_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用セーター;
+   rdfs:subClassOf service:男子用シャツ・セーター類_サービス .
+
+service:男子用上着_サービス a owl:Class;
+   rdfs:label "男子用上着_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用上着;
+   rdfs:subClassOf service:男子用洋服_サービス .
+
+service:男子用下着_サービス a owl:Class;
+   rdfs:label "男子用下着_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用下着;
+   rdfs:subClassOf service:男子用下着類_サービス .
+
+service:男子用和服_サービス a owl:Class;
+   rdfs:label "男子用和服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用和服;
+   rdfs:subClassOf service:和服_サービス .
+
+service:男子用学校制服_サービス a owl:Class;
+   rdfs:label "男子用学校制服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用学校制服;
+   rdfs:subClassOf service:男子用洋服_サービス .
+
+service:男子用寝巻き_サービス a owl:Class;
+   rdfs:label "男子用寝巻き_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用寝巻き;
+   rdfs:subClassOf service:男子用下着類_サービス .
+
+service:男子用靴下_サービス a owl:Class;
+   rdfs:label "男子用靴下_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用靴下;
+   rdfs:subClassOf service:他の被服_サービス .
+
+service:男子靴_サービス a owl:Class;
+   rdfs:label "男子靴_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子靴;
+   rdfs:subClassOf service:履物類_サービス .
+
+service:畳替え_サービス a owl:Class;
+   rdfs:label "畳替え_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:畳替え;
+   rdfs:subClassOf service:工事その他のサービス_サービス .
+
+service:発泡酒･ビール風アルコール飲料_サービス a owl:Class;
+   rdfs:label "発泡酒･ビール風アルコール飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:発泡酒･ビール風アルコール飲料;
+   rdfs:subClassOf service:酒類_サービス .
+
+service:眼鏡_サービス a owl:Class;
+   rdfs:label "眼鏡_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:眼鏡;
+   rdfs:subClassOf service:保健医療用品･器具_サービス .
+
+service:着尺地・生地_サービス a owl:Class;
+   rdfs:label "着尺地・生地_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:着尺地・生地;
+   rdfs:subClassOf service:生地・糸類_サービス .
+
+service:砂糖_サービス a owl:Class;
+   rdfs:label "砂糖_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:砂糖;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:祭具・墓石_サービス a owl:Class;
+   rdfs:label "祭具・墓石_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:祭具・墓石;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:私立中学校_サービス a owl:Class;
+   rdfs:label "私立中学校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:私立中学校;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:私立大学_サービス a owl:Class;
+   rdfs:label "私立大学_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:私立大学;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:私立小学校_サービス a owl:Class;
+   rdfs:label "私立小学校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:私立小学校;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:私立高校_サービス a owl:Class;
+   rdfs:label "私立高校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:私立高校;
+   rdfs:subClassOf service:授業料等_サービス .
+
+service:移動電話_サービス a owl:Class;
+   rdfs:label "移動電話_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:移動電話;
+   rdfs:subClassOf service:通信_サービス .
+
+service:移動電話通信料_サービス a owl:Class;
+   rdfs:label "移動電話通信料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:移動電話通信料;
+   rdfs:subClassOf service:通信_サービス .
+
+service:筆記・絵画用具_サービス a owl:Class;
+   rdfs:label "筆記・絵画用具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:筆記・絵画用具;
+   rdfs:subClassOf service:文房具_サービス .
+
+service:米_サービス a owl:Class;
+   rdfs:label "米_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:米;
+   rdfs:subClassOf service:穀類_サービス .
+
+service:粉ミルク_サービス a owl:Class;
+   rdfs:label "粉ミルク_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:粉ミルク;
+   rdfs:subClassOf service:乳製品_サービス .
+
+service:紅茶_サービス a owl:Class;
+   rdfs:label "紅茶_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:紅茶;
+   rdfs:subClassOf service:茶類_サービス .
+
+service:納豆_サービス a owl:Class;
+   rdfs:label "納豆_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:納豆;
+   rdfs:subClassOf service:大豆加工品_サービス .
+
+service:紙おむつ_サービス a owl:Class;
+   rdfs:label "紙おむつ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:紙おむつ;
+   rdfs:subClassOf service:保健医療用品･器具_サービス .
+
+service:給与住宅家賃_サービス a owl:Class;
+   rdfs:label "給与住宅家賃_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:給与住宅家賃;
+   rdfs:subClassOf service:家賃地代_サービス .
+
+service:給排水関係工事費_サービス a owl:Class;
+   rdfs:label "給排水関係工事費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:給排水関係工事費;
+   rdfs:subClassOf service:工事その他のサービス_サービス .
+
+service:緑茶_サービス a owl:Class;
+   rdfs:label "緑茶_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:緑茶;
+   rdfs:subClassOf service:茶類_サービス .
+
+service:胃腸薬_サービス a owl:Class;
+   rdfs:label "胃腸薬_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:胃腸薬;
+   rdfs:subClassOf service:医薬品_サービス .
+
+service:背広服_サービス a owl:Class;
+   rdfs:label "背広服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:背広服;
+   rdfs:subClassOf service:男子用洋服_サービス .
+
+service:腕時計_サービス a owl:Class;
+   rdfs:label "腕時計_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:腕時計;
+   rdfs:subClassOf service:身の回り用品_サービス .
+
+service:自動車以外の輸送機器整備費_サービス a owl:Class;
+   rdfs:label "自動車以外の輸送機器整備費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:自動車以外の輸送機器整備費;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:自動車以外の輸送機器購入_サービス a owl:Class;
+   rdfs:label "自動車以外の輸送機器購入_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:自動車以外の輸送機器購入;
+   rdfs:subClassOf service:自動車等購入_サービス .
+
+<http://tp.lodac.nii.ac.jp/service/自動車保険料(任意)_サービス> a owl:Class;
+   rdfs:label "自動車保険料(任意)_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target <http://tp.lodac.nii.ac.jp/target/自動車保険料(任意)>;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+<http://tp.lodac.nii.ac.jp/service/自動車保険料(自賠責)_サービス> a owl:Class;
+   rdfs:label "自動車保険料(自賠責)_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target <http://tp.lodac.nii.ac.jp/target/自動車保険料(自賠責)>;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:自動車保険料以外の輸送機器保険料_サービス a owl:Class;
+   rdfs:label "自動車保険料以外の輸送機器保険料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:自動車保険料以外の輸送機器保険料;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:自動車教習料_サービス a owl:Class;
+   rdfs:label "自動車教習料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:自動車教習料;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:自動車整備費_サービス a owl:Class;
+   rdfs:label "自動車整備費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:自動車整備費;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:自動車等部品_サービス a owl:Class;
+   rdfs:label "自動車等部品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:自動車等部品;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:自動車等関連用品_サービス a owl:Class;
+   rdfs:label "自動車等関連用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:自動車等関連用品;
+   rdfs:subClassOf service:自動車等維持_サービス .
+
+service:自動車購入_サービス a owl:Class;
+   rdfs:label "自動車購入_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:自動車購入;
+   rdfs:subClassOf service:自動車等購入_サービス .
+
+service:航空運賃_サービス a owl:Class;
+   rdfs:label "航空運賃_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:航空運賃;
+   rdfs:subClassOf service:交通_サービス .
+
+service:芳香・消臭剤_サービス a owl:Class;
+   rdfs:label "芳香・消臭剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:芳香・消臭剤;
+   rdfs:subClassOf service:他の家事用消耗品_サービス .
+
+service:茶わん・皿・鉢_サービス a owl:Class;
+   rdfs:label "茶わん・皿・鉢_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:茶わん・皿・鉢;
+   rdfs:subClassOf service:家事雑貨_サービス .
+
+service:茶飲料_サービス a owl:Class;
+   rdfs:label "茶飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:茶飲料;
+   rdfs:subClassOf service:茶類_サービス .
+
+service:葬儀関係費_サービス a owl:Class;
+   rdfs:label "葬儀関係費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:葬儀関係費;
+   rdfs:subClassOf service:他の諸雑費_サービス .
+
+service:被服賃借料_サービス a owl:Class;
+   rdfs:label "被服賃借料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:被服賃借料;
+   rdfs:subClassOf service:被服関連サービス_サービス .
+
+service:装身具_サービス a owl:Class;
+   rdfs:label "装身具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:装身具;
+   rdfs:subClassOf service:身の回り用品_サービス .
+
+service:設備器具_サービス a owl:Class;
+   rdfs:label "設備器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:設備器具;
+   rdfs:subClassOf service:設備材料_サービス .
+
+service:語学月謝_サービス a owl:Class;
+   rdfs:label "語学月謝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:語学月謝;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:調理パン_サービス a owl:Class;
+   rdfs:label "調理パン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:調理パン;
+   rdfs:subClassOf service:主食的調理食品_サービス .
+
+service:諸会費_サービス a owl:Class;
+   rdfs:label "諸会費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:諸会費;
+   rdfs:subClassOf service:他の教養娯楽サービス_サービス .
+
+service:豆腐_サービス a owl:Class;
+   rdfs:label "豆腐_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:豆腐;
+   rdfs:subClassOf service:大豆加工品_サービス .
+
+service:豆類_サービス a owl:Class;
+   rdfs:label "豆類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:豆類;
+   rdfs:subClassOf service:乾物・海藻_サービス .
+
+service:豚肉_サービス a owl:Class;
+   rdfs:label "豚肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:豚肉;
+   rdfs:subClassOf service:生鮮肉_サービス .
+
+service:賄い費_サービス a owl:Class;
+   rdfs:label "賄い費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:賄い費;
+   rdfs:subClassOf service:食料_サービス .
+
+service:身の回り用品関連サービス_サービス a owl:Class;
+   rdfs:label "身の回り用品関連サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:身の回り用品関連サービス;
+   rdfs:subClassOf service:身の回り用品_サービス .
+
+service:通学用かばん_サービス a owl:Class;
+   rdfs:label "通学用かばん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:通学用かばん;
+   rdfs:subClassOf service:かばん類_サービス .
+
+service:遊園地入場・乗物代_サービス a owl:Class;
+   rdfs:label "遊園地入場・乗物代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:遊園地入場・乗物代;
+   rdfs:subClassOf service:入場・観覧・ゲーム代_サービス .
+
+service:運動靴_サービス a owl:Class;
+   rdfs:label "運動靴_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:運動靴;
+   rdfs:subClassOf service:履物類_サービス .
+
+service:運送料_サービス a owl:Class;
+   rdfs:label "運送料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:運送料;
+   rdfs:subClassOf service:通信_サービス .
+
+service:郵便料_サービス a owl:Class;
+   rdfs:label "郵便料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:郵便料;
+   rdfs:subClassOf service:通信_サービス .
+
+service:都市ガス_サービス a owl:Class;
+   rdfs:label "都市ガス_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:都市ガス;
+   rdfs:subClassOf service:ガス代_サービス .
+
+service:酢_サービス a owl:Class;
+   rdfs:label "酢_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:酢;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:鉄道通勤定期代_サービス a owl:Class;
+   rdfs:label "鉄道通勤定期代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:鉄道通勤定期代;
+   rdfs:subClassOf service:交通_サービス .
+
+service:鉄道通学定期代_サービス a owl:Class;
+   rdfs:label "鉄道通学定期代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:鉄道通学定期代;
+   rdfs:subClassOf service:交通_サービス .
+
+service:鉄道運賃_サービス a owl:Class;
+   rdfs:label "鉄道運賃_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:鉄道運賃;
+   rdfs:subClassOf service:交通_サービス .
+
+service:鍋・やかん_サービス a owl:Class;
+   rdfs:label "鍋・やかん_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:鍋・やかん;
+   rdfs:subClassOf service:家事雑貨_サービス .
+
+service:雑誌（週刊誌を含む）_サービス a owl:Class;
+   rdfs:label "雑誌（週刊誌を含む）_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:雑誌（週刊誌を含む）;
+   rdfs:subClassOf service:書籍・他の印刷物_サービス .
+
+service:電子レンジ_サービス a owl:Class;
+   rdfs:label "電子レンジ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:電子レンジ;
+   rdfs:subClassOf service:家事用耐久財_サービス .
+
+service:電気冷蔵庫_サービス a owl:Class;
+   rdfs:label "電気冷蔵庫_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:電気冷蔵庫;
+   rdfs:subClassOf service:家事用耐久財_サービス .
+
+service:電気掃除機_サービス a owl:Class;
+   rdfs:label "電気掃除機_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:電気掃除機;
+   rdfs:subClassOf service:家事用耐久財_サービス .
+
+service:電気洗濯機_サービス a owl:Class;
+   rdfs:label "電気洗濯機_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:電気洗濯機;
+   rdfs:subClassOf service:家事用耐久財_サービス .
+
+service:電池_サービス a owl:Class;
+   rdfs:label "電池_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:電池;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:電球・ランプ_サービス a owl:Class;
+   rdfs:label "電球・ランプ_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:電球・ランプ;
+   rdfs:subClassOf service:家事雑貨_サービス .
+
+service:音楽・映像収録済メディア_サービス a owl:Class;
+   rdfs:label "音楽・映像収録済メディア_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:音楽・映像収録済メディア;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:音楽・映像用未使用メディア_サービス a owl:Class;
+   rdfs:label "音楽・映像用未使用メディア_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:音楽・映像用未使用メディア;
+   rdfs:subClassOf service:他の教養娯楽用品_サービス .
+
+service:音楽月謝_サービス a owl:Class;
+   rdfs:label "音楽月謝_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:音楽月謝;
+   rdfs:subClassOf service:月謝類_サービス .
+
+service:風味調味料_サービス a owl:Class;
+   rdfs:label "風味調味料_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:風味調味料;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:食パン_サービス a owl:Class;
+   rdfs:label "食パン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:食パン;
+   rdfs:subClassOf service:パン_サービス .
+
+service:食卓セット_サービス a owl:Class;
+   rdfs:label "食卓セット_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:食卓セット;
+   rdfs:subClassOf service:一般家具_サービス .
+
+service:食器戸棚_サービス a owl:Class;
+   rdfs:label "食器戸棚_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:食器戸棚;
+   rdfs:subClassOf service:一般家具_サービス .
+
+service:食塩_サービス a owl:Class;
+   rdfs:label "食塩_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:食塩;
+   rdfs:subClassOf service:調味料_サービス .
+
+service:食用油_サービス a owl:Class;
+   rdfs:label "食用油_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:食用油;
+   rdfs:subClassOf service:油脂_サービス .
+
+service:飲酒代_サービス a owl:Class;
+   rdfs:label "飲酒代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:飲酒代;
+   rdfs:subClassOf service:一般外食_サービス .
+
+service:高校補習教育・予備校_サービス a owl:Class;
+   rdfs:label "高校補習教育・予備校_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:高校補習教育・予備校;
+   rdfs:subClassOf service:補習教育_サービス .
+
+service:魚介のつくだ煮_サービス a owl:Class;
+   rdfs:label "魚介のつくだ煮_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:魚介のつくだ煮;
+   rdfs:subClassOf service:他の魚介加工品_サービス .
+
+service:魚介の漬物_サービス a owl:Class;
+   rdfs:label "魚介の漬物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:魚介の漬物;
+   rdfs:subClassOf service:他の魚介加工品_サービス .
+
+service:魚介の缶詰_サービス a owl:Class;
+   rdfs:label "魚介の缶詰_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:魚介の缶詰;
+   rdfs:subClassOf service:他の魚介加工品_サービス .
+
+service:鶏肉_サービス a owl:Class;
+   rdfs:label "鶏肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:鶏肉;
+   rdfs:subClassOf service:生鮮肉_サービス .
+
+service:その他の消費支出_サービス a owl:Class;
+   rdfs:label "その他の消費支出_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:その他の消費支出;
+   rdfs:subClassOf service:購買_サービス .
+
+service:健康保持用摂取品_サービス a owl:Class;
+   rdfs:label "健康保持用摂取品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:健康保持用摂取品;
+   rdfs:subClassOf service:保健医療_サービス,
+     service:健康保持用摂取品_サービス .
+
+service:自転車購入_サービス a owl:Class;
+   rdfs:label "自転車購入_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:自転車購入;
+   rdfs:subClassOf service:自動車等関係費_サービス,
+     service:自転車購入_サービス .
+
+service:ガス代_サービス a owl:Class;
+   rdfs:label "ガス代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:ガス代;
+   rdfs:subClassOf service:光熱・水道_サービス .
+
+service:ティッシュペーパー・トイレットペーパー_サービス a owl:Class;
+   rdfs:label "ティッシュペーパー・トイレットペーパー_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:ティッシュペーパー・トイレットペーパー;
+   rdfs:subClassOf service:家事用消耗品_サービス .
+
+service:パック旅行費_サービス a owl:Class;
+   rdfs:label "パック旅行費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:パック旅行費;
+   rdfs:subClassOf service:教養娯楽サービス_サービス .
+
+service:パン_サービス a owl:Class;
+   rdfs:label "パン_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:パン;
+   rdfs:subClassOf service:穀類_サービス .
+
+service:他の光熱_サービス a owl:Class;
+   rdfs:label "他の光熱_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の光熱;
+   rdfs:subClassOf service:光熱・水道_サービス .
+
+service:住居_サービス a owl:Class;
+   rdfs:label "住居_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:住居;
+   rdfs:subClassOf service:購買_サービス .
+
+service:外食_サービス a owl:Class;
+   rdfs:label "外食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:外食;
+   rdfs:subClassOf service:食料_サービス .
+
+service:子供用シャツ・セーター類_サービス a owl:Class;
+   rdfs:label "子供用シャツ・セーター類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用シャツ・セーター類;
+   rdfs:subClassOf service:シャツ・セーター類_サービス .
+
+service:子供用下着類_サービス a owl:Class;
+   rdfs:label "子供用下着類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用下着類;
+   rdfs:subClassOf service:下着類_サービス .
+
+service:子供用洋服_サービス a owl:Class;
+   rdfs:label "子供用洋服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:子供用洋服;
+   rdfs:subClassOf service:洋服_サービス .
+
+service:教科書･学習参考教材_サービス a owl:Class;
+   rdfs:label "教科書･学習参考教材_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:教科書･学習参考教材;
+   rdfs:subClassOf service:教育_サービス .
+
+service:施設_サービス a owl:Class;
+   rdfs:label "施設_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:施設 .
+
+service:果物_サービス a owl:Class;
+   rdfs:label "果物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:果物;
+   rdfs:subClassOf service:食料_サービス .
+
+service:油脂_サービス a owl:Class;
+   rdfs:label "油脂_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:油脂;
+   rdfs:subClassOf service:油脂・調味料_サービス .
+
+service:油脂・調味料_サービス a owl:Class;
+   rdfs:label "油脂・調味料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:油脂・調味料;
+   rdfs:subClassOf service:食料_サービス .
+
+service:洗剤_サービス a owl:Class;
+   rdfs:label "洗剤_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:洗剤;
+   rdfs:subClassOf service:家事用消耗品_サービス .
+
+service:生地・糸類_サービス a owl:Class;
+   rdfs:label "生地・糸類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:生地・糸類;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:生鮮魚介_サービス a owl:Class;
+   rdfs:label "生鮮魚介_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:生鮮魚介;
+   rdfs:subClassOf service:魚介類_サービス .
+
+service:男子用下着類_サービス a owl:Class;
+   rdfs:label "男子用下着類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用下着類;
+   rdfs:subClassOf service:下着類_サービス .
+
+service:肉類_サービス a owl:Class;
+   rdfs:label "肉類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:肉類;
+   rdfs:subClassOf service:食料_サービス .
+
+service:自動車等購入_サービス a owl:Class;
+   rdfs:label "自動車等購入_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:自動車等購入;
+   rdfs:subClassOf service:自動車等関係費_サービス .
+
+service:設備修繕･維持_サービス a owl:Class;
+   rdfs:label "設備修繕･維持_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:設備修繕･維持;
+   rdfs:subClassOf service:住居_サービス .
+
+service:設備材料_サービス a owl:Class;
+   rdfs:label "設備材料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:設備材料;
+   rdfs:subClassOf service:設備修繕･維持_サービス .
+
+service:調理食品_サービス a owl:Class;
+   rdfs:label "調理食品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:調理食品;
+   rdfs:subClassOf service:食料_サービス .
+
+service:電気代_サービス a owl:Class;
+   rdfs:label "電気代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:電気代;
+   rdfs:subClassOf service:光熱・水道_サービス .
+
+service:コーヒー・ココア_サービス a owl:Class;
+   rdfs:label "コーヒー・ココア_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:コーヒー・ココア;
+   rdfs:subClassOf service:飲料_サービス .
+
+service:シャツ・セーター類_サービス a owl:Class;
+   rdfs:label "シャツ・セーター類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:シャツ・セーター類;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:一般外食_サービス a owl:Class;
+   rdfs:label "一般外食_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:一般外食;
+   rdfs:subClassOf service:外食_サービス .
+
+service:下着類_サービス a owl:Class;
+   rdfs:label "下着類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:下着類;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:乳卵類_サービス a owl:Class;
+   rdfs:label "乳卵類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:乳卵類;
+   rdfs:subClassOf service:食料_サービス .
+
+service:交通・通信_サービス a owl:Class;
+   rdfs:label "交通・通信_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:交通・通信;
+   rdfs:subClassOf service:購買_サービス .
+
+service:他の穀類_サービス a owl:Class;
+   rdfs:label "他の穀類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の穀類;
+   rdfs:subClassOf service:穀類_サービス .
+
+service:冷暖房用器具_サービス a owl:Class;
+   rdfs:label "冷暖房用器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:冷暖房用器具;
+   rdfs:subClassOf service:家庭用耐久財_サービス .
+
+service:婦人用シャツ・セーター類_サービス a owl:Class;
+   rdfs:label "婦人用シャツ・セーター類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用シャツ・セーター類;
+   rdfs:subClassOf service:シャツ・セーター類_サービス .
+
+service:婦人用下着類_サービス a owl:Class;
+   rdfs:label "婦人用下着類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用下着類;
+   rdfs:subClassOf service:下着類_サービス .
+
+service:家事サービス_サービス a owl:Class;
+   rdfs:label "家事サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:家事サービス;
+   rdfs:subClassOf service:家具・家事用品_サービス .
+
+service:家事用消耗品_サービス a owl:Class;
+   rdfs:label "家事用消耗品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:家事用消耗品;
+   rdfs:subClassOf service:家具・家事用品_サービス .
+
+service:家庭用耐久財_サービス a owl:Class;
+   rdfs:label "家庭用耐久財_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:家庭用耐久財;
+   rdfs:subClassOf service:家具・家事用品_サービス .
+
+service:放送受信料_サービス a owl:Class;
+   rdfs:label "放送受信料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:放送受信料;
+   rdfs:subClassOf service:他の教養娯楽サービス_サービス .
+
+service:教育_サービス a owl:Class;
+   rdfs:label "教育_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:教育;
+   rdfs:subClassOf service:購買_サービス .
+
+service:洋服_サービス a owl:Class;
+   rdfs:label "洋服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:洋服;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:玩具_サービス a owl:Class;
+   rdfs:label "玩具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:玩具;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:理美容用品_サービス a owl:Class;
+   rdfs:label "理美容用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:理美容用品;
+   rdfs:subClassOf service:諸雑費_サービス .
+
+service:生鮮野菜_サービス a owl:Class;
+   rdfs:label "生鮮野菜_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:生鮮野菜;
+   rdfs:subClassOf service:野菜・海藻_サービス .
+
+service:男子用シャツ・セーター類_サービス a owl:Class;
+   rdfs:label "男子用シャツ・セーター類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用シャツ・セーター類;
+   rdfs:subClassOf service:シャツ・セーター類_サービス .
+
+service:自動車等関係費_サービス a owl:Class;
+   rdfs:label "自動車等関係費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:自動車等関係費;
+   rdfs:subClassOf service:交通・通信_サービス .
+
+service:被服関連サービス_サービス a owl:Class;
+   rdfs:label "被服関連サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:被服関連サービス;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:補習教育_サービス a owl:Class;
+   rdfs:label "補習教育_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:補習教育;
+   rdfs:subClassOf service:教育_サービス .
+
+service:運動用具類_サービス a owl:Class;
+   rdfs:label "運動用具類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:運動用具類;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:飲料_サービス a owl:Class;
+   rdfs:label "飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:飲料;
+   rdfs:subClassOf service:食料_サービス .
+
+service:かばん類_サービス a owl:Class;
+   rdfs:label "かばん類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:かばん類;
+   rdfs:subClassOf service:身の回り用品_サービス .
+
+service:保健医療_サービス a owl:Class;
+   rdfs:label "保健医療_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:保健医療;
+   rdfs:subClassOf service:購買_サービス .
+
+service:光熱・水道_サービス a owl:Class;
+   rdfs:label "光熱・水道_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:光熱・水道;
+   rdfs:subClassOf service:購買_サービス .
+
+service:加工肉_サービス a owl:Class;
+   rdfs:label "加工肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:加工肉;
+   rdfs:subClassOf service:肉類_サービス .
+
+service:大豆加工品_サービス a owl:Class;
+   rdfs:label "大豆加工品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:大豆加工品;
+   rdfs:subClassOf service:野菜・海藻_サービス .
+
+service:教養娯楽_サービス a owl:Class;
+   rdfs:label "教養娯楽_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:教養娯楽;
+   rdfs:subClassOf service:購買_サービス .
+
+service:教養娯楽サービス_サービス a owl:Class;
+   rdfs:label "教養娯楽サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:教養娯楽サービス;
+   rdfs:subClassOf service:教養娯楽_サービス .
+
+service:書籍・他の印刷物_サービス a owl:Class;
+   rdfs:label "書籍・他の印刷物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:書籍・他の印刷物;
+   rdfs:subClassOf service:教養娯楽_サービス .
+
+service:穀類_サービス a owl:Class;
+   rdfs:label "穀類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:穀類;
+   rdfs:subClassOf service:食料_サービス .
+
+service:茶類_サービス a owl:Class;
+   rdfs:label "茶類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:茶類;
+   rdfs:subClassOf service:飲料_サービス .
+
+service:野菜・海藻_サービス a owl:Class;
+   rdfs:label "野菜・海藻_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:野菜・海藻;
+   rdfs:subClassOf service:食料_サービス .
+
+service:魚介類_サービス a owl:Class;
+   rdfs:label "魚介類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:魚介類;
+   rdfs:subClassOf service:食料_サービス .
+
+service:魚肉練製品_サービス a owl:Class;
+   rdfs:label "魚肉練製品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:魚肉練製品;
+   rdfs:subClassOf service:魚介類_サービス .
+
+service:一般家具_サービス a owl:Class;
+   rdfs:label "一般家具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:一般家具;
+   rdfs:subClassOf service:家庭用耐久財_サービス .
+
+service:主食的調理食品_サービス a owl:Class;
+   rdfs:label "主食的調理食品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:主食的調理食品;
+   rdfs:subClassOf service:調理食品_サービス .
+
+service:乳製品_サービス a owl:Class;
+   rdfs:label "乳製品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:乳製品;
+   rdfs:subClassOf service:乳卵類_サービス .
+
+service:他の家事用消耗品_サービス a owl:Class;
+   rdfs:label "他の家事用消耗品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の家事用消耗品;
+   rdfs:subClassOf service:家事用消耗品_サービス .
+
+service:他の魚介加工品_サービス a owl:Class;
+   rdfs:label "他の魚介加工品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の魚介加工品;
+   rdfs:subClassOf service:魚介類_サービス .
+
+service:保健医療用品･器具_サービス a owl:Class;
+   rdfs:label "保健医療用品･器具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:保健医療用品･器具;
+   rdfs:subClassOf service:保健医療_サービス .
+
+service:和服_サービス a owl:Class;
+   rdfs:label "和服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:和服;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:塩干魚介_サービス a owl:Class;
+   rdfs:label "塩干魚介_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:塩干魚介;
+   rdfs:subClassOf service:魚介類_サービス .
+
+service:室内装備・装飾品_サービス a owl:Class;
+   rdfs:label "室内装備・装飾品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:室内装備・装飾品;
+   rdfs:subClassOf service:家具・家事用品_サービス .
+
+service:家賃地代_サービス a owl:Class;
+   rdfs:label "家賃地代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:家賃地代;
+   rdfs:subClassOf service:住居_サービス .
+
+service:寝具類_サービス a owl:Class;
+   rdfs:label "寝具類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:寝具類;
+   rdfs:subClassOf service:家具・家事用品_サービス .
+
+service:文房具_サービス a owl:Class;
+   rdfs:label "文房具_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:文房具;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:理美容サービス_サービス a owl:Class;
+   rdfs:label "理美容サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:理美容サービス;
+   rdfs:subClassOf service:諸雑費_サービス .
+
+service:生鮮肉_サービス a owl:Class;
+   rdfs:label "生鮮肉_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:生鮮肉;
+   rdfs:subClassOf service:肉類_サービス .
+
+service:貝類_サービス a owl:Class;
+   rdfs:label "貝類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:貝類;
+   rdfs:subClassOf service:生鮮魚介_サービス .
+
+service:乾物・海藻_サービス a owl:Class;
+   rdfs:label "乾物・海藻_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:乾物・海藻;
+   rdfs:subClassOf service:野菜・海藻_サービス .
+
+service:医薬品_サービス a owl:Class;
+   rdfs:label "医薬品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:医薬品;
+   rdfs:subClassOf service:保健医療_サービス .
+
+service:家具・家事用品_サービス a owl:Class;
+   rdfs:label "家具・家事用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:家具・家事用品;
+   rdfs:subClassOf service:購買_サービス .
+
+service:履物類_サービス a owl:Class;
+   rdfs:label "履物類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:履物類;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:工事その他のサービス_サービス a owl:Class;
+   rdfs:label "工事その他のサービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:工事その他のサービス;
+   rdfs:subClassOf service:設備修繕･維持_サービス .
+
+service:男子用洋服_サービス a owl:Class;
+   rdfs:label "男子用洋服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:男子用洋服;
+   rdfs:subClassOf service:洋服_サービス .
+
+service:諸雑費_サービス a owl:Class;
+   rdfs:label "諸雑費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:諸雑費;
+   rdfs:subClassOf service:その他の消費支出_サービス .
+
+service:身の回り用品_サービス a owl:Class;
+   rdfs:label "身の回り用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:身の回り用品;
+   rdfs:subClassOf service:諸雑費_サービス .
+
+service:通信_サービス a owl:Class;
+   rdfs:label "通信_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:通信;
+   rdfs:subClassOf service:交通・通信_サービス .
+
+service:他の教養娯楽サービス_サービス a owl:Class;
+   rdfs:label "他の教養娯楽サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の教養娯楽サービス;
+   rdfs:subClassOf service:教養娯楽サービス_サービス .
+
+service:他の飲料_サービス a owl:Class;
+   rdfs:label "他の飲料_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の飲料;
+   rdfs:subClassOf service:飲料_サービス .
+
+service:婦人用洋服_サービス a owl:Class;
+   rdfs:label "婦人用洋服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:婦人用洋服;
+   rdfs:subClassOf service:洋服_サービス .
+
+service:家事用耐久財_サービス a owl:Class;
+   rdfs:label "家事用耐久財_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:家事用耐久財;
+   rdfs:subClassOf service:家庭用耐久財_サービス .
+
+service:家事雑貨_サービス a owl:Class;
+   rdfs:label "家事雑貨_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:家事雑貨;
+   rdfs:subClassOf service:家具・家事用品_サービス .
+
+service:麺類_サービス a owl:Class;
+   rdfs:label "麺類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:麺類;
+   rdfs:subClassOf service:穀類_サービス .
+
+service:他の野菜･海藻加工品_サービス a owl:Class;
+   rdfs:label "他の野菜･海藻加工品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の野菜･海藻加工品;
+   rdfs:subClassOf service:野菜・海藻_サービス .
+
+service:保健医療サービス_サービス a owl:Class;
+   rdfs:label "保健医療サービス_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:保健医療サービス;
+   rdfs:subClassOf service:保健医療_サービス .
+
+service:入場・観覧・ゲーム代_サービス a owl:Class;
+   rdfs:label "入場・観覧・ゲーム代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:入場・観覧・ゲーム代;
+   rdfs:subClassOf service:他の教養娯楽サービス_サービス .
+
+service:教養娯楽用品_サービス a owl:Class;
+   rdfs:label "教養娯楽用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:教養娯楽用品;
+   rdfs:subClassOf service:教養娯楽_サービス .
+
+service:月謝類_サービス a owl:Class;
+   rdfs:label "月謝類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:月謝類;
+   rdfs:subClassOf service:教養娯楽サービス_サービス .
+
+service:葉茎菜_サービス a owl:Class;
+   rdfs:label "葉茎菜_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:葉茎菜;
+   rdfs:subClassOf service:生鮮野菜_サービス .
+
+service:被服及び履物_サービス a owl:Class;
+   rdfs:label "被服及び履物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:被服及び履物;
+   rdfs:subClassOf service:購買_サービス .
+
+service:酒類_サービス a owl:Class;
+   rdfs:label "酒類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:酒類;
+   rdfs:subClassOf service:食料_サービス .
+
+service:他の教養娯楽用品_サービス a owl:Class;
+   rdfs:label "他の教養娯楽用品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の教養娯楽用品;
+   rdfs:subClassOf service:教養娯楽用品_サービス .
+
+service:他の被服_サービス a owl:Class;
+   rdfs:label "他の被服_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の被服;
+   rdfs:subClassOf service:被服及び履物_サービス .
+
+service:交通_サービス a owl:Class;
+   rdfs:label "交通_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:交通;
+   rdfs:subClassOf service:交通・通信_サービス .
+
+service:授業料等_サービス a owl:Class;
+   rdfs:label "授業料等_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:授業料等;
+   rdfs:subClassOf service:教育_サービス .
+
+service:教養娯楽用耐久財_サービス a owl:Class;
+   rdfs:label "教養娯楽用耐久財_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:教養娯楽用耐久財;
+   rdfs:subClassOf service:教養娯楽_サービス .
+
+service:根菜_サービス a owl:Class;
+   rdfs:label "根菜_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:根菜;
+   rdfs:subClassOf service:生鮮野菜_サービス .
+
+service:購買_サービス a owl:Class;
+   rdfs:label "購買_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:購買;
+   rdfs:subClassOf service:施設_サービス .
+
+service:食事代_サービス a owl:Class;
+   rdfs:label "食事代_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:食事代;
+   rdfs:subClassOf service:一般外食_サービス .
+
+service:他の諸雑費_サービス a owl:Class;
+   rdfs:label "他の諸雑費_サービス";
+   servicevoc:action action:払う;
+   servicevoc:target target:他の諸雑費;
+   rdfs:subClassOf service:諸雑費_サービス .
+
+service:他の野菜_サービス a owl:Class;
+   rdfs:label "他の野菜_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の野菜;
+   rdfs:subClassOf service:生鮮野菜_サービス .
+
+service:他の調理食品_サービス a owl:Class;
+   rdfs:label "他の調理食品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:他の調理食品;
+   rdfs:subClassOf service:調理食品_サービス .
+
+service:石けん類・化粧品_サービス a owl:Class;
+   rdfs:label "石けん類・化粧品_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:石けん類・化粧品;
+   rdfs:subClassOf service:諸雑費_サービス .
+
+service:自動車等維持_サービス a owl:Class;
+   rdfs:label "自動車等維持_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:自動車等維持;
+   rdfs:subClassOf service:自動車等関係費_サービス .
+
+service:食料_サービス a owl:Class;
+   rdfs:label "食料_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:食料;
+   rdfs:subClassOf service:購買_サービス .
+
+service:生鮮果物_サービス a owl:Class;
+   rdfs:label "生鮮果物_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:生鮮果物;
+   rdfs:subClassOf service:果物_サービス .
+
+service:菓子類_サービス a owl:Class;
+   rdfs:label "菓子類_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:菓子類;
+   rdfs:subClassOf service:食料_サービス .
+
+service:調味料_サービス a owl:Class;
+   rdfs:label "調味料_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:調味料;
+   rdfs:subClassOf service:油脂・調味料_サービス .
+
+service:鮮魚_サービス a owl:Class;
+   rdfs:label "鮮魚_サービス";
+   servicevoc:action action:買う;
+   servicevoc:target target:鮮魚;
+   rdfs:subClassOf service:生鮮魚介_サービス .

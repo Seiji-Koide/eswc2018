@@ -1,0 +1,2500 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix target: <http://tp.lodac.nii.ac.jp/target/> .
+
+target:NHK放送受信料 a owl:Class;
+   rdfs:label "NHK放送受信料";
+   rdfs:subClassOf target:放送受信料 .
+
+target:あさり a owl:Class;
+   rdfs:label "あさり";
+   rdfs:subClassOf target:貝類 .
+
+target:あじ a owl:Class;
+   rdfs:label "あじ";
+   rdfs:subClassOf target:鮮魚 .
+
+target:いか a owl:Class;
+   rdfs:label "いか";
+   rdfs:subClassOf target:鮮魚 .
+
+target:いちご a owl:Class;
+   rdfs:label "いちご";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:いわし a owl:Class;
+   rdfs:label "いわし";
+   rdfs:subClassOf target:鮮魚 .
+
+target:うなぎのかば焼き a owl:Class;
+   rdfs:label "うなぎのかば焼き";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:えのきたけ a owl:Class;
+   rdfs:label "えのきたけ";
+   rdfs:subClassOf target:他の野菜 .
+
+target:えび a owl:Class;
+   rdfs:label "えび";
+   rdfs:subClassOf target:鮮魚 .
+
+target:おにぎり・その他 a owl:Class;
+   rdfs:label "おにぎり・その他";
+   rdfs:subClassOf target:主食的調理食品 .
+
+target:かき（貝） a owl:Class;
+   rdfs:label "かき（貝）";
+   rdfs:subClassOf target:貝類 .
+
+target:かつお a owl:Class;
+   rdfs:label "かつお";
+   rdfs:subClassOf target:鮮魚 .
+
+target:かつお節･削り節 a owl:Class;
+   rdfs:label "かつお節･削り節";
+   rdfs:subClassOf target:他の魚介加工品 .
+
+target:かに a owl:Class;
+   rdfs:label "かに";
+   rdfs:subClassOf target:鮮魚 .
+
+target:かぼちゃ a owl:Class;
+   rdfs:label "かぼちゃ";
+   rdfs:subClassOf target:他の野菜 .
+
+target:かまぼこ a owl:Class;
+   rdfs:label "かまぼこ";
+   rdfs:subClassOf target:魚肉練製品 .
+
+target:かれい a owl:Class;
+   rdfs:label "かれい";
+   rdfs:subClassOf target:鮮魚 .
+
+target:きゅうり a owl:Class;
+   rdfs:label "きゅうり";
+   rdfs:subClassOf target:他の野菜 .
+
+target:ぎょうざ a owl:Class;
+   rdfs:label "ぎょうざ";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:こんにゃく a owl:Class;
+   rdfs:label "こんにゃく";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:こんぶ a owl:Class;
+   rdfs:label "こんぶ";
+   rdfs:subClassOf target:乾物・海藻 .
+
+target:こんぶつくだ煮 a owl:Class;
+   rdfs:label "こんぶつくだ煮";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:ごぼう a owl:Class;
+   rdfs:label "ごぼう";
+   rdfs:subClassOf target:根菜 .
+
+target:さけ a owl:Class;
+   rdfs:label "さけ";
+   rdfs:subClassOf target:鮮魚 .
+
+target:さしみ盛合わせ a owl:Class;
+   rdfs:label "さしみ盛合わせ";
+   rdfs:subClassOf target:鮮魚 .
+
+target:さつまいも a owl:Class;
+   rdfs:label "さつまいも";
+   rdfs:subClassOf target:根菜 .
+
+target:さといも a owl:Class;
+   rdfs:label "さといも";
+   rdfs:subClassOf target:根菜 .
+
+target:さば a owl:Class;
+   rdfs:label "さば";
+   rdfs:subClassOf target:鮮魚 .
+
+target:さやまめ a owl:Class;
+   rdfs:label "さやまめ";
+   rdfs:subClassOf target:他の野菜 .
+
+target:さんま a owl:Class;
+   rdfs:label "さんま";
+   rdfs:subClassOf target:鮮魚 .
+
+target:しじみ a owl:Class;
+   rdfs:label "しじみ";
+   rdfs:subClassOf target:貝類 .
+
+target:しめじ a owl:Class;
+   rdfs:label "しめじ";
+   rdfs:subClassOf target:他の野菜 .
+
+target:しゅうまい a owl:Class;
+   rdfs:label "しゅうまい";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:しょう油 a owl:Class;
+   rdfs:label "しょう油";
+   rdfs:subClassOf target:調味料 .
+
+target:しらす干し a owl:Class;
+   rdfs:label "しらす干し";
+   rdfs:subClassOf target:塩干魚介 .
+
+target:じゃがいも a owl:Class;
+   rdfs:label "じゃがいも";
+   rdfs:subClassOf target:根菜 .
+
+target:すいか a owl:Class;
+   rdfs:label "すいか";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:すし（外食） a owl:Class;
+   rdfs:label "すし（外食）";
+   rdfs:subClassOf target:食事代 .
+
+target:すし（弁当） a owl:Class;
+   rdfs:label "すし（弁当）";
+   rdfs:subClassOf target:主食的調理食品 .
+
+target:せんべい a owl:Class;
+   rdfs:label "せんべい";
+   rdfs:subClassOf target:菓子類 .
+
+target:そうざい材料セット a owl:Class;
+   rdfs:label "そうざい材料セット";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:たい a owl:Class;
+   rdfs:label "たい";
+   rdfs:subClassOf target:鮮魚 .
+
+target:たけのこ a owl:Class;
+   rdfs:label "たけのこ";
+   rdfs:subClassOf target:根菜 .
+
+target:たこ a owl:Class;
+   rdfs:label "たこ";
+   rdfs:subClassOf target:鮮魚 .
+
+target:たばこ a owl:Class;
+   rdfs:label "たばこ";
+   rdfs:subClassOf target:諸雑費 .
+
+target:たまねぎ a owl:Class;
+   rdfs:label "たまねぎ";
+   rdfs:subClassOf target:根菜 .
+
+target:たらこ a owl:Class;
+   rdfs:label "たらこ";
+   rdfs:subClassOf target:塩干魚介 .
+
+target:たんす a owl:Class;
+   rdfs:label "たんす";
+   rdfs:subClassOf target:一般家具 .
+
+target:だいこん a owl:Class;
+   rdfs:label "だいこん";
+   rdfs:subClassOf target:根菜 .
+
+target:だいこん漬 a owl:Class;
+   rdfs:label "だいこん漬";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:ちくわ a owl:Class;
+   rdfs:label "ちくわ";
+   rdfs:subClassOf target:魚肉練製品 .
+
+target:つゆ・たれ a owl:Class;
+   rdfs:label "つゆ・たれ";
+   rdfs:subClassOf target:調味料 .
+
+target:なす a owl:Class;
+   rdfs:label "なす";
+   rdfs:subClassOf target:他の野菜 .
+
+target:にんじん a owl:Class;
+   rdfs:label "にんじん";
+   rdfs:subClassOf target:根菜 .
+
+target:ねぎ a owl:Class;
+   rdfs:label "ねぎ";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:はくさい a owl:Class;
+   rdfs:label "はくさい";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:はくさい漬 a owl:Class;
+   rdfs:label "はくさい漬";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:ふりかけ a owl:Class;
+   rdfs:label "ふりかけ";
+   rdfs:subClassOf target:調味料 .
+
+target:ぶどう a owl:Class;
+   rdfs:label "ぶどう";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:ぶり a owl:Class;
+   rdfs:label "ぶり";
+   rdfs:subClassOf target:鮮魚 .
+
+target:ほうれんそう a owl:Class;
+   rdfs:label "ほうれんそう";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:ほたて貝 a owl:Class;
+   rdfs:label "ほたて貝";
+   rdfs:subClassOf target:貝類 .
+
+target:まぐろ a owl:Class;
+   rdfs:label "まぐろ";
+   rdfs:subClassOf target:鮮魚 .
+
+target:まんじゅう a owl:Class;
+   rdfs:label "まんじゅう";
+   rdfs:subClassOf target:菓子類 .
+
+target:みかん a owl:Class;
+   rdfs:label "みかん";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:みそ a owl:Class;
+   rdfs:label "みそ";
+   rdfs:subClassOf target:調味料 .
+
+target:もち a owl:Class;
+   rdfs:label "もち";
+   rdfs:subClassOf target:他の穀類 .
+
+target:もやし a owl:Class;
+   rdfs:label "もやし";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:やきとり a owl:Class;
+   rdfs:label "やきとり";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:ようかん a owl:Class;
+   rdfs:label "ようかん";
+   rdfs:subClassOf target:菓子類 .
+
+target:りんご a owl:Class;
+   rdfs:label "りんご";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:れんこん a owl:Class;
+   rdfs:label "れんこん";
+   rdfs:subClassOf target:根菜 .
+
+target:わかめ a owl:Class;
+   rdfs:label "わかめ";
+   rdfs:subClassOf target:乾物・海藻 .
+
+target:アイスクリーム・シャーベット a owl:Class;
+   rdfs:label "アイスクリーム・シャーベット";
+   rdfs:subClassOf target:菓子類 .
+
+target:インターネット接続料 a owl:Class;
+   rdfs:label "インターネット接続料";
+   rdfs:subClassOf target:他の教養娯楽サービス .
+
+target:ウイスキー a owl:Class;
+   rdfs:label "ウイスキー";
+   rdfs:subClassOf target:酒類 .
+
+target:エアコンディショナ a owl:Class;
+   rdfs:label "エアコンディショナ";
+   rdfs:subClassOf target:冷暖房用器具 .
+
+target:オレンジ a owl:Class;
+   rdfs:label "オレンジ";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:カステラ a owl:Class;
+   rdfs:label "カステラ";
+   rdfs:subClassOf target:菓子類 .
+
+target:カット代 a owl:Class;
+   rdfs:label "カット代";
+   rdfs:subClassOf target:理美容サービス .
+
+target:カップ麺 a owl:Class;
+   rdfs:label "カップ麺";
+   rdfs:subClassOf target:麺類 .
+
+target:カツレツ a owl:Class;
+   rdfs:label "カツレツ";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:カメラ a owl:Class;
+   rdfs:label "カメラ";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:カレールウ a owl:Class;
+   rdfs:label "カレールウ";
+   rdfs:subClassOf target:調味料 .
+
+target:カーテン a owl:Class;
+   rdfs:label "カーテン";
+   rdfs:subClassOf target:室内装備・装飾品 .
+
+target:ガソリン a owl:Class;
+   rdfs:label "ガソリン";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:キウイフルーツ a owl:Class;
+   rdfs:label "キウイフルーツ";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:キャベツ a owl:Class;
+   rdfs:label "キャベツ";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:キャンデー a owl:Class;
+   rdfs:label "キャンデー";
+   rdfs:subClassOf target:菓子類 .
+
+target:グレープフルーツ a owl:Class;
+   rdfs:label "グレープフルーツ";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:ケチャップ a owl:Class;
+   rdfs:label "ケチャップ";
+   rdfs:subClassOf target:調味料 .
+
+target:ケーキ a owl:Class;
+   rdfs:label "ケーキ";
+   rdfs:subClassOf target:菓子類 .
+
+target:ケーブルテレビ放送受信料 a owl:Class;
+   rdfs:label "ケーブルテレビ放送受信料";
+   rdfs:subClassOf target:放送受信料 .
+
+target:ゲームソフト等 a owl:Class;
+   rdfs:label "ゲームソフト等";
+   rdfs:subClassOf target:玩具 .
+
+target:ココア・ココア飲料 a owl:Class;
+   rdfs:label "ココア・ココア飲料";
+   rdfs:subClassOf target:コーヒー・ココア .
+
+target:コロッケ a owl:Class;
+   rdfs:label "コロッケ";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:コンタクトレンズ a owl:Class;
+   rdfs:label "コンタクトレンズ";
+   rdfs:subClassOf target:保健医療用品･器具 .
+
+target:コーヒー a owl:Class;
+   rdfs:label "コーヒー";
+   rdfs:subClassOf target:コーヒー・ココア .
+
+target:コーヒー飲料 a owl:Class;
+   rdfs:label "コーヒー飲料";
+   rdfs:subClassOf target:コーヒー・ココア .
+
+target:ゴルフプレー料金 a owl:Class;
+   rdfs:label "ゴルフプレー料金";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:ゴルフ用具 a owl:Class;
+   rdfs:label "ゴルフ用具";
+   rdfs:subClassOf target:運動用具類 .
+
+target:サラダ a owl:Class;
+   rdfs:label "サラダ";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:サンダル a owl:Class;
+   rdfs:label "サンダル";
+   rdfs:subClassOf target:履物類 .
+
+target:シャンプー a owl:Class;
+   rdfs:label "シャンプー";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:ジャム a owl:Class;
+   rdfs:label "ジャム";
+   rdfs:subClassOf target:調味料 .
+
+target:スカート a owl:Class;
+   rdfs:label "スカート";
+   rdfs:subClassOf target:婦人用洋服 .
+
+target:ストーブ・温風ヒーター a owl:Class;
+   rdfs:label "ストーブ・温風ヒーター";
+   rdfs:subClassOf target:冷暖房用器具 .
+
+target:スナック菓子 a owl:Class;
+   rdfs:label "スナック菓子";
+   rdfs:subClassOf target:菓子類 .
+
+target:スパゲッティ a owl:Class;
+   rdfs:label "スパゲッティ";
+   rdfs:subClassOf target:麺類 .
+
+target:スポーツクラブ使用料 a owl:Class;
+   rdfs:label "スポーツクラブ使用料";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:スポーツドリンク a owl:Class;
+   rdfs:label "スポーツドリンク";
+   rdfs:subClassOf target:他の飲料 .
+
+target:スポーツ月謝 a owl:Class;
+   rdfs:label "スポーツ月謝";
+   rdfs:subClassOf target:月謝類 .
+
+target:スポーツ用品 a owl:Class;
+   rdfs:label "スポーツ用品";
+   rdfs:subClassOf target:運動用具類 .
+
+target:スポーツ観覧料 a owl:Class;
+   rdfs:label "スポーツ観覧料";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:ゼリー a owl:Class;
+   rdfs:label "ゼリー";
+   rdfs:subClassOf target:菓子類 .
+
+target:ソース a owl:Class;
+   rdfs:label "ソース";
+   rdfs:subClassOf target:調味料 .
+
+target:ソーセージ a owl:Class;
+   rdfs:label "ソーセージ";
+   rdfs:subClassOf target:加工肉 .
+
+target:タオル a owl:Class;
+   rdfs:label "タオル";
+   rdfs:subClassOf target:家事雑貨 .
+
+target:タクシー代 a owl:Class;
+   rdfs:label "タクシー代";
+   rdfs:subClassOf target:交通 .
+
+target:チューハイ・カクテル a owl:Class;
+   rdfs:label "チューハイ・カクテル";
+   rdfs:subClassOf target:酒類 .
+
+target:チョコレート a owl:Class;
+   rdfs:label "チョコレート";
+   rdfs:subClassOf target:菓子類 .
+
+target:チョコレート菓子 a owl:Class;
+   rdfs:label "チョコレート菓子";
+   rdfs:subClassOf target:菓子類 .
+
+target:チーズ a owl:Class;
+   rdfs:label "チーズ";
+   rdfs:subClassOf target:乳製品 .
+
+target:ティッシュペーパー a owl:Class;
+   rdfs:label "ティッシュペーパー";
+   rdfs:subClassOf target:ティッシュペーパー・トイレットペーパー .
+
+target:テレビ a owl:Class;
+   rdfs:label "テレビ";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:テレビゲーム機 a owl:Class;
+   rdfs:label "テレビゲーム機";
+   rdfs:subClassOf target:玩具 .
+
+target:トイレットペーパー a owl:Class;
+   rdfs:label "トイレットペーパー";
+   rdfs:subClassOf target:ティッシュペーパー・トイレットペーパー .
+
+target:トマト a owl:Class;
+   rdfs:label "トマト";
+   rdfs:subClassOf target:他の野菜 .
+
+target:ドレッシング a owl:Class;
+   rdfs:label "ドレッシング";
+   rdfs:subClassOf target:調味料 .
+
+target:ネクタイ a owl:Class;
+   rdfs:label "ネクタイ";
+   rdfs:subClassOf target:他の被服 .
+
+target:ノート・紙製品 a owl:Class;
+   rdfs:label "ノート・紙製品";
+   rdfs:subClassOf target:文房具 .
+
+target:ハム a owl:Class;
+   rdfs:label "ハム";
+   rdfs:subClassOf target:加工肉 .
+
+target:ハンドバッグ a owl:Class;
+   rdfs:label "ハンドバッグ";
+   rdfs:subClassOf target:かばん類 .
+
+target:ハンバーガー a owl:Class;
+   rdfs:label "ハンバーガー";
+   rdfs:subClassOf target:食事代 .
+
+target:ハンバーグ a owl:Class;
+   rdfs:label "ハンバーグ";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:バス代 a owl:Class;
+   rdfs:label "バス代";
+   rdfs:subClassOf target:交通 .
+
+target:バス通勤定期代 a owl:Class;
+   rdfs:label "バス通勤定期代";
+   rdfs:subClassOf target:交通 .
+
+target:バス通学定期代 a owl:Class;
+   rdfs:label "バス通学定期代";
+   rdfs:subClassOf target:交通 .
+
+target:バター a owl:Class;
+   rdfs:label "バター";
+   rdfs:subClassOf target:乳製品 .
+
+target:バナナ a owl:Class;
+   rdfs:label "バナナ";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:パーソナルコンピュータ a owl:Class;
+   rdfs:label "パーソナルコンピュータ";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:パーマネント代 a owl:Class;
+   rdfs:label "パーマネント代";
+   rdfs:subClassOf target:理美容サービス .
+
+target:ビスケット a owl:Class;
+   rdfs:label "ビスケット";
+   rdfs:subClassOf target:菓子類 .
+
+target:ビデオカメラ a owl:Class;
+   rdfs:label "ビデオカメラ";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:ビデオレコーダー・プレイヤー a owl:Class;
+   rdfs:label "ビデオレコーダー・プレイヤー";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:ビール a owl:Class;
+   rdfs:label "ビール";
+   rdfs:subClassOf target:酒類 .
+
+target:ピーマン a owl:Class;
+   rdfs:label "ピーマン";
+   rdfs:subClassOf target:他の野菜 .
+
+target:ファンデーション a owl:Class;
+   rdfs:label "ファンデーション";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:ブラウス a owl:Class;
+   rdfs:label "ブラウス";
+   rdfs:subClassOf target:婦人用シャツ・セーター類 .
+
+target:ブロッコリー a owl:Class;
+   rdfs:label "ブロッコリー";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:プリン a owl:Class;
+   rdfs:label "プリン";
+   rdfs:subClassOf target:菓子類 .
+
+target:プロパンガス a owl:Class;
+   rdfs:label "プロパンガス";
+   rdfs:subClassOf target:ガス代 .
+
+target:ヘアカラーリング剤 a owl:Class;
+   rdfs:label "ヘアカラーリング剤";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:ヘアリンス・ヘアトリートメント a owl:Class;
+   rdfs:label "ヘアリンス・ヘアトリートメント";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:ベッド a owl:Class;
+   rdfs:label "ベッド";
+   rdfs:subClassOf target:寝具類 .
+
+target:ベーコン a owl:Class;
+   rdfs:label "ベーコン";
+   rdfs:subClassOf target:加工肉 .
+
+target:ペットフード a owl:Class;
+   rdfs:label "ペットフード";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:ポリ袋・ラップ a owl:Class;
+   rdfs:label "ポリ袋・ラップ";
+   rdfs:subClassOf target:他の家事用消耗品 .
+
+target:マッサージ料金等（診療外） a owl:Class;
+   rdfs:label "マッサージ料金等（診療外）";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:マフラー・スカーフ a owl:Class;
+   rdfs:label "マフラー・スカーフ";
+   rdfs:subClassOf target:他の被服 .
+
+target:マヨネーズ・マヨネーズ風調味料 a owl:Class;
+   rdfs:label "マヨネーズ・マヨネーズ風調味料";
+   rdfs:subClassOf target:調味料 .
+
+target:マーガリン a owl:Class;
+   rdfs:label "マーガリン";
+   rdfs:subClassOf target:油脂 .
+
+target:ミネラルウォーター a owl:Class;
+   rdfs:label "ミネラルウォーター";
+   rdfs:subClassOf target:他の飲料 .
+
+target:メロン a owl:Class;
+   rdfs:label "メロン";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:ヨーグルト a owl:Class;
+   rdfs:label "ヨーグルト";
+   rdfs:subClassOf target:乳製品 .
+
+target:レタス a owl:Class;
+   rdfs:label "レタス";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:レンタカー・カーシェアリング料金 a owl:Class;
+   rdfs:label "レンタカー・カーシェアリング料金";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:ワイシャツ a owl:Class;
+   rdfs:label "ワイシャツ";
+   rdfs:subClassOf target:男子用シャツ・セーター類 .
+
+target:ワイン a owl:Class;
+   rdfs:label "ワイン";
+   rdfs:subClassOf target:酒類 .
+
+target:上下水道料 a owl:Class;
+   rdfs:label "上下水道料";
+   rdfs:subClassOf target:光熱・水道 .
+
+target:中学校補習教育 a owl:Class;
+   rdfs:label "中学校補習教育";
+   rdfs:subClassOf target:補習教育 .
+
+target:中華そば a owl:Class;
+   rdfs:label "中華そば";
+   rdfs:subClassOf target:食事代 .
+
+target:中華食 a owl:Class;
+   rdfs:label "中華食";
+   rdfs:subClassOf target:食事代 .
+
+target:中華麺 a owl:Class;
+   rdfs:label "中華麺";
+   rdfs:subClassOf target:麺類 .
+
+target:乳児服 a owl:Class;
+   rdfs:label "乳児服";
+   rdfs:subClassOf target:子供用洋服 .
+
+target:乳液 a owl:Class;
+   rdfs:label "乳液";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:乳酸菌飲料 a owl:Class;
+   rdfs:label "乳酸菌飲料";
+   rdfs:subClassOf target:他の飲料 .
+
+target:乳飲料 a owl:Class;
+   rdfs:label "乳飲料";
+   rdfs:subClassOf target:他の飲料 .
+
+target:乾うどん・そば a owl:Class;
+   rdfs:label "乾うどん・そば";
+   rdfs:subClassOf target:麺類 .
+
+target:乾燥ス－プ a owl:Class;
+   rdfs:label "乾燥ス－プ";
+   rdfs:subClassOf target:調味料 .
+
+target:人間ドック等受診料 a owl:Class;
+   rdfs:label "人間ドック等受診料";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:介護サービス a owl:Class;
+   rdfs:label "介護サービス";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:他のきのこ a owl:Class;
+   rdfs:label "他のきのこ";
+   rdfs:subClassOf target:他の野菜 .
+
+target:他のスポーツ施設使用料 a owl:Class;
+   rdfs:label "他のスポーツ施設使用料";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:他のバッグ a owl:Class;
+   rdfs:label "他のバッグ";
+   rdfs:subClassOf target:かばん類 .
+
+target:他のパン a owl:Class;
+   rdfs:label "他のパン";
+   rdfs:subClassOf target:パン .
+
+target:他の主食的外食 a owl:Class;
+   rdfs:label "他の主食的外食";
+   rdfs:subClassOf target:食事代 .
+
+target:他の主食的調理食品 a owl:Class;
+   rdfs:label "他の主食的調理食品";
+   rdfs:subClassOf target:主食的調理食品 .
+
+target:他の乳製品 a owl:Class;
+   rdfs:label "他の乳製品";
+   rdfs:subClassOf target:乳製品 .
+
+target:他の乾物･海藻 a owl:Class;
+   rdfs:label "他の乾物･海藻";
+   rdfs:subClassOf target:乾物・海藻 .
+
+target:他の交通 a owl:Class;
+   rdfs:label "他の交通";
+   rdfs:subClassOf target:交通 .
+
+target:他の保健医療サービス a owl:Class;
+   rdfs:label "他の保健医療サービス";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:他の保健医療用品･器具 a owl:Class;
+   rdfs:label "他の保健医療用品･器具";
+   rdfs:subClassOf target:保健医療用品･器具 .
+
+target:他の光熱のその他 a owl:Class;
+   rdfs:label "他の光熱のその他";
+   rdfs:subClassOf target:他の光熱 .
+
+target:他の入場･ゲーム代 a owl:Class;
+   rdfs:label "他の入場･ゲーム代";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:他の入院料 a owl:Class;
+   rdfs:label "他の入院料";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:他の冠婚葬祭費 a owl:Class;
+   rdfs:label "他の冠婚葬祭費";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:他の冷暖房用器具 a owl:Class;
+   rdfs:label "他の冷暖房用器具";
+   rdfs:subClassOf target:冷暖房用器具 .
+
+target:他の加工肉 a owl:Class;
+   rdfs:label "他の加工肉";
+   rdfs:subClassOf target:加工肉 .
+
+target:他の化粧品 a owl:Class;
+   rdfs:label "他の化粧品";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:他の医薬品 a owl:Class;
+   rdfs:label "他の医薬品";
+   rdfs:subClassOf target:医薬品 .
+
+target:他の印刷物 a owl:Class;
+   rdfs:label "他の印刷物";
+   rdfs:subClassOf target:書籍・他の印刷物 .
+
+target:他の台所用品 a owl:Class;
+   rdfs:label "他の台所用品";
+   rdfs:subClassOf target:家事雑貨 .
+
+target:他の和生菓子 a owl:Class;
+   rdfs:label "他の和生菓子";
+   rdfs:subClassOf target:菓子類 .
+
+target:他の塩干魚介 a owl:Class;
+   rdfs:label "他の塩干魚介";
+   rdfs:subClassOf target:塩干魚介 .
+
+target:他の外用薬 a owl:Class;
+   rdfs:label "他の外用薬";
+   rdfs:subClassOf target:医薬品 .
+
+target:他の大豆製品 a owl:Class;
+   rdfs:label "他の大豆製品";
+   rdfs:subClassOf target:大豆加工品 .
+
+target:他の婦人用シャツ a owl:Class;
+   rdfs:label "他の婦人用シャツ";
+   rdfs:subClassOf target:婦人用シャツ・セーター類 .
+
+target:他の婦人用下着 a owl:Class;
+   rdfs:label "他の婦人用下着";
+   rdfs:subClassOf target:婦人用下着類 .
+
+target:他の婦人用和服 a owl:Class;
+   rdfs:label "他の婦人用和服";
+   rdfs:subClassOf target:和服 .
+
+target:他の婦人用洋服 a owl:Class;
+   rdfs:label "他の婦人用洋服";
+   rdfs:subClassOf target:婦人用洋服 .
+
+target:他の学習用文房具 a owl:Class;
+   rdfs:label "他の学習用文房具";
+   rdfs:subClassOf target:文房具 .
+
+target:他の学習用消耗品 a owl:Class;
+   rdfs:label "他の学習用消耗品";
+   rdfs:subClassOf target:文房具 .
+
+target:他の室内装備品 a owl:Class;
+   rdfs:label "他の室内装備品";
+   rdfs:subClassOf target:室内装備・装飾品 .
+
+target:他の家事用消耗品その他 a owl:Class;
+   rdfs:label "他の家事用消耗品その他";
+   rdfs:subClassOf target:他の家事用消耗品 .
+
+target:他の家事用耐久財 a owl:Class;
+   rdfs:label "他の家事用耐久財";
+   rdfs:subClassOf target:家事用耐久財 .
+
+target:他の家事雑貨 a owl:Class;
+   rdfs:label "他の家事雑貨";
+   rdfs:subClassOf target:家事雑貨 .
+
+target:他の家具 a owl:Class;
+   rdfs:label "他の家具";
+   rdfs:subClassOf target:一般家具 .
+
+target:他の家賃地代 a owl:Class;
+   rdfs:label "他の家賃地代";
+   rdfs:subClassOf target:家賃地代 .
+
+target:他の寝具類 a owl:Class;
+   rdfs:label "他の寝具類";
+   rdfs:subClassOf target:寝具類 .
+
+target:他の履物 a owl:Class;
+   rdfs:label "他の履物";
+   rdfs:subClassOf target:履物類 .
+
+target:他の工事費 a owl:Class;
+   rdfs:label "他の工事費";
+   rdfs:subClassOf target:工事その他のサービス .
+
+target:他の愛玩動物・同用品 a owl:Class;
+   rdfs:label "他の愛玩動物・同用品";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:他の愛玩動物関連サービス a owl:Class;
+   rdfs:label "他の愛玩動物関連サービス";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:他の放送受信料 a owl:Class;
+   rdfs:label "他の放送受信料";
+   rdfs:subClassOf target:放送受信料 .
+
+target:他の教育的月謝 a owl:Class;
+   rdfs:label "他の教育的月謝";
+   rdfs:subClassOf target:月謝類 .
+
+target:他の教養娯楽サービスのその他 a owl:Class;
+   rdfs:label "他の教養娯楽サービスのその他";
+   rdfs:subClassOf target:他の教養娯楽サービス .
+
+target:他の教養娯楽用品のその他 a owl:Class;
+   rdfs:label "他の教養娯楽用品のその他";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:他の教養娯楽用耐久財 a owl:Class;
+   rdfs:label "他の教養娯楽用耐久財";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:他の教養的月謝 a owl:Class;
+   rdfs:label "他の教養的月謝";
+   rdfs:subClassOf target:月謝類 .
+
+target:他の文房具 a owl:Class;
+   rdfs:label "他の文房具";
+   rdfs:subClassOf target:文房具 .
+
+target:他の月謝類 a owl:Class;
+   rdfs:label "他の月謝類";
+   rdfs:subClassOf target:月謝類 .
+
+target:他の果物 a owl:Class;
+   rdfs:label "他の果物";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:他の柑きつ類 a owl:Class;
+   rdfs:label "他の柑きつ類";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:他の根菜 a owl:Class;
+   rdfs:label "他の根菜";
+   rdfs:subClassOf target:根菜 .
+
+target:他の洋生菓子 a owl:Class;
+   rdfs:label "他の洋生菓子";
+   rdfs:subClassOf target:菓子類 .
+
+target:他の玩具 a owl:Class;
+   rdfs:label "他の玩具";
+   rdfs:subClassOf target:玩具 .
+
+target:他の理美容代 a owl:Class;
+   rdfs:label "他の理美容代";
+   rdfs:subClassOf target:理美容サービス .
+
+target:他の理美容用品 a owl:Class;
+   rdfs:label "他の理美容用品";
+   rdfs:subClassOf target:理美容用品 .
+
+target:他の生地・糸類 a owl:Class;
+   rdfs:label "他の生地・糸類";
+   rdfs:subClassOf target:生地・糸類 .
+
+target:他の生鮮肉 a owl:Class;
+   rdfs:label "他の生鮮肉";
+   rdfs:subClassOf target:生鮮肉 .
+
+target:他の男子用シャツ a owl:Class;
+   rdfs:label "他の男子用シャツ";
+   rdfs:subClassOf target:男子用シャツ・セーター類 .
+
+target:他の男子用洋服 a owl:Class;
+   rdfs:label "他の男子用洋服";
+   rdfs:subClassOf target:男子用洋服 .
+
+target:他の穀類のその他 a owl:Class;
+   rdfs:label "他の穀類のその他";
+   rdfs:subClassOf target:他の穀類 .
+
+target:他の自動車等関連サービス a owl:Class;
+   rdfs:label "他の自動車等関連サービス";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:他の茶葉 a owl:Class;
+   rdfs:label "他の茶葉";
+   rdfs:subClassOf target:茶類 .
+
+target:他の菓子 a owl:Class;
+   rdfs:label "他の菓子";
+   rdfs:subClassOf target:菓子類 .
+
+target:他の葉茎菜 a owl:Class;
+   rdfs:label "他の葉茎菜";
+   rdfs:subClassOf target:葉茎菜 .
+
+target:他の被服のその他 a owl:Class;
+   rdfs:label "他の被服のその他";
+   rdfs:subClassOf target:他の被服 .
+
+target:他の被服関連サービス a owl:Class;
+   rdfs:label "他の被服関連サービス";
+   rdfs:subClassOf target:被服関連サービス .
+
+target:他の調味料 a owl:Class;
+   rdfs:label "他の調味料";
+   rdfs:subClassOf target:調味料 .
+
+target:他の調理食品のその他 a owl:Class;
+   rdfs:label "他の調理食品のその他";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:他の諸雑費のその他 a owl:Class;
+   rdfs:label "他の諸雑費のその他";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:他の貝 a owl:Class;
+   rdfs:label "他の貝";
+   rdfs:subClassOf target:貝類 .
+
+target:他の身の回り用品 a owl:Class;
+   rdfs:label "他の身の回り用品";
+   rdfs:subClassOf target:身の回り用品 .
+
+target:他の通信機器 a owl:Class;
+   rdfs:label "他の通信機器";
+   rdfs:subClassOf target:通信 .
+
+target:他の運動用具 a owl:Class;
+   rdfs:label "他の運動用具";
+   rdfs:subClassOf target:運動用具類 .
+
+target:他の酒 a owl:Class;
+   rdfs:label "他の酒";
+   rdfs:subClassOf target:酒類 .
+
+target:他の野菜のその他 a owl:Class;
+   rdfs:label "他の野菜のその他";
+   rdfs:subClassOf target:他の野菜 .
+
+target:他の野菜の漬物 a owl:Class;
+   rdfs:label "他の野菜の漬物";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:他の野菜･海藻のつくだ煮 a owl:Class;
+   rdfs:label "他の野菜･海藻のつくだ煮";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:他の野菜･海藻加工品のその他 a owl:Class;
+   rdfs:label "他の野菜･海藻加工品のその他";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:他の電気代 a owl:Class;
+   rdfs:label "他の電気代";
+   rdfs:subClassOf target:電気代 .
+
+target:他の非貯蓄型保険料 a owl:Class;
+   rdfs:label "他の非貯蓄型保険料";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:他の食卓用品 a owl:Class;
+   rdfs:label "他の食卓用品";
+   rdfs:subClassOf target:家事雑貨 .
+
+target:他の飲料のその他 a owl:Class;
+   rdfs:label "他の飲料のその他";
+   rdfs:subClassOf target:他の飲料 .
+
+target:他の駐車場借料 a owl:Class;
+   rdfs:label "他の駐車場借料";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:他の魚介加工品のその他 a owl:Class;
+   rdfs:label "他の魚介加工品のその他";
+   rdfs:subClassOf target:他の魚介加工品 .
+
+target:他の魚肉練製品 a owl:Class;
+   rdfs:label "他の魚肉練製品";
+   rdfs:subClassOf target:魚肉練製品 .
+
+target:他の鮮魚 a owl:Class;
+   rdfs:label "他の鮮魚";
+   rdfs:subClassOf target:鮮魚 .
+
+target:他の麺類 a owl:Class;
+   rdfs:label "他の麺類";
+   rdfs:subClassOf target:麺類 .
+
+target:他の麺類外食 a owl:Class;
+   rdfs:label "他の麺類外食";
+   rdfs:subClassOf target:食事代 .
+
+target:保健用消耗品 a owl:Class;
+   rdfs:label "保健用消耗品";
+   rdfs:subClassOf target:保健医療用品･器具 .
+
+target:保育費用 a owl:Class;
+   rdfs:label "保育費用";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:信仰・祭祀費 a owl:Class;
+   rdfs:label "信仰・祭祀費";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:修繕材料 a owl:Class;
+   rdfs:label "修繕材料";
+   rdfs:subClassOf target:設備材料 .
+
+target:傘 a owl:Class;
+   rdfs:label "傘";
+   rdfs:subClassOf target:身の回り用品 .
+
+target:公営家賃 a owl:Class;
+   rdfs:label "公営家賃";
+   rdfs:subClassOf target:家賃地代 .
+
+target:写真撮影・プリント代 a owl:Class;
+   rdfs:label "写真撮影・プリント代";
+   rdfs:subClassOf target:他の教養娯楽サービス .
+
+target:冷凍調理食品 a owl:Class;
+   rdfs:label "冷凍調理食品";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:出産入院料 a owl:Class;
+   rdfs:label "出産入院料";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:切り花 a owl:Class;
+   rdfs:label "切り花";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:動物病院代 a owl:Class;
+   rdfs:label "動物病院代";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:化粧クリーム a owl:Class;
+   rdfs:label "化粧クリーム";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:化粧水 a owl:Class;
+   rdfs:label "化粧水";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:医療保険料 a owl:Class;
+   rdfs:label "医療保険料";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:医科診療代 a owl:Class;
+   rdfs:label "医科診療代";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:即席麺 a owl:Class;
+   rdfs:label "即席麺";
+   rdfs:subClassOf target:麺類 .
+
+target:卵 a owl:Class;
+   rdfs:label "卵";
+   rdfs:subClassOf target:乳卵類 .
+
+target:口紅 a owl:Class;
+   rdfs:label "口紅";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:台所・住居用洗剤 a owl:Class;
+   rdfs:label "台所・住居用洗剤";
+   rdfs:subClassOf target:洗剤 .
+
+target:合いびき肉 a owl:Class;
+   rdfs:label "合いびき肉";
+   rdfs:subClassOf target:生鮮肉 .
+
+target:和食 a owl:Class;
+   rdfs:label "和食";
+   rdfs:subClassOf target:食事代 .
+
+target:喫茶代 a owl:Class;
+   rdfs:label "喫茶代";
+   rdfs:subClassOf target:一般外食 .
+
+target:固定電話通信料 a owl:Class;
+   rdfs:label "固定電話通信料";
+   rdfs:subClassOf target:通信 .
+
+target:国公立中学校 a owl:Class;
+   rdfs:label "国公立中学校";
+   rdfs:subClassOf target:授業料等 .
+
+target:国公立大学 a owl:Class;
+   rdfs:label "国公立大学";
+   rdfs:subClassOf target:授業料等 .
+
+target:国公立小学校 a owl:Class;
+   rdfs:label "国公立小学校";
+   rdfs:subClassOf target:授業料等 .
+
+target:国公立高校 a owl:Class;
+   rdfs:label "国公立高校";
+   rdfs:subClassOf target:授業料等 .
+
+target:国内パック旅行費 a owl:Class;
+   rdfs:label "国内パック旅行費";
+   rdfs:subClassOf target:パック旅行費 .
+
+target:園芸用品 a owl:Class;
+   rdfs:label "園芸用品";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:園芸用植物 a owl:Class;
+   rdfs:label "園芸用植物";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:地代 a owl:Class;
+   rdfs:label "地代";
+   rdfs:subClassOf target:家賃地代 .
+
+target:塩さけ a owl:Class;
+   rdfs:label "塩さけ";
+   rdfs:subClassOf target:塩干魚介 .
+
+target:外傷・皮膚病薬 a owl:Class;
+   rdfs:label "外傷・皮膚病薬";
+   rdfs:subClassOf target:医薬品 .
+
+target:外国パック旅行費 a owl:Class;
+   rdfs:label "外国パック旅行費";
+   rdfs:subClassOf target:パック旅行費 .
+
+target:外壁・塀等工事費 a owl:Class;
+   rdfs:label "外壁・塀等工事費";
+   rdfs:subClassOf target:工事その他のサービス .
+
+target:天ぷら・フライ a owl:Class;
+   rdfs:label "天ぷら・フライ";
+   rdfs:subClassOf target:他の調理食品 .
+
+target:女子用学校制服 a owl:Class;
+   rdfs:label "女子用学校制服";
+   rdfs:subClassOf target:婦人用洋服 .
+
+target:婚礼関係費 a owl:Class;
+   rdfs:label "婚礼関係費";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:婦人服 a owl:Class;
+   rdfs:label "婦人服";
+   rdfs:subClassOf target:婦人用洋服 .
+
+target:婦人用コート a owl:Class;
+   rdfs:label "婦人用コート";
+   rdfs:subClassOf target:婦人用洋服 .
+
+target:婦人用ストッキング a owl:Class;
+   rdfs:label "婦人用ストッキング";
+   rdfs:subClassOf target:他の被服 .
+
+target:婦人用スラックス a owl:Class;
+   rdfs:label "婦人用スラックス";
+   rdfs:subClassOf target:婦人用洋服 .
+
+target:婦人用セーター a owl:Class;
+   rdfs:label "婦人用セーター";
+   rdfs:subClassOf target:婦人用シャツ・セーター類 .
+
+target:婦人用ソックス a owl:Class;
+   rdfs:label "婦人用ソックス";
+   rdfs:subClassOf target:他の被服 .
+
+target:婦人用ファンデーション a owl:Class;
+   rdfs:label "婦人用ファンデーション";
+   rdfs:subClassOf target:婦人用下着類 .
+
+target:婦人用上着 a owl:Class;
+   rdfs:label "婦人用上着";
+   rdfs:subClassOf target:婦人用洋服 .
+
+target:婦人用寝巻き a owl:Class;
+   rdfs:label "婦人用寝巻き";
+   rdfs:subClassOf target:婦人用下着類 .
+
+target:婦人用帯 a owl:Class;
+   rdfs:label "婦人用帯";
+   rdfs:subClassOf target:和服 .
+
+target:婦人用着物 a owl:Class;
+   rdfs:label "婦人用着物";
+   rdfs:subClassOf target:和服 .
+
+target:婦人靴 a owl:Class;
+   rdfs:label "婦人靴";
+   rdfs:subClassOf target:履物類 .
+
+target:子供服 a owl:Class;
+   rdfs:label "子供服";
+   rdfs:subClassOf target:子供用洋服 .
+
+target:子供用シャツ a owl:Class;
+   rdfs:label "子供用シャツ";
+   rdfs:subClassOf target:子供用シャツ・セーター類 .
+
+target:子供用セーター a owl:Class;
+   rdfs:label "子供用セーター";
+   rdfs:subClassOf target:子供用シャツ・セーター類 .
+
+target:子供用下着 a owl:Class;
+   rdfs:label "子供用下着";
+   rdfs:subClassOf target:子供用下着類 .
+
+target:子供用和服 a owl:Class;
+   rdfs:label "子供用和服";
+   rdfs:subClassOf target:和服 .
+
+target:子供用寝巻き a owl:Class;
+   rdfs:label "子供用寝巻き";
+   rdfs:subClassOf target:子供用下着類 .
+
+target:子供用靴下 a owl:Class;
+   rdfs:label "子供用靴下";
+   rdfs:subClassOf target:他の被服 .
+
+target:子供靴 a owl:Class;
+   rdfs:label "子供靴";
+   rdfs:subClassOf target:履物類 .
+
+target:学校給食 a owl:Class;
+   rdfs:label "学校給食";
+   rdfs:subClassOf target:外食 .
+
+target:学習参考教材 a owl:Class;
+   rdfs:label "学習参考教材";
+   rdfs:subClassOf target:教科書･学習参考教材 .
+
+target:室内装飾品 a owl:Class;
+   rdfs:label "室内装飾品";
+   rdfs:subClassOf target:室内装備・装飾品 .
+
+target:家事代行料 a owl:Class;
+   rdfs:label "家事代行料";
+   rdfs:subClassOf target:家事サービス .
+
+target:家事月謝 a owl:Class;
+   rdfs:label "家事月謝";
+   rdfs:subClassOf target:月謝類 .
+
+target:家具・家事用品関連サービス a owl:Class;
+   rdfs:label "家具・家事用品関連サービス";
+   rdfs:subClassOf target:家事サービス .
+
+target:宿泊料 a owl:Class;
+   rdfs:label "宿泊料";
+   rdfs:subClassOf target:教養娯楽サービス .
+
+target:寄付金 a owl:Class;
+   rdfs:label "寄付金";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:専修学校 a owl:Class;
+   rdfs:label "専修学校";
+   rdfs:subClassOf target:授業料等 .
+
+target:小麦粉 a owl:Class;
+   rdfs:label "小麦粉";
+   rdfs:subClassOf target:他の穀類 .
+
+target:布団 a owl:Class;
+   rdfs:label "布団";
+   rdfs:subClassOf target:寝具類 .
+
+target:帽子 a owl:Class;
+   rdfs:label "帽子";
+   rdfs:subClassOf target:他の被服 .
+
+target:干しあじ a owl:Class;
+   rdfs:label "干しあじ";
+   rdfs:subClassOf target:塩干魚介 .
+
+target:干ししいたけ a owl:Class;
+   rdfs:label "干ししいたけ";
+   rdfs:subClassOf target:乾物・海藻 .
+
+target:干しのり a owl:Class;
+   rdfs:label "干しのり";
+   rdfs:subClassOf target:乾物・海藻 .
+
+target:年極・月極駐車場借料 a owl:Class;
+   rdfs:label "年極・月極駐車場借料";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:幼児・小学校補習教育 a owl:Class;
+   rdfs:label "幼児・小学校補習教育";
+   rdfs:subClassOf target:補習教育 .
+
+target:幼児教育費用 a owl:Class;
+   rdfs:label "幼児教育費用";
+   rdfs:subClassOf target:授業料等 .
+
+target:弁当 a owl:Class;
+   rdfs:label "弁当";
+   rdfs:subClassOf target:主食的調理食品 .
+
+target:応接セット a owl:Class;
+   rdfs:label "応接セット";
+   rdfs:subClassOf target:一般家具 .
+
+target:感冒薬 a owl:Class;
+   rdfs:label "感冒薬";
+   rdfs:subClassOf target:医薬品 .
+
+target:手芸・工芸材料 a owl:Class;
+   rdfs:label "手芸・工芸材料";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:手袋 a owl:Class;
+   rdfs:label "手袋";
+   rdfs:subClassOf target:他の被服 .
+
+target:揚げかまぼこ a owl:Class;
+   rdfs:label "揚げかまぼこ";
+   rdfs:subClassOf target:魚肉練製品 .
+
+target:携帯型音楽・映像用機器 a owl:Class;
+   rdfs:label "携帯型音楽・映像用機器";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:教科書 a owl:Class;
+   rdfs:label "教科書";
+   rdfs:subClassOf target:教科書･学習参考教材 .
+
+target:教養娯楽用品修理代 a owl:Class;
+   rdfs:label "教養娯楽用品修理代";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:教養娯楽用耐久財修理代 a owl:Class;
+   rdfs:label "教養娯楽用耐久財修理代";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:教養娯楽賃借料 a owl:Class;
+   rdfs:label "教養娯楽賃借料";
+   rdfs:subClassOf target:他の教養娯楽サービス .
+
+target:整骨（接骨）・鍼灸院治療代 a owl:Class;
+   rdfs:label "整骨（接骨）・鍼灸院治療代";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:整髪・養毛剤 a owl:Class;
+   rdfs:label "整髪・養毛剤";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:敷布 a owl:Class;
+   rdfs:label "敷布";
+   rdfs:subClassOf target:寝具類 .
+
+target:敷物 a owl:Class;
+   rdfs:label "敷物";
+   rdfs:subClassOf target:室内装備・装飾品 .
+
+target:文化施設入場料 a owl:Class;
+   rdfs:label "文化施設入場料";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:新聞 a owl:Class;
+   rdfs:label "新聞";
+   rdfs:subClassOf target:書籍・他の印刷物 .
+
+target:旅行用かばん a owl:Class;
+   rdfs:label "旅行用かばん";
+   rdfs:subClassOf target:かばん類 .
+
+target:日本そば・うどん a owl:Class;
+   rdfs:label "日本そば・うどん";
+   rdfs:subClassOf target:食事代 .
+
+target:映画・演劇等入場料 a owl:Class;
+   rdfs:label "映画・演劇等入場料";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:書斎・学習用机・椅子 a owl:Class;
+   rdfs:label "書斎・学習用机・椅子";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:書籍 a owl:Class;
+   rdfs:label "書籍";
+   rdfs:subClassOf target:書籍・他の印刷物 .
+
+target:有料道路料 a owl:Class;
+   rdfs:label "有料道路料";
+   rdfs:subClassOf target:交通 .
+
+target:果実・野菜ジュース a owl:Class;
+   rdfs:label "果実・野菜ジュース";
+   rdfs:subClassOf target:他の飲料 .
+
+target:果物加工品 a owl:Class;
+   rdfs:label "果物加工品";
+   rdfs:subClassOf target:果物 .
+
+target:柔軟仕上剤 a owl:Class;
+   rdfs:label "柔軟仕上剤";
+   rdfs:subClassOf target:他の家事用消耗品 .
+
+target:柿 a owl:Class;
+   rdfs:label "柿";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:栄養剤 a owl:Class;
+   rdfs:label "栄養剤";
+   rdfs:subClassOf target:医薬品 .
+
+target:桃 a owl:Class;
+   rdfs:label "桃";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:梅干し a owl:Class;
+   rdfs:label "梅干し";
+   rdfs:subClassOf target:他の野菜･海藻加工品 .
+
+target:梨 a owl:Class;
+   rdfs:label "梨";
+   rdfs:subClassOf target:生鮮果物 .
+
+target:植木・庭手入れ代 a owl:Class;
+   rdfs:label "植木・庭手入れ代";
+   rdfs:subClassOf target:工事その他のサービス .
+
+target:楽器 a owl:Class;
+   rdfs:label "楽器";
+   rdfs:subClassOf target:教養娯楽用耐久財 .
+
+target:歯ブラシ a owl:Class;
+   rdfs:label "歯ブラシ";
+   rdfs:subClassOf target:理美容用品 .
+
+target:歯磨き a owl:Class;
+   rdfs:label "歯磨き";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:歯科診療代 a owl:Class;
+   rdfs:label "歯科診療代";
+   rdfs:subClassOf target:保健医療サービス .
+
+target:殺虫･防虫剤 a owl:Class;
+   rdfs:label "殺虫･防虫剤";
+   rdfs:subClassOf target:他の家事用消耗品 .
+
+target:毛布 a owl:Class;
+   rdfs:label "毛布";
+   rdfs:subClassOf target:寝具類 .
+
+target:民営家賃 a owl:Class;
+   rdfs:label "民営家賃";
+   rdfs:subClassOf target:家賃地代 .
+
+target:油揚げ・がんもどき a owl:Class;
+   rdfs:label "油揚げ・がんもどき";
+   rdfs:subClassOf target:大豆加工品 .
+
+target:洋食 a owl:Class;
+   rdfs:label "洋食";
+   rdfs:subClassOf target:食事代 .
+
+target:洗濯代 a owl:Class;
+   rdfs:label "洗濯代";
+   rdfs:subClassOf target:被服関連サービス .
+
+target:洗濯用洗剤 a owl:Class;
+   rdfs:label "洗濯用洗剤";
+   rdfs:subClassOf target:洗剤 .
+
+target:浴用・洗顔石けん a owl:Class;
+   rdfs:label "浴用・洗顔石けん";
+   rdfs:subClassOf target:石けん類・化粧品 .
+
+target:深夜電力電気代 a owl:Class;
+   rdfs:label "深夜電力電気代";
+   rdfs:subClassOf target:電気代 .
+
+target:清掃代 a owl:Class;
+   rdfs:label "清掃代";
+   rdfs:subClassOf target:家事サービス .
+
+target:清酒 a owl:Class;
+   rdfs:label "清酒";
+   rdfs:subClassOf target:酒類 .
+
+target:温泉・銭湯入浴料 a owl:Class;
+   rdfs:label "温泉・銭湯入浴料";
+   rdfs:subClassOf target:理美容サービス .
+
+target:火災・地震保険料 a owl:Class;
+   rdfs:label "火災・地震保険料";
+   rdfs:subClassOf target:工事その他のサービス .
+
+target:灯油 a owl:Class;
+   rdfs:label "灯油";
+   rdfs:subClassOf target:他の光熱 .
+
+target:炊事用ガス器具 a owl:Class;
+   rdfs:label "炊事用ガス器具";
+   rdfs:subClassOf target:家事用耐久財 .
+
+target:炊事用電気器具 a owl:Class;
+   rdfs:label "炊事用電気器具";
+   rdfs:subClassOf target:家事用耐久財 .
+
+target:炭酸飲料 a owl:Class;
+   rdfs:label "炭酸飲料";
+   rdfs:subClassOf target:他の飲料 .
+
+target:焼肉 a owl:Class;
+   rdfs:label "焼肉";
+   rdfs:subClassOf target:食事代 .
+
+target:焼酎 a owl:Class;
+   rdfs:label "焼酎";
+   rdfs:subClassOf target:酒類 .
+
+target:照明器具 a owl:Class;
+   rdfs:label "照明器具";
+   rdfs:subClassOf target:室内装備・装飾品 .
+
+target:牛乳 a owl:Class;
+   rdfs:label "牛乳";
+   rdfs:subClassOf target:乳卵類 .
+
+target:牛肉 a owl:Class;
+   rdfs:label "牛肉";
+   rdfs:subClassOf target:生鮮肉 .
+
+target:理美容用電気器具 a owl:Class;
+   rdfs:label "理美容用電気器具";
+   rdfs:subClassOf target:理美容用品 .
+
+target:理髪料 a owl:Class;
+   rdfs:label "理髪料";
+   rdfs:subClassOf target:理美容サービス .
+
+target:生うどん・そば a owl:Class;
+   rdfs:label "生うどん・そば";
+   rdfs:subClassOf target:麺類 .
+
+target:生しいたけ a owl:Class;
+   rdfs:label "生しいたけ";
+   rdfs:subClassOf target:他の野菜 .
+
+target:男子用コート a owl:Class;
+   rdfs:label "男子用コート";
+   rdfs:subClassOf target:男子用洋服 .
+
+target:男子用ズボン a owl:Class;
+   rdfs:label "男子用ズボン";
+   rdfs:subClassOf target:男子用洋服 .
+
+target:男子用セーター a owl:Class;
+   rdfs:label "男子用セーター";
+   rdfs:subClassOf target:男子用シャツ・セーター類 .
+
+target:男子用上着 a owl:Class;
+   rdfs:label "男子用上着";
+   rdfs:subClassOf target:男子用洋服 .
+
+target:男子用下着 a owl:Class;
+   rdfs:label "男子用下着";
+   rdfs:subClassOf target:男子用下着類 .
+
+target:男子用和服 a owl:Class;
+   rdfs:label "男子用和服";
+   rdfs:subClassOf target:和服 .
+
+target:男子用学校制服 a owl:Class;
+   rdfs:label "男子用学校制服";
+   rdfs:subClassOf target:男子用洋服 .
+
+target:男子用寝巻き a owl:Class;
+   rdfs:label "男子用寝巻き";
+   rdfs:subClassOf target:男子用下着類 .
+
+target:男子用靴下 a owl:Class;
+   rdfs:label "男子用靴下";
+   rdfs:subClassOf target:他の被服 .
+
+target:男子靴 a owl:Class;
+   rdfs:label "男子靴";
+   rdfs:subClassOf target:履物類 .
+
+target:畳替え a owl:Class;
+   rdfs:label "畳替え";
+   rdfs:subClassOf target:工事その他のサービス .
+
+target:発泡酒･ビール風アルコール飲料 a owl:Class;
+   rdfs:label "発泡酒･ビール風アルコール飲料";
+   rdfs:subClassOf target:酒類 .
+
+target:眼鏡 a owl:Class;
+   rdfs:label "眼鏡";
+   rdfs:subClassOf target:保健医療用品･器具 .
+
+target:着尺地・生地 a owl:Class;
+   rdfs:label "着尺地・生地";
+   rdfs:subClassOf target:生地・糸類 .
+
+target:砂糖 a owl:Class;
+   rdfs:label "砂糖";
+   rdfs:subClassOf target:調味料 .
+
+target:祭具・墓石 a owl:Class;
+   rdfs:label "祭具・墓石";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:私立中学校 a owl:Class;
+   rdfs:label "私立中学校";
+   rdfs:subClassOf target:授業料等 .
+
+target:私立大学 a owl:Class;
+   rdfs:label "私立大学";
+   rdfs:subClassOf target:授業料等 .
+
+target:私立小学校 a owl:Class;
+   rdfs:label "私立小学校";
+   rdfs:subClassOf target:授業料等 .
+
+target:私立高校 a owl:Class;
+   rdfs:label "私立高校";
+   rdfs:subClassOf target:授業料等 .
+
+target:移動電話 a owl:Class;
+   rdfs:label "移動電話";
+   rdfs:subClassOf target:通信 .
+
+target:移動電話通信料 a owl:Class;
+   rdfs:label "移動電話通信料";
+   rdfs:subClassOf target:通信 .
+
+target:筆記・絵画用具 a owl:Class;
+   rdfs:label "筆記・絵画用具";
+   rdfs:subClassOf target:文房具 .
+
+target:米 a owl:Class;
+   rdfs:label "米";
+   rdfs:subClassOf target:穀類 .
+
+target:粉ミルク a owl:Class;
+   rdfs:label "粉ミルク";
+   rdfs:subClassOf target:乳製品 .
+
+target:紅茶 a owl:Class;
+   rdfs:label "紅茶";
+   rdfs:subClassOf target:茶類 .
+
+target:納豆 a owl:Class;
+   rdfs:label "納豆";
+   rdfs:subClassOf target:大豆加工品 .
+
+target:紙おむつ a owl:Class;
+   rdfs:label "紙おむつ";
+   rdfs:subClassOf target:保健医療用品･器具 .
+
+target:給与住宅家賃 a owl:Class;
+   rdfs:label "給与住宅家賃";
+   rdfs:subClassOf target:家賃地代 .
+
+target:給排水関係工事費 a owl:Class;
+   rdfs:label "給排水関係工事費";
+   rdfs:subClassOf target:工事その他のサービス .
+
+target:緑茶 a owl:Class;
+   rdfs:label "緑茶";
+   rdfs:subClassOf target:茶類 .
+
+target:胃腸薬 a owl:Class;
+   rdfs:label "胃腸薬";
+   rdfs:subClassOf target:医薬品 .
+
+target:背広服 a owl:Class;
+   rdfs:label "背広服";
+   rdfs:subClassOf target:男子用洋服 .
+
+target:腕時計 a owl:Class;
+   rdfs:label "腕時計";
+   rdfs:subClassOf target:身の回り用品 .
+
+target:自動車以外の輸送機器整備費 a owl:Class;
+   rdfs:label "自動車以外の輸送機器整備費";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:自動車以外の輸送機器購入 a owl:Class;
+   rdfs:label "自動車以外の輸送機器購入";
+   rdfs:subClassOf target:自動車等購入 .
+
+<http://tp.lodac.nii.ac.jp/target/自動車保険料(任意)> a owl:Class;
+   rdfs:label "自動車保険料(任意)";
+   rdfs:subClassOf target:自動車等維持 .
+
+<http://tp.lodac.nii.ac.jp/target/自動車保険料(自賠責)> a owl:Class;
+   rdfs:label "自動車保険料(自賠責)";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:自動車保険料以外の輸送機器保険料 a owl:Class;
+   rdfs:label "自動車保険料以外の輸送機器保険料";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:自動車教習料 a owl:Class;
+   rdfs:label "自動車教習料";
+   rdfs:subClassOf target:月謝類 .
+
+target:自動車整備費 a owl:Class;
+   rdfs:label "自動車整備費";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:自動車等部品 a owl:Class;
+   rdfs:label "自動車等部品";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:自動車等関連用品 a owl:Class;
+   rdfs:label "自動車等関連用品";
+   rdfs:subClassOf target:自動車等維持 .
+
+target:自動車購入 a owl:Class;
+   rdfs:label "自動車購入";
+   rdfs:subClassOf target:自動車等購入 .
+
+target:航空運賃 a owl:Class;
+   rdfs:label "航空運賃";
+   rdfs:subClassOf target:交通 .
+
+target:芳香・消臭剤 a owl:Class;
+   rdfs:label "芳香・消臭剤";
+   rdfs:subClassOf target:他の家事用消耗品 .
+
+target:茶わん・皿・鉢 a owl:Class;
+   rdfs:label "茶わん・皿・鉢";
+   rdfs:subClassOf target:家事雑貨 .
+
+target:茶飲料 a owl:Class;
+   rdfs:label "茶飲料";
+   rdfs:subClassOf target:茶類 .
+
+target:葬儀関係費 a owl:Class;
+   rdfs:label "葬儀関係費";
+   rdfs:subClassOf target:他の諸雑費 .
+
+target:被服賃借料 a owl:Class;
+   rdfs:label "被服賃借料";
+   rdfs:subClassOf target:被服関連サービス .
+
+target:装身具 a owl:Class;
+   rdfs:label "装身具";
+   rdfs:subClassOf target:身の回り用品 .
+
+target:設備器具 a owl:Class;
+   rdfs:label "設備器具";
+   rdfs:subClassOf target:設備材料 .
+
+target:語学月謝 a owl:Class;
+   rdfs:label "語学月謝";
+   rdfs:subClassOf target:月謝類 .
+
+target:調理パン a owl:Class;
+   rdfs:label "調理パン";
+   rdfs:subClassOf target:主食的調理食品 .
+
+target:諸会費 a owl:Class;
+   rdfs:label "諸会費";
+   rdfs:subClassOf target:他の教養娯楽サービス .
+
+target:豆腐 a owl:Class;
+   rdfs:label "豆腐";
+   rdfs:subClassOf target:大豆加工品 .
+
+target:豆類 a owl:Class;
+   rdfs:label "豆類";
+   rdfs:subClassOf target:乾物・海藻 .
+
+target:豚肉 a owl:Class;
+   rdfs:label "豚肉";
+   rdfs:subClassOf target:生鮮肉 .
+
+target:賄い費 a owl:Class;
+   rdfs:label "賄い費";
+   rdfs:subClassOf target:食料 .
+
+target:身の回り用品関連サービス a owl:Class;
+   rdfs:label "身の回り用品関連サービス";
+   rdfs:subClassOf target:身の回り用品 .
+
+target:通学用かばん a owl:Class;
+   rdfs:label "通学用かばん";
+   rdfs:subClassOf target:かばん類 .
+
+target:遊園地入場・乗物代 a owl:Class;
+   rdfs:label "遊園地入場・乗物代";
+   rdfs:subClassOf target:入場・観覧・ゲーム代 .
+
+target:運動靴 a owl:Class;
+   rdfs:label "運動靴";
+   rdfs:subClassOf target:履物類 .
+
+target:運送料 a owl:Class;
+   rdfs:label "運送料";
+   rdfs:subClassOf target:通信 .
+
+target:郵便料 a owl:Class;
+   rdfs:label "郵便料";
+   rdfs:subClassOf target:通信 .
+
+target:都市ガス a owl:Class;
+   rdfs:label "都市ガス";
+   rdfs:subClassOf target:ガス代 .
+
+target:酢 a owl:Class;
+   rdfs:label "酢";
+   rdfs:subClassOf target:調味料 .
+
+target:鉄道通勤定期代 a owl:Class;
+   rdfs:label "鉄道通勤定期代";
+   rdfs:subClassOf target:交通 .
+
+target:鉄道通学定期代 a owl:Class;
+   rdfs:label "鉄道通学定期代";
+   rdfs:subClassOf target:交通 .
+
+target:鉄道運賃 a owl:Class;
+   rdfs:label "鉄道運賃";
+   rdfs:subClassOf target:交通 .
+
+target:鍋・やかん a owl:Class;
+   rdfs:label "鍋・やかん";
+   rdfs:subClassOf target:家事雑貨 .
+
+target:雑誌（週刊誌を含む） a owl:Class;
+   rdfs:label "雑誌（週刊誌を含む）";
+   rdfs:subClassOf target:書籍・他の印刷物 .
+
+target:電子レンジ a owl:Class;
+   rdfs:label "電子レンジ";
+   rdfs:subClassOf target:家事用耐久財 .
+
+target:電気冷蔵庫 a owl:Class;
+   rdfs:label "電気冷蔵庫";
+   rdfs:subClassOf target:家事用耐久財 .
+
+target:電気掃除機 a owl:Class;
+   rdfs:label "電気掃除機";
+   rdfs:subClassOf target:家事用耐久財 .
+
+target:電気洗濯機 a owl:Class;
+   rdfs:label "電気洗濯機";
+   rdfs:subClassOf target:家事用耐久財 .
+
+target:電池 a owl:Class;
+   rdfs:label "電池";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:電球・ランプ a owl:Class;
+   rdfs:label "電球・ランプ";
+   rdfs:subClassOf target:家事雑貨 .
+
+target:音楽・映像収録済メディア a owl:Class;
+   rdfs:label "音楽・映像収録済メディア";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:音楽・映像用未使用メディア a owl:Class;
+   rdfs:label "音楽・映像用未使用メディア";
+   rdfs:subClassOf target:他の教養娯楽用品 .
+
+target:音楽月謝 a owl:Class;
+   rdfs:label "音楽月謝";
+   rdfs:subClassOf target:月謝類 .
+
+target:風味調味料 a owl:Class;
+   rdfs:label "風味調味料";
+   rdfs:subClassOf target:調味料 .
+
+target:食パン a owl:Class;
+   rdfs:label "食パン";
+   rdfs:subClassOf target:パン .
+
+target:食卓セット a owl:Class;
+   rdfs:label "食卓セット";
+   rdfs:subClassOf target:一般家具 .
+
+target:食器戸棚 a owl:Class;
+   rdfs:label "食器戸棚";
+   rdfs:subClassOf target:一般家具 .
+
+target:食塩 a owl:Class;
+   rdfs:label "食塩";
+   rdfs:subClassOf target:調味料 .
+
+target:食用油 a owl:Class;
+   rdfs:label "食用油";
+   rdfs:subClassOf target:油脂 .
+
+target:飲酒代 a owl:Class;
+   rdfs:label "飲酒代";
+   rdfs:subClassOf target:一般外食 .
+
+target:高校補習教育・予備校 a owl:Class;
+   rdfs:label "高校補習教育・予備校";
+   rdfs:subClassOf target:補習教育 .
+
+target:魚介のつくだ煮 a owl:Class;
+   rdfs:label "魚介のつくだ煮";
+   rdfs:subClassOf target:他の魚介加工品 .
+
+target:魚介の漬物 a owl:Class;
+   rdfs:label "魚介の漬物";
+   rdfs:subClassOf target:他の魚介加工品 .
+
+target:魚介の缶詰 a owl:Class;
+   rdfs:label "魚介の缶詰";
+   rdfs:subClassOf target:他の魚介加工品 .
+
+target:鶏肉 a owl:Class;
+   rdfs:label "鶏肉";
+   rdfs:subClassOf target:生鮮肉 .
+
+target:その他の消費支出 a owl:Class;
+   rdfs:label "その他の消費支出";
+   rdfs:subClassOf target:購買対象 .
+
+target:健康保持用摂取品 a owl:Class;
+   rdfs:label "健康保持用摂取品";
+   rdfs:subClassOf target:保健医療,
+     target:健康保持用摂取品 .
+
+target:自転車購入 a owl:Class;
+   rdfs:label "自転車購入";
+   rdfs:subClassOf target:自動車等関係費,
+     target:自転車購入 .
+
+target:ガス代 a owl:Class;
+   rdfs:label "ガス代";
+   rdfs:subClassOf target:光熱・水道 .
+
+target:ティッシュペーパー・トイレットペーパー a owl:Class;
+   rdfs:label "ティッシュペーパー・トイレットペーパー";
+   rdfs:subClassOf target:家事用消耗品 .
+
+target:パック旅行費 a owl:Class;
+   rdfs:label "パック旅行費";
+   rdfs:subClassOf target:教養娯楽サービス .
+
+target:パン a owl:Class;
+   rdfs:label "パン";
+   rdfs:subClassOf target:穀類 .
+
+target:他の光熱 a owl:Class;
+   rdfs:label "他の光熱";
+   rdfs:subClassOf target:光熱・水道 .
+
+target:住居 a owl:Class;
+   rdfs:label "住居";
+   rdfs:subClassOf target:購買対象 .
+
+target:外食 a owl:Class;
+   rdfs:label "外食";
+   rdfs:subClassOf target:食料 .
+
+target:子供用シャツ・セーター類 a owl:Class;
+   rdfs:label "子供用シャツ・セーター類";
+   rdfs:subClassOf target:シャツ・セーター類 .
+
+target:子供用下着類 a owl:Class;
+   rdfs:label "子供用下着類";
+   rdfs:subClassOf target:下着類 .
+
+target:子供用洋服 a owl:Class;
+   rdfs:label "子供用洋服";
+   rdfs:subClassOf target:洋服 .
+
+target:教科書･学習参考教材 a owl:Class;
+   rdfs:label "教科書･学習参考教材";
+   rdfs:subClassOf target:教育 .
+
+target:果物 a owl:Class;
+   rdfs:label "果物";
+   rdfs:subClassOf target:食料 .
+
+target:油脂 a owl:Class;
+   rdfs:label "油脂";
+   rdfs:subClassOf target:油脂・調味料 .
+
+target:油脂・調味料 a owl:Class;
+   rdfs:label "油脂・調味料";
+   rdfs:subClassOf target:食料 .
+
+target:洗剤 a owl:Class;
+   rdfs:label "洗剤";
+   rdfs:subClassOf target:家事用消耗品 .
+
+target:生地・糸類 a owl:Class;
+   rdfs:label "生地・糸類";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:生鮮魚介 a owl:Class;
+   rdfs:label "生鮮魚介";
+   rdfs:subClassOf target:魚介類 .
+
+target:男子用下着類 a owl:Class;
+   rdfs:label "男子用下着類";
+   rdfs:subClassOf target:下着類 .
+
+target:肉類 a owl:Class;
+   rdfs:label "肉類";
+   rdfs:subClassOf target:食料 .
+
+target:自動車等購入 a owl:Class;
+   rdfs:label "自動車等購入";
+   rdfs:subClassOf target:自動車等関係費 .
+
+target:設備修繕･維持 a owl:Class;
+   rdfs:label "設備修繕･維持";
+   rdfs:subClassOf target:住居 .
+
+target:設備材料 a owl:Class;
+   rdfs:label "設備材料";
+   rdfs:subClassOf target:設備修繕･維持 .
+
+target:調理食品 a owl:Class;
+   rdfs:label "調理食品";
+   rdfs:subClassOf target:食料 .
+
+target:電気代 a owl:Class;
+   rdfs:label "電気代";
+   rdfs:subClassOf target:光熱・水道 .
+
+target:コーヒー・ココア a owl:Class;
+   rdfs:label "コーヒー・ココア";
+   rdfs:subClassOf target:飲料 .
+
+target:シャツ・セーター類 a owl:Class;
+   rdfs:label "シャツ・セーター類";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:一般外食 a owl:Class;
+   rdfs:label "一般外食";
+   rdfs:subClassOf target:外食 .
+
+target:下着類 a owl:Class;
+   rdfs:label "下着類";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:乳卵類 a owl:Class;
+   rdfs:label "乳卵類";
+   rdfs:subClassOf target:食料 .
+
+target:交通・通信 a owl:Class;
+   rdfs:label "交通・通信";
+   rdfs:subClassOf target:購買対象 .
+
+target:他の穀類 a owl:Class;
+   rdfs:label "他の穀類";
+   rdfs:subClassOf target:穀類 .
+
+target:冷暖房用器具 a owl:Class;
+   rdfs:label "冷暖房用器具";
+   rdfs:subClassOf target:家庭用耐久財 .
+
+target:婦人用シャツ・セーター類 a owl:Class;
+   rdfs:label "婦人用シャツ・セーター類";
+   rdfs:subClassOf target:シャツ・セーター類 .
+
+target:婦人用下着類 a owl:Class;
+   rdfs:label "婦人用下着類";
+   rdfs:subClassOf target:下着類 .
+
+target:家事サービス a owl:Class;
+   rdfs:label "家事サービス";
+   rdfs:subClassOf target:家具・家事用品 .
+
+target:家事用消耗品 a owl:Class;
+   rdfs:label "家事用消耗品";
+   rdfs:subClassOf target:家具・家事用品 .
+
+target:家庭用耐久財 a owl:Class;
+   rdfs:label "家庭用耐久財";
+   rdfs:subClassOf target:家具・家事用品 .
+
+target:放送受信料 a owl:Class;
+   rdfs:label "放送受信料";
+   rdfs:subClassOf target:他の教養娯楽サービス .
+
+target:教育 a owl:Class;
+   rdfs:label "教育";
+   rdfs:subClassOf target:購買対象 .
+
+target:洋服 a owl:Class;
+   rdfs:label "洋服";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:玩具 a owl:Class;
+   rdfs:label "玩具";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:理美容用品 a owl:Class;
+   rdfs:label "理美容用品";
+   rdfs:subClassOf target:諸雑費 .
+
+target:生鮮野菜 a owl:Class;
+   rdfs:label "生鮮野菜";
+   rdfs:subClassOf target:野菜・海藻 .
+
+target:男子用シャツ・セーター類 a owl:Class;
+   rdfs:label "男子用シャツ・セーター類";
+   rdfs:subClassOf target:シャツ・セーター類 .
+
+target:自動車等関係費 a owl:Class;
+   rdfs:label "自動車等関係費";
+   rdfs:subClassOf target:交通・通信 .
+
+target:被服関連サービス a owl:Class;
+   rdfs:label "被服関連サービス";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:補習教育 a owl:Class;
+   rdfs:label "補習教育";
+   rdfs:subClassOf target:教育 .
+
+target:運動用具類 a owl:Class;
+   rdfs:label "運動用具類";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:飲料 a owl:Class;
+   rdfs:label "飲料";
+   rdfs:subClassOf target:食料 .
+
+target:かばん類 a owl:Class;
+   rdfs:label "かばん類";
+   rdfs:subClassOf target:身の回り用品 .
+
+target:保健医療 a owl:Class;
+   rdfs:label "保健医療";
+   rdfs:subClassOf target:購買対象 .
+
+target:光熱・水道 a owl:Class;
+   rdfs:label "光熱・水道";
+   rdfs:subClassOf target:購買対象 .
+
+target:加工肉 a owl:Class;
+   rdfs:label "加工肉";
+   rdfs:subClassOf target:肉類 .
+
+target:大豆加工品 a owl:Class;
+   rdfs:label "大豆加工品";
+   rdfs:subClassOf target:野菜・海藻 .
+
+target:教養娯楽 a owl:Class;
+   rdfs:label "教養娯楽";
+   rdfs:subClassOf target:購買対象 .
+
+target:教養娯楽サービス a owl:Class;
+   rdfs:label "教養娯楽サービス";
+   rdfs:subClassOf target:教養娯楽 .
+
+target:書籍・他の印刷物 a owl:Class;
+   rdfs:label "書籍・他の印刷物";
+   rdfs:subClassOf target:教養娯楽 .
+
+target:穀類 a owl:Class;
+   rdfs:label "穀類";
+   rdfs:subClassOf target:食料 .
+
+target:茶類 a owl:Class;
+   rdfs:label "茶類";
+   rdfs:subClassOf target:飲料 .
+
+target:野菜・海藻 a owl:Class;
+   rdfs:label "野菜・海藻";
+   rdfs:subClassOf target:食料 .
+
+target:魚介類 a owl:Class;
+   rdfs:label "魚介類";
+   rdfs:subClassOf target:食料 .
+
+target:魚肉練製品 a owl:Class;
+   rdfs:label "魚肉練製品";
+   rdfs:subClassOf target:魚介類 .
+
+target:一般家具 a owl:Class;
+   rdfs:label "一般家具";
+   rdfs:subClassOf target:家庭用耐久財 .
+
+target:主食的調理食品 a owl:Class;
+   rdfs:label "主食的調理食品";
+   rdfs:subClassOf target:調理食品 .
+
+target:乳製品 a owl:Class;
+   rdfs:label "乳製品";
+   rdfs:subClassOf target:乳卵類 .
+
+target:他の家事用消耗品 a owl:Class;
+   rdfs:label "他の家事用消耗品";
+   rdfs:subClassOf target:家事用消耗品 .
+
+target:他の魚介加工品 a owl:Class;
+   rdfs:label "他の魚介加工品";
+   rdfs:subClassOf target:魚介類 .
+
+target:保健医療用品･器具 a owl:Class;
+   rdfs:label "保健医療用品･器具";
+   rdfs:subClassOf target:保健医療 .
+
+target:和服 a owl:Class;
+   rdfs:label "和服";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:塩干魚介 a owl:Class;
+   rdfs:label "塩干魚介";
+   rdfs:subClassOf target:魚介類 .
+
+target:室内装備・装飾品 a owl:Class;
+   rdfs:label "室内装備・装飾品";
+   rdfs:subClassOf target:家具・家事用品 .
+
+target:家賃地代 a owl:Class;
+   rdfs:label "家賃地代";
+   rdfs:subClassOf target:住居 .
+
+target:寝具類 a owl:Class;
+   rdfs:label "寝具類";
+   rdfs:subClassOf target:家具・家事用品 .
+
+target:文房具 a owl:Class;
+   rdfs:label "文房具";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:理美容サービス a owl:Class;
+   rdfs:label "理美容サービス";
+   rdfs:subClassOf target:諸雑費 .
+
+target:生鮮肉 a owl:Class;
+   rdfs:label "生鮮肉";
+   rdfs:subClassOf target:肉類 .
+
+target:貝類 a owl:Class;
+   rdfs:label "貝類";
+   rdfs:subClassOf target:生鮮魚介 .
+
+target:乾物・海藻 a owl:Class;
+   rdfs:label "乾物・海藻";
+   rdfs:subClassOf target:野菜・海藻 .
+
+target:医薬品 a owl:Class;
+   rdfs:label "医薬品";
+   rdfs:subClassOf target:保健医療 .
+
+target:家具・家事用品 a owl:Class;
+   rdfs:label "家具・家事用品";
+   rdfs:subClassOf target:購買対象 .
+
+target:履物類 a owl:Class;
+   rdfs:label "履物類";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:工事その他のサービス a owl:Class;
+   rdfs:label "工事その他のサービス";
+   rdfs:subClassOf target:設備修繕･維持 .
+
+target:男子用洋服 a owl:Class;
+   rdfs:label "男子用洋服";
+   rdfs:subClassOf target:洋服 .
+
+target:諸雑費 a owl:Class;
+   rdfs:label "諸雑費";
+   rdfs:subClassOf target:その他の消費支出 .
+
+target:身の回り用品 a owl:Class;
+   rdfs:label "身の回り用品";
+   rdfs:subClassOf target:諸雑費 .
+
+target:通信 a owl:Class;
+   rdfs:label "通信";
+   rdfs:subClassOf target:交通・通信 .
+
+target:他の教養娯楽サービス a owl:Class;
+   rdfs:label "他の教養娯楽サービス";
+   rdfs:subClassOf target:教養娯楽サービス .
+
+target:他の飲料 a owl:Class;
+   rdfs:label "他の飲料";
+   rdfs:subClassOf target:飲料 .
+
+target:婦人用洋服 a owl:Class;
+   rdfs:label "婦人用洋服";
+   rdfs:subClassOf target:洋服 .
+
+target:家事用耐久財 a owl:Class;
+   rdfs:label "家事用耐久財";
+   rdfs:subClassOf target:家庭用耐久財 .
+
+target:家事雑貨 a owl:Class;
+   rdfs:label "家事雑貨";
+   rdfs:subClassOf target:家具・家事用品 .
+
+target:麺類 a owl:Class;
+   rdfs:label "麺類";
+   rdfs:subClassOf target:穀類 .
+
+target:他の野菜･海藻加工品 a owl:Class;
+   rdfs:label "他の野菜･海藻加工品";
+   rdfs:subClassOf target:野菜・海藻 .
+
+target:保健医療サービス a owl:Class;
+   rdfs:label "保健医療サービス";
+   rdfs:subClassOf target:保健医療 .
+
+target:入場・観覧・ゲーム代 a owl:Class;
+   rdfs:label "入場・観覧・ゲーム代";
+   rdfs:subClassOf target:他の教養娯楽サービス .
+
+target:教養娯楽用品 a owl:Class;
+   rdfs:label "教養娯楽用品";
+   rdfs:subClassOf target:教養娯楽 .
+
+target:月謝類 a owl:Class;
+   rdfs:label "月謝類";
+   rdfs:subClassOf target:教養娯楽サービス .
+
+target:葉茎菜 a owl:Class;
+   rdfs:label "葉茎菜";
+   rdfs:subClassOf target:生鮮野菜 .
+
+target:被服及び履物 a owl:Class;
+   rdfs:label "被服及び履物";
+   rdfs:subClassOf target:購買対象 .
+
+target:酒類 a owl:Class;
+   rdfs:label "酒類";
+   rdfs:subClassOf target:食料 .
+
+target:他の教養娯楽用品 a owl:Class;
+   rdfs:label "他の教養娯楽用品";
+   rdfs:subClassOf target:教養娯楽用品 .
+
+target:他の被服 a owl:Class;
+   rdfs:label "他の被服";
+   rdfs:subClassOf target:被服及び履物 .
+
+target:交通 a owl:Class;
+   rdfs:label "交通";
+   rdfs:subClassOf target:交通・通信 .
+
+target:授業料等 a owl:Class;
+   rdfs:label "授業料等";
+   rdfs:subClassOf target:教育 .
+
+target:教養娯楽用耐久財 a owl:Class;
+   rdfs:label "教養娯楽用耐久財";
+   rdfs:subClassOf target:教養娯楽 .
+
+target:根菜 a owl:Class;
+   rdfs:label "根菜";
+   rdfs:subClassOf target:生鮮野菜 .
+
+target:購買対象 a owl:Class;
+   rdfs:label "購買対象" .
+
+target:食事代 a owl:Class;
+   rdfs:label "食事代";
+   rdfs:subClassOf target:一般外食 .
+
+target:他の諸雑費 a owl:Class;
+   rdfs:label "他の諸雑費";
+   rdfs:subClassOf target:諸雑費 .
+
+target:他の野菜 a owl:Class;
+   rdfs:label "他の野菜";
+   rdfs:subClassOf target:生鮮野菜 .
+
+target:他の調理食品 a owl:Class;
+   rdfs:label "他の調理食品";
+   rdfs:subClassOf target:調理食品 .
+
+target:石けん類・化粧品 a owl:Class;
+   rdfs:label "石けん類・化粧品";
+   rdfs:subClassOf target:諸雑費 .
+
+target:自動車等維持 a owl:Class;
+   rdfs:label "自動車等維持";
+   rdfs:subClassOf target:自動車等関係費 .
+
+target:食料 a owl:Class;
+   rdfs:label "食料";
+   rdfs:subClassOf target:購買対象 .
+
+target:生鮮果物 a owl:Class;
+   rdfs:label "生鮮果物";
+   rdfs:subClassOf target:果物 .
+
+target:菓子類 a owl:Class;
+   rdfs:label "菓子類";
+   rdfs:subClassOf target:食料 .
+
+target:調味料 a owl:Class;
+   rdfs:label "調味料";
+   rdfs:subClassOf target:油脂・調味料 .
+
+target:鮮魚 a owl:Class;
+   rdfs:label "鮮魚";
+   rdfs:subClassOf target:生鮮魚介 .

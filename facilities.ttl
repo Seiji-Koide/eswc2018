@@ -1,0 +1,3731 @@
+@prefix action: <http://tp.lodac.nii.ac.jp/action/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix lgdo: <http://linkedgeodata.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix servicevoc: <http://tp.lodac.nii.ac.jp/ns/service#> .
+@prefix target: <http://tp.lodac.nii.ac.jp/target/> .
+
+lgdo:AdultShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:アダルト用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AgriculturalEnginesCraft a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:農業用具
+     ]];
+   rdfs:comment "A place where engines and tools for agricultural use are planned and constructed.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Airport a owl:Class;
+   servicevoc:dbpediaClass dbo:Airport;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:乗る;
+       servicevoc:target target:飛行機
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:航空運賃
+     ],  [
+       servicevoc:action action:降りる;
+       servicevoc:target target:飛行機
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AlcoholShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:酒類
+     ]];
+   rdfs:comment "Shop selling alcohol to take away";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AmbulanceStation a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:救急サービス
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AnimalShelter a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:預ける;
+       servicevoc:target target:動物
+     ]];
+   rdfs:comment "A shelter that recovers animals in trouble. An animal shelter is facility where animals in trouble are brought and facility's staff (volunteers or not) feeds them and cares of them, rehabilitating and healing them if necessary. This definition includes kennels for abandoned dogs, catteries for abandoned cats, shelters for other abandoned pets and wildlife recovery centres.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AnimalShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:ペットフード
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の愛玩動物・同用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の愛玩動物関連サービス
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:AnimalsShop .
+
+lgdo:AnimeShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像収録済メディア
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:玩具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:書籍・他の印刷物
+     ]];
+   rdfs:comment "Shop focused on selling anime stuff.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ArtShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:書籍・他の印刷物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ]];
+   rdfs:comment "Shop which sells works of art. May be paintings, sculpture, or other types of art";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ArtSupplies a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Artwork a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:展示する;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ],  [
+       servicevoc:action action:見る;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Atm a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:ATMサービス
+     ]];
+   rdfs:comment "an ATM or cash point";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:ATM .
+
+lgdo:AudioVideoShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:ビデオレコーダー・プレイヤー
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:携帯型音楽・映像用機器
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像収録済メディア
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像用未使用メディア
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AutoPartsShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車等関連用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車等部品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AutoRepair a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車整備費
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車以外の輸送機器整備費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AutomotiveShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車等関連用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車等部品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BabyGoodsShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:子供用シャツ・セーター類
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:子供用下着類
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:子供洋服
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:子供靴
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:教養娯楽用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:寝具類
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:理美容用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:紙おむつ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:子供用靴下
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事雑貨
+     ]];
+   rdfs:comment "The tag shop=baby_goods is used for shops where you can buy baby goods like clothes, prams, cots, baby's baths and toys adapted for babies.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:BabyShop .
+
+lgdo:BagsShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:かばん類
+     ]];
+   rdfs:comment "Shop focused on selling bags.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Bakery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:パン
+     ]];
+   rdfs:comment "Shop focused on selling bread";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Bandstand a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ],  [
+       servicevoc:action action:聞く;
+       servicevoc:target target:音楽
+     ],  [
+       servicevoc:action action:休む;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:演奏する;
+       servicevoc:target target:音楽
+     ]];
+   rdfs:comment "A bandstand (in french : kiosque à musique) is a polygonal structure set in a public space, often a park, designed to accommodate musical bands to perform concerts. Most of them were built during the 19th and early 20th centuries. They can be found in many countries, mostly in Europe, North America and the Commonwealth.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Bank a owl:Class;
+   servicevoc:dbpediaClass dbo:Bank;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:入れる;
+       servicevoc:target target:金
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:金
+     ],  [
+       servicevoc:action action:振り込む;
+       servicevoc:target target:金
+     ],  [
+       servicevoc:action action:引き出す;
+       servicevoc:target target:金
+     ],  [
+       servicevoc:action action:受ける;
+       servicevoc:target target:銀行サービス
+     ],  [
+       servicevoc:action action:返す;
+       servicevoc:target target:金
+     ]];
+   rdfs:comment "a bank (for a bank that also has an ATM, it is preferred that a separate node for each ATM is added)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Bar a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲む;
+       servicevoc:target target:アルコール飲料
+     ],  [
+       servicevoc:action action:食べる;
+       servicevoc:target target:軽食
+     ],  [
+       servicevoc:action action:飲む;
+       servicevoc:target target:飲料
+     ]];
+   rdfs:comment "Bar is a purpose-built commercial establishment that sells alcoholic drinks to be consumed on the premises. They are characterised by a noisy and vibrant atmosphere, similar to a party and usually don't sell food. See also the description of the tags amenity=pub;bar;restaurant for a distinction between these.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Barber a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の理美容代
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:パーマネント代
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:カット代
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:理髪料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BasketMaker a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:バスケット
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BathroomFurnishingShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:ティッシュペーパー・トイレットペーパー
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:理美容用品
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Bathroom .
+
+lgdo:Bbq a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:バーベキュー
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の教養娯楽サービスのその他
+     ]];
+   rdfs:comment "BBQ or Barbecue is a permanently built grill for cooking food, which is most typically used outdoors by the public. For example these may be found in city parks or at beaches. Use the tag fuel=* to specify the source of heating, such as fuel=wood;electric;charcoal. For mapping nearby table and chairs, see also the tag tourism=picnic_site. For mapping campfires and firepits, instead use the tag leisure=firepit.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Barbeque .
+
+lgdo:Beach a owl:Class;
+   servicevoc:dbpediaClass dbo:Beach;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:休む;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:泳ぐ;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:日焼け
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設入場料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BeachResort a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:日焼け
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設入場料
+     ],  [
+       servicevoc:action action:泳ぐ;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:休む;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "To mark the boundary of a managed beach.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BeautyShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:理美容用品
+     ]];
+   rdfs:comment "A non-hairdresser beauty shop, spa, nail salon, etc.. See also shop=hairdresser.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BedShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:寝具類
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Mattress .
+
+lgdo:Beekeeper a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の調味料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Bench a owl:Class;
+   rdfs:comment "A bench to sit down and relax a bit";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Betting a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BeverageMarket a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:飲料
+     ]];
+   rdfs:comment "Shop focused on selling alcoholic and non-alcoholic beverages. See also shop=alcohol.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BicycleLockers a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:乗る;
+       servicevoc:target target:自転車
+     ],  [
+       servicevoc:action action:止める;
+       servicevoc:target target:自転車
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の駐車場借料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BicycleParking a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:止める;
+       servicevoc:target target:自転車
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の駐車場借料
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:自転車
+     ]];
+   rdfs:comment "Parking for bicycles";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BicycleRental a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:返す;
+       servicevoc:target target:自転車
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:レンタカー・カーシェアリング料金
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:自転車
+     ]];
+   rdfs:comment "Rent a bicycle";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BicycleShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:自転車購入
+     ]];
+   rdfs:comment "Shop focused on selling bicycles, bicycle equipment and may rent or repair them";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Biergarten a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲む;
+       servicevoc:target target:アルコール飲料
+     ]];
+   rdfs:comment "Biergarten or beer garden is an open-air area where alcoholic beverages along with food is prepared and served. See also the description of the tags amenity=pub;bar;restaurant. A biergarten can commonly be found attached to a beer hall, pub, bar, or restaurant. In this case, you can use biergarten=yes additional to amenity=pub;bar;restaurant.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Billboard a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:広告
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BirdHide a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:野鳥
+     ]];
+   rdfs:comment "A place to observe birds.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Blacksmith a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事雑貨
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BoatRental a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:遊園地入場・乗物代
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:ボート
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Boatbuilder a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車以外の輸送機器購入
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ボート
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BookmakerShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "A shop that takes bets on sporting and other events at agreed upon odds.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:BookmakersSHop .
+
+lgdo:BooksShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:書籍・他の印刷物
+     ]];
+   rdfs:comment "Shop focused on selling books (for a library that lends books, see amenity=library)";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:BookShop .
+
+lgdo:BorderControl a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:入る;
+       servicevoc:target target:国
+     ],  [
+       servicevoc:action action:出る;
+       servicevoc:target target:国
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Boutique a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:装身具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:被服及び履物
+     ]];
+   rdfs:comment "A small shopping outlet, especially one that specializes in elite and fashionable items";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Brewery a owl:Class;
+   servicevoc:dbpediaClass dbo:Brewery;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲む;
+       servicevoc:target target:アルコール飲料
+     ]];
+   rdfs:comment "A dedicated building for the making of beer.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Brothel a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の教養娯楽サービスのその他
+     ]];
+   rdfs:comment "An establishment specifically dedicated to prostitution";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BureauDeChange a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:交換する;
+       servicevoc:target target:金
+     ]];
+   rdfs:comment "Bureau de change, currency exchange, Wechsel, cambio – a place to change foreign bank notes and travellers cheques";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BusStation a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:降りる;
+       servicevoc:target target:バス
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:バス代
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:バス
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BusStop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:バス代
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:バス
+     ],  [
+       servicevoc:action action:降りる;
+       servicevoc:target target:バス
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Butcher a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:肉類
+     ]];
+   rdfs:comment "Shop focused on selling meat";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Meat,
+     lgdo:Butchers .
+
+lgdo:Cafe a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲む;
+       servicevoc:target target:飲料
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:喫茶代
+     ]];
+   rdfs:comment "Cafe is generally an informal place that offers casual meals and beverages; typically, the focus is on coffee or tea. Also known as a coffeehouse/shop, bistro or sidewalk cafe. The kind of food served may be mapped with the tags cuisine=* and diet=*. See also the tags amenity=restaurant;bar;fast_food.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CameraShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:カメラ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ビデオカメラ
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Camera .
+
+lgdo:CampSite a owl:Class;
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Campsite .
+
+lgdo:CandyShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:キャンデー
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CarParts a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車等関連用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車等部品
+     ]];
+   rdfs:comment "Shop focused on selling auto parts, auto accessories, motor oil, car chemicals, etc.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CarRental a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:レンタカー・カーシェアリング料金
+     ],  [
+       servicevoc:action action:返す;
+       servicevoc:target target:自動車
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:自動車
+     ]];
+   rdfs:comment "Rent a car";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CarRepairShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車整備費
+     ]];
+   rdfs:comment "Shop focused on car repair (usually independent of a specific car brand).";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:CarRepair .
+
+lgdo:CarSharing a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:レンタカー・カーシェアリング料金
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:自動車
+     ],  [
+       servicevoc:action action:返す;
+       servicevoc:target target:自動車整備費
+     ]];
+   rdfs:comment "Share a car";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CarShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:自転車購入
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車整備費
+     ]];
+   rdfs:comment "Car store – a place to buy cars or to get your car repaired";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:CarDealer .
+
+lgdo:CarWash a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車整備費
+     ]];
+   rdfs:comment "Wash a car";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CardsShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の玩具
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CareHome a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Carpenter a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Carpet a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:カーペット
+     ]];
+   rdfs:comment "A shop selling carpets.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Carpets .
+
+lgdo:CarpetLayer a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Casino a owl:Class;
+   servicevoc:dbpediaClass dbo:Casino;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "A gambling venue with at least one table game(e.g. roulette, blackjack) that takes bets on sporting and other events at agreed upon odds.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Castle a owl:Class;
+   servicevoc:dbpediaClass dbo:Castle;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:観る;
+       servicevoc:target target:城
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:チケット
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CellPhones a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:移動電話
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Cemetery a owl:Class;
+   servicevoc:dbpediaClass dbo:Cemetery;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:祭具・墓石
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Ceramics a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:茶わん・皿・鉢
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の食卓用品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Chandler a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:comment "A chandler, or also ship chandler are shops or agents specialized in offering a wide range of services towards ships";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Chapel a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:祭具・墓石
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:寄付金
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:婚礼関係費
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:信仰・祭祀費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CharityShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:comment "A charity shop is a shop operated by a charity, for the purposes of fundraising.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Charity .
+
+lgdo:Cheese a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:チーズ
+     ]];
+   rdfs:comment "Shop focused on selling cheese.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Chemist a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事用消耗品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:石けん類・化粧品
+     ]];
+   rdfs:comment "Shop focused on selling articles of personal hygiene, cosmetics, and household cleaning products (for a shop that potentially dispenses prescription drugs, cf. pharmacy. U.S. drug store, see amenity=pharmacy)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Chocolate a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:チョコレート菓子
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:チョコレート
+     ]];
+   rdfs:comment "Shop focused on selling chocolate.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Church a owl:Class;
+   servicevoc:dbpediaClass dbo:Church;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:寄付金
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:祭具・墓石
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:婚礼関係費
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:信仰・祭祀費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ChurchHall a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:寄付金
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:婚礼関係費
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:祭具・墓石
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:信仰・祭祀費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Cinema a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:映画・演劇等入場料
+     ],  [
+       servicevoc:action action:観る;
+       servicevoc:target target:映画
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:チケット
+     ]];
+   rdfs:comment "A place where films are shown (US: movie theater)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CitymapPost a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の印刷物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:地図
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Clinic a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:保健医療サービス
+     ],  [
+       servicevoc:action action:治す;
+       servicevoc:target target:病気
+     ]];
+   rdfs:comment "A medium-sized medical facility or health centre.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Clock a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の身の回り用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:腕時計
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Clockmaker a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の身の回り用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:腕時計
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Clothes a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:被服及び履物
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Clothing .
+
+lgdo:Clothes%3Awomen a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用洋服
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用ストッキング
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用シャツ・セーター類
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用下着類
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用和服
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用帯
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用着物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用ソックス
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人靴
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Club a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Clubhouse,
+     lgdo:ClubHouse,
+     lgdo:SocialClub .
+
+lgdo:CoffeeShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:コーヒー
+     ],  [
+       servicevoc:action action:飲む;
+       servicevoc:target target:コーヒー
+     ]];
+   rdfs:comment "Shop focused on selling coffee.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:College a owl:Class;
+   servicevoc:dbpediaClass dbo:College;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:学ぶ;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:私立大学
+     ],  [
+       servicevoc:action action:研究する;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:国公立大学
+     ]];
+   rdfs:comment "A college campus or buildings";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Communication a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:通信
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Communications .
+
+lgdo:CommunityCentre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:開く;
+       servicevoc:target target:イベント
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ],  [
+       servicevoc:action action:参加する;
+       servicevoc:target target:イベント
+     ]];
+   rdfs:comment "A place mostly used for local events and festivities.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:YouthClub,
+     lgdo:YouthCentre .
+
+lgdo:CommunityHall a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Computer a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:パーソナルコンピュータ
+     ]];
+   rdfs:comment "Shop focused on selling computers, peripherals, software, …";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ConcertHall a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:聞く;
+       servicevoc:target target:音楽
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Confectionery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:菓子類
+     ]];
+   rdfs:comment "Shop focused on selling sweets or candy";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ConferenceCentre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:参加する;
+       servicevoc:target target:イベント
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ],  [
+       servicevoc:action action:開く;
+       servicevoc:target target:イベント
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ConstructionShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Consulate a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:行政サービス
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Convenience a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:傘
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:たばこ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事用消耗品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:石けん類・化粧品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:電池
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:飲料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:理美容用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ペットフード
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事雑貨
+     ]];
+   rdfs:comment "A small local shop carrying a small subset of the items you would find in a supermarket";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Copyshop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:写真撮影・プリント代
+     ]];
+   rdfs:comment "Shop focused on selling photocopying and printing services.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Cosmetics a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:石けん類・化粧品
+     ]];
+   rdfs:comment "Shop focused on selling cosmetics";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Courthouse a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:裁判サービス
+     ]];
+   rdfs:comment "A place where justice is dispensed";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Craft a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:生地・糸類
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:手芸・工芸材料
+     ]];
+   rdfs:comment "An arts and crafts supply store. Commonly sold items are paper, canvas, paint, pencils, crafting wood, crafting tools, etc. - look at craft=*";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Crematorium a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ]];
+   rdfs:comment "A place where dead human bodies are burnt";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Customs a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の税
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Dairy a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Dance a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:踊る;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "A place to go dancing.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Decoration a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:室内装備・装飾品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Deli a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:comment "Shop focused on selling delicatessen (fine foods, gourmet foods), possibly also fine wine. Not to be confused with the US delis.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Delicatessen a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Dentist a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:歯科診療代
+     ],  [
+       servicevoc:action action:治す;
+       servicevoc:target target:歯
+     ]];
+   rdfs:comment "A dentist practice / surgery.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:DepartmentStore a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:飲料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:comment "A single large store – often multiple storeys high – selling a large variety of goods (see also shop=mall)";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Dept .
+
+lgdo:Discount a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:DiveCenter a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:スキューバダイビング
+     ]];
+   rdfs:comment "A dive center is the base location where sports divers usually start scuba diving or make dive guided trips at new locations.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Doctors a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:治す;
+       servicevoc:target target:病気
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:医療診療代
+     ]];
+   rdfs:comment "A doctor's practice / surgery.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Doctor .
+
+lgdo:DogBin a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:DogPark a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:運動させる;
+       servicevoc:target target:犬
+     ]];
+   rdfs:comment "Designated area, with or without a fenced boundary, where dog-owners are permitted to exercise their pets unrestrained.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Doityourself a owl:Class;
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Diy .
+
+lgdo:DrinkingWater a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲む;
+       servicevoc:target target:水
+     ]];
+   rdfs:comment "Drinking water is a place where humans can obtain potable water for consumption. Typically, the water is used for only drinking. Also known as a drinking fountain or bubbler.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:DrivingSchool a owl:Class;
+   rdfs:comment "Driving School";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:DrivingSchoolShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車教習料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Drugstore a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:飲料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:医薬品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:保険用消耗品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:紙おむつ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:健康保持用摂取品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:DryCleaning a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:洗濯代
+     ]];
+   rdfs:comment "Shop or kiosk offering a clothes dry cleaning service. The actual cleaning may be done elsewhere.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Electrician a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Electronics a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事雑貨
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像用未使用メディア
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家庭用耐久財
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:冷暖房用器具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像収録済メディア
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:室内装備・装飾品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:教育娯楽用耐久財
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:玩具
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:写真撮影・プリント代
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:通信
+     ]];
+   rdfs:comment "Shop focused on selling consumer electronics (TV, radio, …). Larger ones may also sell computers, fridges, …";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Embassy a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:行政サービス
+     ]];
+   rdfs:comment "An embassy";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fabric a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "Shop focused on selling fabric and other materials for the purpose of making clothes and other products, eg dress making.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Fabrics .
+
+lgdo:Fairtrade a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Farm a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FarmShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の飲料
+     ]];
+   rdfs:comment "Shop or roadside stand focused on selling freshly harvested farm produce";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fashion a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:被服及び履物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:装身具
+     ]];
+   rdfs:comment "Shop focused on selling fashion.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FastFood a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:食べる;
+       servicevoc:target target:ハンバーガー
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ハンバーガー
+     ],  [
+       servicevoc:action action:食べる;
+       servicevoc:target target:他の主食的外食
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の主食的外食
+     ]];
+   rdfs:comment "Fast food restaurant (see also amenity=restaurant). The kind of food served can be tagged with cuisine=* and diet=*.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FerryTerminal a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:チケット
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:フェリー
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の交通
+     ],  [
+       servicevoc:action action:降りる;
+       servicevoc:target target:フェリー
+     ]];
+   rdfs:comment "Ferry terminal/stop. A place where people/cars/etc. can board and leave a ferry.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fish a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:魚介類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fishing a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:釣る;
+       servicevoc:target target:生鮮魚介
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FishingShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:釣具
+     ]];
+   rdfs:comment "Shop focused on selling fishing equipment.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fishmonger a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:魚介類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FitnessCentre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:動かす;
+       servicevoc:target target:体
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:スポーツクラブ使用料
+     ]];
+   rdfs:comment "A place with exercise machines and/or fitness/dance classes.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FitnessShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の運動用具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:スポーツ用品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Flooring a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FloristShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:切り花
+     ]];
+   rdfs:comment """Get your bouquet of flowers from this type of shop.
+
+A florist should be primarily selling 'cut' flowers, but might also offer potted plants, and/or seeds and gardening supplies as a side line. A larger shop, or a shop with less focus on cut flowers, would be a shop=garden_centre.""";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Flowers,
+     lgdo:Florist .
+
+lgdo:FolkArt a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Food a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FoodCourt a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:飲料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:外食
+     ]];
+   rdfs:comment "An area with several different restaurant food counters and a shared eating area. Commonly found in malls, airports, etc.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fountain a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:噴水
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "A fountain for cultural / decorational / recreational purposes.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FrozenFoodShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:comment """The tag shop=frozen_food is used for shops that mainly sell frozen food.
+Mostly used in France so far (July 2014)""";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fruit a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:果物
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FuelStation a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:ガソリン
+     ]];
+   rdfs:comment "Petrol station; gas station; marine fuel; … Streets to petrol stations are often tagged highway=service.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Fuel%3BcarWash .
+
+lgdo:FuneralDirectors a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ]];
+   rdfs:comment "Providing services related to funeral arrangements, may also be known as a \"funeral parlour\" or \"undertakers\".";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:FuneralHome a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Furniture a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:家具・家事用品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Gallery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ],  [
+       servicevoc:action action:見る;
+       servicevoc:target target:美術品
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ],  [
+       servicevoc:action action:展示する;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ]];
+   rdfs:comment """Tag:tourism=gallery An art gallery (or art museum) is an area or typically a building that displays a variety of visual art exhibitions. The most common exhibits being paintings, sculpture or photography.
+
+An art galleries is a popular visitor attraction, both for tourists and locals. The tag should be used for any kind of gallery open to the public (either free or for a charge), be it a traditional art gallery, contemporary art, or photography (or a mix).""";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:ArtGallery .
+
+lgdo:GalleryShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:書籍・他の印刷物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ]];
+   rdfs:comment "Should it be integerated into Gallery as the status is \"possible taggins mistakes\" ?";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:ArtGalleryShop .
+
+lgdo:Gambling a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment """A place for gambling, not being a shop=bookmaker, shop=lottery, amenity=casino, or leisure=adult_gaming_centre.
+Games that are covered by this definition include bingo and pachinko.""";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:GamblingShop,
+     lgdo:Bingo .
+
+lgdo:Games a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:玩具
+     ]];
+   rdfs:comment "Shop focused on selling board games, card games and/or role-playing games.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Garden a owl:Class;
+   servicevoc:dbpediaClass dbo:Garden;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:花
+     ],  [
+       servicevoc:action action:育てる;
+       servicevoc:target target:花
+     ]];
+   rdfs:comment "Place where flowers and other plants are grown in a decorative and structured manner or for scientific purposes.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:GardenCentre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:園芸用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:園芸用植物
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:GardenCenter,
+     lgdo:GardenShop .
+
+lgdo:General a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:たばこ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:石けん類・化粧品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事雑貨
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:理美容用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事用消耗品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の教養娯楽用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:comment "A store that carries a general line of merchandise. (see also shop=convenience if it sells food).";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Gift a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "Shop focused on selling gifts, greeting cards, or tourist gifts (souvenirs)";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Gifts .
+
+lgdo:Glaziery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の室内装備品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ドア
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:窓
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Glass .
+
+lgdo:GolfCouse a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:ゴルフプレー料金
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:ゴルフ
+     ]];
+   rdfs:comment "The outline of a golf course. The node form may be used to place an icon within the course. This tag implies sport=golf.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:GovermentOffice a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:行政サービス
+     ]];
+   rdfs:comment """The tag office=government is used to tag government offices of a (supra)national, regional or local government agency or department. In these offices, staff work directly for the government and carry out tasks to administer facilities, operate registries and licensing bureaus, regulate lands and/or people, etc.
+
+Examples include the ministry of foreign affairs, the tax office, or the local roadworks authority.
+
+The tag can be used for offices of all branches of government: executive, legislative, and judiciary. But note that courthouses have a more specific tag amenity=courthouse; however the highest authorities suypervising national institutions and asserting the constitutionality of laws and judiciary decisions are not always high courts: they may be "councils", independant themselves from all other branches of government, and have their own administration (and a dedicated working budget, whose usage may still be supervized by another independant accounting auditor or high court).""";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:GovernmentBuilding .
+
+lgdo:GraveYard a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ],  [
+       servicevoc:action action:祈る;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "A (smaller) place of burial, often you'll find a church nearby. Large places should be landuse=cemetery instead.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Grave .
+
+lgdo:Greengrocer a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:果物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:生鮮野菜
+     ]];
+   rdfs:comment "Shop focused on selling vegetables and fruits.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Grocery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:comment """A grocery is a retail store that specializes in selling non-perishable food.
+
+This tag is intended to be used for a traditional grocery shop. Typically these are more specialized than a supermarket or convenience store. There are few specialist grocery shops. Because they are specialists they will often be found on the high street, alongside other specialist shops.
+
+Supermarkets and convenience stores are sometimes described as grocery businesses. However shop=grocery tag is not intended for these. Use shop=supermarket or shop=convenience instead. Both supermarkets and convenience stores stock a broad range of goods outside the "non-perishable food" category. They will normally have longer opening hours.
+
+A shop that specializes in selling fruit and vegetables is a greengrocer. Use shop=greengrocer.""";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Groceries .
+
+lgdo:Gym a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:スポーツクラブ使用料
+     ],  [
+       servicevoc:action action:動かす;
+       servicevoc:target target:体
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Hackerspace a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:コミュニケーション
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:プログラミング
+     ]];
+   rdfs:comment "A place where people with common interests, often in computers, technology, science, digital art or electronic art, can meet, socialize and/or collaborate.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HairdresserShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の理美容代
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:理髪料
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:カット代
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:パーマネント代
+     ]];
+   rdfs:comment "Here you can get your hair cut, coloured, … See also shop=beauty";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Haidresser .
+
+lgdo:Hardware a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:家具・家事用品
+     ]];
+   rdfs:comment "A hardware store, sometimes known as an ironmongers shop in the UK, is where you can buy screws and bolts, nails, hooks and other metal materials as well as metal tools. A hardware shop will often stock a wide range of products which can include building, electrical, plumbing supplies, garden tools, power tools, kitchenware, homeware, locks, keys, and a key-cutting. Where these types of product/service are supplied in isolation, a different tag may be more appropriate.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Health a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HealthAndBeauty a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HealthCentre a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HealthFood a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:健康保持用摂取品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HearingAids a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の保健医療用品・器具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:補聴器
+     ]];
+   rdfs:comment "Shop focused on selling hearing aids devices";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:HearingAid .
+
+lgdo:Hifi a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の教養娯楽用耐久財
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:携帯型音楽・映像用機器
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ビデオレコーダー・プレーヤー
+     ]];
+   rdfs:comment "Shop focused on selling High Fidelity or High End environment to listen music or watch films at home";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Hobby a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:玩具
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HorseRiding a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:馬
+     ]];
+   rdfs:comment "A place where people practice horse riding, usually in their spare time.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Hospital a owl:Class;
+   servicevoc:dbpediaClass dbo:Hospital;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:保険医療サービス
+     ],  [
+       servicevoc:action action:治す;
+       servicevoc:target target:病気
+     ]];
+   rdfs:comment "Often used in conjunction with emergency=* to note whether or not the hospital has emergency facilities (A&E (brit.) or ER (am.))";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HotSpring a owl:Class;
+   servicevoc:dbpediaClass dbo:HotSpring;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:入る;
+       servicevoc:target target:温泉
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:温泉・銭湯入浴料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Hotel a owl:Class;
+   servicevoc:dbpediaClass dbo:Hotel;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:宿泊料
+     ],  [
+       servicevoc:action action:泊まる;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HuntingStand a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:狩る;
+       servicevoc:target target:動物
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "A hunting stand";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:HuntingBlind .
+
+lgdo:Hut a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:帽子
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:IceCream a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:アイスクリーム・シャーベット
+     ]];
+   rdfs:comment "Ice cream shop or ice cream parlour. A place that sells ice cream and frozen yoghurt over the counter";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:IceCreamShop .
+
+lgdo:IceRink a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:アイスホッケー
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:スケート
+     ]];
+   rdfs:comment "A place where you can skate or play ice hockey.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Insurance a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:保険料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Interiors a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:家具・家事用品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Internet a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:インターネット
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:インターネット接続料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:InternetAccess a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:インターネット
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:インターネット接続料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:InternetCafe a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲む;
+       servicevoc:target target:飲み物
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:インターネット接続料
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:インターネット
+     ]];
+   rdfs:comment "A place whose principal role is providing internet services to the public.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Jewelry a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:装身具
+     ]];
+   rdfs:comment "Jewellers shops.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Jewelers,
+     lgdo:Jeweller .
+
+lgdo:Kindergarten a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:幼児教育費用
+     ],  [
+       servicevoc:action action:預ける;
+       servicevoc:target target:子供
+     ],  [
+       servicevoc:action action:引き取る;
+       servicevoc:target target:子供
+     ]];
+   rdfs:comment "For children too young for a regular school (also known as playschool or nursery school).";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Kiosk a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:たばこ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:新聞
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:雑誌（週刊誌を含む）
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:菓子類
+     ]];
+   rdfs:comment "A small shop on the pavement that sells magazines, tobacco, newspapers, sweets and stamps.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:KitchenShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:炊事用電気器具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事雑貨
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:台所・住居用洗剤
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食器戸棚
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:炊事用ガス器具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食卓セット
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:LanguageSchool a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:学ぶ;
+       servicevoc:target target:語学
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:語学月謝
+     ]];
+   rdfs:comment "Language School";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Laundry a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:洗濯代
+     ]];
+   rdfs:comment "A shop to get your normal clothes washed. Might be self service coin operated, with service staff for drop off, …";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Leather a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:かばん類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Library a owl:Class;
+   servicevoc:dbpediaClass dbo:Library;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:読む;
+       servicevoc:target target:本
+     ],  [
+       servicevoc:action action:受ける;
+       servicevoc:target target:図書館サービス
+     ],  [
+       servicevoc:action action:返す;
+       servicevoc:target target:本
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:本
+     ]];
+   rdfs:comment "A public library (municipal, university, …) to borrow books from.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:LicensedClub a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:酒類
+     ],  [
+       servicevoc:action action:飲む;
+       servicevoc:target target:酒類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Lighting a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:照明器具
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Lingerie a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:婦人用下着類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Locksmith a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:設備器具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:鍵
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Mall a owl:Class;
+   servicevoc:dbpediaClass dbo:ShoppingMall;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:消費支出
+     ]];
+   rdfs:comment "A shopping mall – multiple stores under one roof (also known as a shopping centre)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Marina a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:乗る;
+       servicevoc:target target:モーターボート
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:ヨット
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ]];
+   rdfs:comment "For mooring leisure yachts and motor boats.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Marketplace a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:飲料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:一般外食
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:日用品
+     ]];
+   rdfs:comment "A place where trade is regulated, e.g. a square.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Market .
+
+lgdo:MassageShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:マッサージ料金等（診療外）
+     ]];
+   rdfs:comment "A massage shop";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Massage .
+
+lgdo:MedicalCentre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:直す;
+       servicevoc:target target:病気
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:医療診療代
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Medical .
+
+lgdo:Memorial a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:MiniatureGolf a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:ミニチュアゴルフ
+     ]];
+   rdfs:comment "A place or area that you can play miniature golf.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Minimarket a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:MobilePhone a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:移動電話
+     ]];
+   rdfs:comment "Shop focused on selling mobile phones and accessories";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Monastery a owl:Class;
+   servicevoc:dbpediaClass dbo:Monastery;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:寄付金
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:信仰・祭祀費
+     ],  [
+       servicevoc:action action:祈る;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Mortuary a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:葬儀関係費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Motorcycle a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車以外の輸送機器購入
+     ]];
+   rdfs:comment "Shop focused on selling motorcycles and/or related accessories, clothes, parts, repair and rental services.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Motorbike .
+
+lgdo:MotorcycleParking a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:動かす;
+       servicevoc:target target:バイク
+     ],  [
+       servicevoc:action action:止める;
+       servicevoc:target target:バイク
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の駐車場借料
+     ]];
+   rdfs:comment "Parking for motorcycles";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:MotorcycleRepair a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車以外の輸送機器整備費
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Museum a owl:Class;
+   servicevoc:dbpediaClass dbo:Museum;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Music a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像収録済メディア
+     ]];
+   rdfs:comment "Shop focused on selling recorded music (vinyl/CDs/...)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:MusicVenue a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:聞く;
+       servicevoc:target target:音楽
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:MusicalInstruments a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:楽器
+     ]];
+   rdfs:comment "Shop focused on selling musical instruments, lyrics, scores. If focused on a specific instrument, specify with musical_instrument=*";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:NailSalon a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の理美容代
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Nails .
+
+lgdo:NatureReserve a owl:Class;
+   rdfs:comment "Protected area of importance for wildlife, flora, fauna or features of geological or other special interest.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Newsagent a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:たばこ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:新聞
+     ]];
+   rdfs:comment "Shop focused on selling newspapers, cigarettes, other goods";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Newstand .
+
+lgdo:Nightclub a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:踊る;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:飲む;
+       servicevoc:target target:飲み物
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "A place to drink and dance (nightclub). The German word is \"Disco\" or \"Discothek\". Please don't confuse this with the German \"Nachtclub\" which is most likely amenity=stripclub.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Nursery a owl:Class;
+   rdfs:comment "This tag is DISCOURAGED. Instead, either amenity=kindergarten or amenity=childcare should be used.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:NursingHome a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:介護する;
+       servicevoc:target target:人
+     ],  [
+       servicevoc:action action:会う;
+       servicevoc:target target:人
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の家賃地代
+     ]];
+   rdfs:comment "A home for disabled or elderly persons who need permanent care. See social_facility=* for more details.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:OfficeSupplies a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:文房具
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:書斎・学習用耐久財
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:一般家具
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:OfficeShop .
+
+lgdo:OpticianShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:コンタクトレンズ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:眼鏡
+     ]];
+   rdfs:comment "Shop focused on selling eyeglasses, contact lenses (may also check your eyes).";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Optometrist .
+
+lgdo:Organic a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Outdoor a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:運動靴
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:スポーツ用品
+     ]];
+   rdfs:comment "Shop focused on selling camping, walking, climbing, and other outdoor sports equipment (GPSes, etc.)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Outlet a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:消費支出
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Paint a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の教養娯楽用品のその他
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Painter .
+
+lgdo:Park a owl:Class;
+   servicevoc:dbpediaClass dbo:Park;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:休む;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:遊ぶ;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "Open, green area for recreation, usually municipal.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Parking a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の駐車場借料
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:自動車
+     ],  [
+       servicevoc:action action:止める;
+       servicevoc:target target:自動車
+     ]];
+   rdfs:comment "Car park. Nodes and areas (without access tag) will get a parking symbol. Areas will be coloured. Streets on car parking are often tagged highway=service and service=parking_aisle.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Parking%3Brestaurant%3Bfuel,
+     lgdo:Parking%3Bfuel .
+
+lgdo:ParkingEntrance a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:乗る;
+       servicevoc:target target:自動車
+     ],  [
+       servicevoc:action action:止める;
+       servicevoc:target target:自動車
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の駐車場借料
+     ]];
+   rdfs:comment "An entrance or exit to an underground or multi-storey parking facility. Group multiple parking entrances together with a relation using the tags type=site and site=parking. Do not mix with amenity=parking.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ParkingSpace a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:止める;
+       servicevoc:target target:自動車
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の駐車場借料
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:自動車
+     ]];
+   rdfs:comment "A single parking space. Group multiple parking spaces together with a relation using the tags type=site and site=parking. Do not mix with amenity=parking.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Pastry a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の洋菓子
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ケーキ
+     ]];
+   rdfs:comment "Shop focused on selling baked sweets like cakes, biscuits, strudel and pies.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Patisserie .
+
+lgdo:Perfumery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:香水
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の化粧品
+     ]];
+   rdfs:comment "Shop focused on selling perfumery";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Perfume .
+
+lgdo:Pet a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の愛玩動物・同用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ペットフード
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:PetFood,
+     lgdo:PetShop,
+     lgdo:PetSupply,
+     lgdo:PetSupplies,
+     lgdo:Pets .
+
+lgdo:Pharmacy a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:医薬品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:紙おむつ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:健康保持用摂取品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:保険用消耗品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PhoneShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:移動電話
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Photo a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の印刷物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:カメラ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ビデオカメラ
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:写真撮影・プリント代
+     ]];
+   rdfs:comment "Shop focused on selling products or services related with photography.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Photocopying,
+     lgdo:Foto .
+
+lgdo:PicnicSite a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:食べる;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:ピクニック
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "A picnic table (Leisure)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Pitch a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:スポーツ
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ]];
+   rdfs:comment "e.g. a field for playing football/soccer, cricket, baseball sports, and skate parks. To describe what kind of sport(s) use sport=*.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PlaceOfWorship a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:信仰・祭祀費
+     ],  [
+       servicevoc:action action:祈る;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "A church, mosque, or temple, etc. Note that you also need religion=*, usually denomination=* and preferably name=* as well as amenity=place_of_worship. See the article for details.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Playground a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:遊ぶ;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "Playground for little children.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Plumber a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PointOfInterest a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Police a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:警察サービス
+     ]];
+   rdfs:comment "A police station";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PostBox a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:通信料
+     ],  [
+       servicevoc:action action:送る;
+       servicevoc:target target:手紙
+     ]];
+   rdfs:comment "A box for the reception of mail. Alternative mail-carriers can be tagged via operator=*";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PostOffice a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:運送料
+     ],  [
+       servicevoc:action action:送る;
+       servicevoc:target target:荷物
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:通信料
+     ],  [
+       servicevoc:action action:振り込む;
+       servicevoc:target target:金
+     ],  [
+       servicevoc:action action:引き出す;
+       servicevoc:target target:金
+     ],  [
+       servicevoc:action action:送る;
+       servicevoc:target target:手紙
+     ],  [
+       servicevoc:action action:入れる;
+       servicevoc:target target:金
+     ]];
+   rdfs:comment "Post office building with postal services";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Pottery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の食卓用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:茶わん・皿・鉢
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Preschool a owl:Class;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Pub a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:飲酒代
+     ]];
+   rdfs:comment "A place selling beer and other alcoholic drinks; may also provide food or accommodation (UK). See description of amenity=bar and amenity=pub for distinction between bar and pub";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:RailwayStation a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:鉄道運賃
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:鉄道
+     ],  [
+       servicevoc:action action:降りる;
+       servicevoc:target target:鉄道
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:TrainStation .
+
+lgdo:Records a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像収録済メディア
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Restaurant a owl:Class;
+   servicevoc:dbpediaClass dbo:Restaurant;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:一般外食
+     ]];
+   rdfs:comment "Restaurant (not fast food, see amenity=fast_food). The kind of food served can be tagged with cuisine=* and diet=*.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SailingClub a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:ヨット
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Sauna a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:入る;
+       servicevoc:target target:サウナ
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:温泉・銭湯入浴料
+     ]];
+   rdfs:comment """A small room or house to experience dry or wet heat sessions. 
+Also frequently used: leisure=sauna""";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:School a owl:Class;
+   servicevoc:dbpediaClass dbo:School;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:教える;
+       servicevoc:target target:子供
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:授業料等
+     ]];
+   rdfs:comment "School and grounds";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ScubaDivingShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:スキューバダイビング用品
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:スポーツ用品
+     ]];
+   rdfs:comment "Shop focused on selling scuba diving equipment.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Sea a owl:Class;
+   servicevoc:dbpediaClass dbo:Sea;
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SecondHand a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:売る;
+       servicevoc:target target:被服及び履物
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:被服及び履物
+     ]];
+   rdfs:comment "A shop buying and selling used clothes and other things. See also shop=pawnbroker";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Sento a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:入る;
+       servicevoc:target target:風呂
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:温泉・銭湯入浴料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ShoeRepair a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:直す;
+       servicevoc:target target:履物類
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の被服関連サービス
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Shoemaker a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:履物類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Shoes a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:履物類
+     ]];
+   rdfs:comment "Shop focused on selling shoes.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ShoppingCentre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:消費支出
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:ShoppingCenter .
+
+lgdo:Shower a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:洗う;
+       servicevoc:target target:体
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Showers .
+
+lgdo:SkatePark a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:スケート
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SkiRental a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:教養娯楽賃借料
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:スキー用品
+     ],  [
+       servicevoc:action action:返す;
+       servicevoc:target target:スキー用品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SkiSchool a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:習う;
+       servicevoc:target target:スキー
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の教養娯楽サービスのその他
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Slipway a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の交通
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:船
+     ]];
+   rdfs:comment "Boats can be launched here.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Snacks a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:菓子類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SnowPark a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:スキー
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:スノーボード
+     ]];
+   rdfs:comment "rea of a ski resort dedicated for a specific skiing activity (\"ski\" for ski/snowboard practice, \"snow park\" for snowboarders, \"kids park\", \"Free style\"...";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SocialCentre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の教養娯楽サービスのその他
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:コミュニケーション
+     ]];
+   rdfs:comment "A place for free and not-for-profit activities.This tag is used to map a building or facility where a support group, or other social group, meets. These facilities may be accessible to the general public, restricted to members, or otherwise controlled access. Do not use this tag for support group homes. Social centres are community spaces, not private homes.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SocialFacility a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の家賃地代
+     ]];
+   rdfs:comment "A facility that provides social services.Social work is a profession and a social science committed to the pursuit of social justice, to quality of life, and to the development of the full potential of each individual, group and community in a society. Specific examples of a social facility are group and nursing homes, assisted living, drug clinics, workshops for the physically disabled, and homeless shelters. There are no restrictions as to who provides the services.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Solarium a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の理美容代
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:日焼け
+     ]];
+   rdfs:comment "日焼けサロン It has been proposed that this page or section be merged with Tag:leisure=tanning_salon";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Souvenir a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:消費支出
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Souvenirs .
+
+lgdo:Spa a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:温泉・銭湯入浴料
+     ],  [
+       servicevoc:action action:入る;
+       servicevoc:target target:温泉
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Sports a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:スポーツ用品
+     ]];
+   rdfs:comment "Shop focused on selling sporting goods.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:SportShop .
+
+lgdo:SportsCentre a owl:Class;
+   servicevoc:dbpediaClass dbo:SportFacility;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:する;
+       servicevoc:target target:スポーツ
+     ]];
+   rdfs:comment "A distinct facility where a range of sports take place within an enclosed area. To describe what kind of sport(s) use sport=*.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Stadium a owl:Class;
+   servicevoc:dbpediaClass dbo:Stadium;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:スポーツ
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:スポーツ観覧料
+     ]];
+   rdfs:comment "A major sports arena with substantial tiered seating. To describe what kind of sport(s) use sport=*.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Station a owl:Class;
+   servicevoc:dbpediaClass dbo:RailwayStation;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:降りる;
+       servicevoc:target target:鉄道
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:鉄道
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:鉄道運賃
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Stationery a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:comment "Shop focused on selling office supplies";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Stationary .
+
+lgdo:Stripclub a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:観る;
+       servicevoc:target target:ストリップショー
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:映画・演劇等入場料
+     ]];
+   rdfs:comment "A place that offers striptease or lapdancing (for sexual services use amenity=brothel).";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Studio a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:録る;
+       servicevoc:target target:音楽
+     ],  [
+       servicevoc:action action:撮る;
+       servicevoc:target target:映像
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:放送
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "TV radio or recording studio";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SubweyEntrance a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:鉄道運賃
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:地下鉄
+     ],  [
+       servicevoc:action action:降りる;
+       servicevoc:target target:鉄道
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Supermarket a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事雑貨
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:家事用消耗品
+     ]];
+   rdfs:comment "Supermarket – a large store with groceries and other items";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Sweets a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:菓子類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SwimmingPool a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ],  [
+       servicevoc:action action:泳ぐ;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "A swimming pool.";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:Whirlpool .
+
+lgdo:Tailor a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:衣類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Tanning a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の理美容代
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:日焼け
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Tattoo a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の理美容代
+     ],  [
+       servicevoc:action action:入れる;
+       servicevoc:target target:入れ墨
+     ]];
+   rdfs:comment "A tattoo parlour.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Taxi a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:タクシー代
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:タクシー
+     ]];
+   rdfs:comment "A place where taxis wait for passengers.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Tea a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:茶類
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:TelephoneShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:移動電話
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:移動電話通信料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Theatre a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:観る;
+       servicevoc:target target:オペラ
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:映画・演劇等入場料
+     ],  [
+       servicevoc:action action:観る;
+       servicevoc:target target:演劇
+     ]];
+   rdfs:comment "A theatre or opera house. Use amenity=cinema for movie theaters.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ThemePark a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:遊園地入場・乗物代
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Ticket a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:入場・閲覧・ゲーム代
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:交通
+     ]];
+   rdfs:comment "Shop focused on selling tickets for concerts, events, public transport, …";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Tobacco a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:たばこ
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Toilets a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:小便する;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:大便する;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:洗う;
+       servicevoc:target target:手
+     ]];
+   rdfs:comment "Public toilets (might require a fee)";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:TourismInformation a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の教養娯楽サービスのその他
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Townhall a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:行政サービス
+     ]];
+   rdfs:comment "Building where the administration of a village, town or city may be located, or just a community meeting place";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Toys a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:玩具
+     ]];
+   rdfs:comment "Shop focused on selling toys.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Track a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:走る;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他のスポーツ施設使用料
+     ]];
+   rdfs:comment "e.g. running, cycle-racing, greyhound, horses. To describe what kind of sport(s) use sport=*.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:TramStop a owl:Class;
+   servicevoc:dbpediaClass dbo:TramStation;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:乗る;
+       servicevoc:target target:トラム
+     ],  [
+       servicevoc:action action:降りる;
+       servicevoc:target target:トラム
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:鉄道運賃
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:TramStation .
+
+lgdo:TravelAgency a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:交通
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:入場・閲覧・ゲーム代
+     ]];
+   rdfs:comment "Shop focused on selling tickets for travelling.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:TricycleStation a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:降りる;
+       servicevoc:target target:三輪車
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の交通
+     ],  [
+       servicevoc:action action:乗る;
+       servicevoc:target target:三輪車
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Trumpet a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:トランペット
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:楽器
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Tyres a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:タイヤ
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:自動車等部品
+     ]];
+   rdfs:comment "Shop focused on selling tyres.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:University a owl:Class;
+   servicevoc:dbpediaClass dbo:University;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:私立大学
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:国公立大学
+     ],  [
+       servicevoc:action action:学ぶ;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:研究する;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "An university campus";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Variety a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:消費支出
+     ]];
+   rdfs:comment "A variety store retailer is a retail store that sells inexpensive items, sometimes with a single price point for all items in the store.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:VehicleInspection a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:自動車整備費
+     ]];
+   rdfs:comment "Vehicle inspection or car inspection is a procedure mandated by national or subnational governments in many countries, in which a vehicle is inspected to ensure that it conforms to regulations governing safety, emissions, or both. Wikipedia-16px.png Vehicle inspection";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:VendingMachine a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:飲料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:食料
+     ]];
+   rdfs:comment "A machine selling goods – food, tickets, newspapers, etc. Add type of goods using vending=*";
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:VendingMaschine,
+     lgdo:Vending .
+
+lgdo:Veterinary a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:治す;
+       servicevoc:target target:動物
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の保健医療サービス
+     ]];
+   rdfs:comment "A place where a veterinary surgeon (vet) practices.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Video a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:音楽・映像収録済メディア
+     ]];
+   rdfs:comment "Shop focused on selling or renting out videos/DVDs.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:VideoGames a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:テレビゲーム機
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ゲームソフト等
+     ]];
+   rdfs:comment "Shop focused on selling video games.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:VideoRental a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:返す;
+       servicevoc:target target:音楽・映像収録済メディア
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:教養娯楽賃借料
+     ],  [
+       servicevoc:action action:借りる;
+       servicevoc:target target:音楽・映像収録済メディア
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Viewpoint a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の教養娯楽サービスのその他
+     ],  [
+       servicevoc:action action:見る;
+       servicevoc:target target:景色
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:VillageHall a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:受ける;
+       servicevoc:target target:行政サービス
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Watches a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:腕時計
+     ]];
+   rdfs:comment "Shop focused on selling watches.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Water a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ],  [
+       servicevoc:action action:見る;
+       servicevoc:target target:水
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WaterFall a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:滝
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WaterFountain a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:水
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WaterPark a owl:Class;
+   servicevoc:dbpediaClass dbo:WaterRide;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:遊園地入場・乗物代
+     ],  [
+       servicevoc:action action:泳ぐ;
+       servicevoc:target owl:Thing
+     ],  [
+       servicevoc:action action:遊ぶ;
+       servicevoc:target owl:Thing
+     ]];
+   rdfs:comment "Amusement area with water slides, recreational swimming pools and dressing rooms.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WaterRefilling a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の飲料のその他
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:水
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WaterWell a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:他の飲料のその他
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:水
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WateringPlace a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲ませる;
+       servicevoc:target target:動物
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:他の入場・ゲーム代
+     ]];
+   rdfs:comment "Place where water is contained and animals can drink";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Wholesale a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:comment "A warehouse club is a large store which sells items in bulk. Many warehouse clubs require a membership fee.";
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Wifi a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:払う;
+       servicevoc:target target:インターネット接続料
+     ],  [
+       servicevoc:action action:する;
+       servicevoc:target target:インターネット
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Wine a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:ワイン
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Winery a owl:Class;
+   servicevoc:dbpediaClass dbo:Winery;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:飲む;
+       servicevoc:target target:ワイン
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:ワイン
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WineryShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:ワイン
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:WoodShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:設備材料
+     ],  [
+       servicevoc:action action:買う;
+       servicevoc:target target:材木
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Zoo a owl:Class;
+   servicevoc:dbpediaClass dbo:Zoo;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:見る;
+       servicevoc:target target:動物
+     ],  [
+       servicevoc:action action:払う;
+       servicevoc:target target:文化施設入場料
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ZooShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:商品
+     ]];
+   rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ATM rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AnimalsShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AntiqueShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:AntiquesShop a owl:Class;
+   servicevoc:provideService [ servicevoc:hasService [
+       servicevoc:action action:買う;
+       servicevoc:target target:骨董品
+     ]];
+   rdfs:subClassOf servicevoc:Facility;
+   owl:equivalentClass lgdo:AntiquesShop,
+     lgdo:AntiqueShop .
+
+lgdo:ArtGallery rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ArtGalleryShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BabyShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Barbeque rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Bathroom rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Bingo rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BookShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:BookmakersSHop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Butchers rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Camera rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Campsite rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CarDealer rdfs:subClassOf servicevoc:Facility .
+
+lgdo:CarRepair rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Carpets rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Charity rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Clothing rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ClubHouse rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Clubhouse rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Communications rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Dept rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Diy rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Doctor rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fabrics rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Florist rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Flowers rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Foto rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Fuel%3BcarWash rdfs:subClassOf servicevoc:Facility .
+
+lgdo:GamblingShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:GardenCenter rdfs:subClassOf servicevoc:Facility .
+
+lgdo:GardenShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Gifts rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Glass rdfs:subClassOf servicevoc:Facility .
+
+lgdo:GovernmentBuilding rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Grave rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Groceries rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Haidresser rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HearingAid rdfs:subClassOf servicevoc:Facility .
+
+lgdo:HuntingBlind rdfs:subClassOf servicevoc:Facility .
+
+lgdo:IceCreamShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Jewelers rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Jeweller rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Market rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Massage rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Mattress rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Meat rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Medical rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Motorbike rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Nails rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Newstand rdfs:subClassOf servicevoc:Facility .
+
+lgdo:OfficeShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Optometrist rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Painter rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Parking%3Bfuel rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Parking%3Brestaurant%3Bfuel rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Patisserie rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Perfume rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PetFood rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PetShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PetSupplies rdfs:subClassOf servicevoc:Facility .
+
+lgdo:PetSupply rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Pets rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Photocopying rdfs:subClassOf servicevoc:Facility .
+
+lgdo:ShoppingCenter rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Showers rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SocialClub rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Souvenirs rdfs:subClassOf servicevoc:Facility .
+
+lgdo:SportShop rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Stationary rdfs:subClassOf servicevoc:Facility .
+
+lgdo:TrainStation rdfs:subClassOf servicevoc:Facility .
+
+lgdo:TramStation rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Vending rdfs:subClassOf servicevoc:Facility .
+
+lgdo:VendingMaschine rdfs:subClassOf servicevoc:Facility .
+
+lgdo:Whirlpool rdfs:subClassOf servicevoc:Facility .
+
+lgdo:YouthCentre rdfs:subClassOf servicevoc:Facility .
+
+lgdo:YouthClub rdfs:subClassOf servicevoc:Facility .

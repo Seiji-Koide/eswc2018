@@ -1,0 +1,1052 @@
+@prefix action: <http://tp.lodac.nii.ac.jp/action/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix service: <http://tp.lodac.nii.ac.jp/service/> .
+@prefix servicevoc: <http://tp.lodac.nii.ac.jp/ns/service#> .
+@prefix target: <http://tp.lodac.nii.ac.jp/target/> .
+
+service:する_アイスホッケー_サービス a owl:Class;
+   rdfs:label "する_アイスホッケー_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:アイスホッケー
+   ];
+   rdfs:subClassOf service:する_スポーツ_サービス .
+
+service:する_インターネット_サービス a owl:Class;
+   rdfs:label "する_インターネット_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:インターネット
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:する_コミュニケーション_サービス a owl:Class;
+   rdfs:label "する_コミュニケーション_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:コミュニケーション
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:する_ゴルフ_サービス a owl:Class;
+   rdfs:label "する_ゴルフ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:ゴルフ
+   ];
+   rdfs:subClassOf service:する_スポーツ_サービス .
+
+service:する_スキューバーダイビング_サービス a owl:Class;
+   rdfs:label "する_スキューバーダイビング_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:スキューバダイビング
+   ];
+   rdfs:subClassOf service:する_スポーツ_サービス .
+
+service:する_スキー_サービス a owl:Class;
+   rdfs:label "する_スキー_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:スキー
+   ];
+   rdfs:subClassOf service:する_スポーツ_サービス .
+
+service:する_スケート_サービス a owl:Class;
+   rdfs:label "する_スケート_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:スケート
+   ];
+   rdfs:subClassOf service:する_スポーツ_サービス .
+
+service:する_スノーボード_サービス a owl:Class;
+   rdfs:label "する_スノーボード_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:スノーボード
+   ];
+   rdfs:subClassOf service:する_スポーツ_サービス .
+
+service:する_バーベキュー_サービス a owl:Class;
+   rdfs:label "する_バーベキュー_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:バーベキュー
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:する_ピクニック_サービス a owl:Class;
+   rdfs:label "する_ピクニック_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:ピクニック
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:する_プログラミング_サービス a owl:Class;
+   rdfs:label "する_プログラミング_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:プログラミング
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:する_ミニチュアゴルフ_サービス a owl:Class;
+   rdfs:label "する_ミニチュアゴルフ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:ミニチュアゴルフ
+   ];
+   rdfs:subClassOf service:する_スポーツ_サービス .
+
+service:する_放送_サービス a owl:Class;
+   rdfs:label "する_放送_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:放送
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:する_日焼け_サービス a owl:Class;
+   rdfs:label "する_日焼け_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:日焼け
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:乗降_タクシー_サービス a owl:Class;
+   rdfs:label "乗降_タクシー_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:降りる;
+     servicevoc:target target:タクシー
+   ],  [
+     servicevoc:action action:乗る;
+     servicevoc:target target:タクシー
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_トラム_サービス a owl:Class;
+   rdfs:label "乗降_トラム_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:降りる;
+     servicevoc:target target:トラム
+   ],  [
+     servicevoc:action action:乗る;
+     servicevoc:target target:トラム
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_バス_サービス a owl:Class;
+   rdfs:label "乗降_バス_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:バス
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:バス
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_フェリー_サービス a owl:Class;
+   rdfs:label "乗降_フェリー_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:フェリー
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:フェリー
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_モーターボート_サービス a owl:Class;
+   rdfs:label "乗降_モーターボート_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:モーターボート
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:モーターボート
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_ヨット_サービス a owl:Class;
+   rdfs:label "乗降_ヨット_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:ヨット
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:ヨット
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_三輪車_サービス a owl:Class;
+   rdfs:label "乗降_三輪車_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:三輪車
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:三輪車
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_地下鉄_サービス a owl:Class;
+   rdfs:label "乗降_地下鉄_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:降りる;
+     servicevoc:target target:地下鉄
+   ],  [
+     servicevoc:action action:乗る;
+     servicevoc:target target:地下鉄
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_自動車_サービス a owl:Class;
+   rdfs:label "乗降_自動車_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:降りる;
+     servicevoc:target target:自動車
+   ],  [
+     servicevoc:action action:乗る;
+     servicevoc:target target:自動車
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_船_サービス a owl:Class;
+   rdfs:label "乗降_船_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:船
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:船
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_鉄道_サービス a owl:Class;
+   rdfs:label "乗降_鉄道_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:鉄道
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:鉄道
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_飛行機_サービス a owl:Class;
+   rdfs:label "乗降_飛行機_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:飛行機
+   ],  [
+     servicevoc:action action:降りる;
+     servicevoc:target target:飛行機
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:乗降_馬_サービス a owl:Class;
+   rdfs:label "乗降_馬_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:降りる;
+     servicevoc:target target:馬
+   ],  [
+     servicevoc:action action:乗る;
+     servicevoc:target target:馬
+   ];
+   rdfs:subClassOf service:乗降_サービス .
+
+service:休む_サービス a owl:Class;
+   rdfs:label "休む_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:休む;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:会う_人_サービス a owl:Class;
+   rdfs:label "会う_人_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:会う;
+     servicevoc:target target:人
+   ];
+   rdfs:subClassOf service:会う_サービス .
+
+service:入る_サウナ_サービス a owl:Class;
+   rdfs:label "入る_サウナ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:入る;
+     servicevoc:target target:サウナ
+   ];
+   rdfs:subClassOf service:入る_サービス .
+
+service:入る_温泉_サービス a owl:Class;
+   rdfs:label "入る_温泉_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:入る;
+     servicevoc:target target:温泉
+   ];
+   rdfs:subClassOf service:入る_サービス .
+
+service:入る_風呂_サービス a owl:Class;
+   rdfs:label "入る_風呂_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:入る;
+     servicevoc:target target:風呂
+   ];
+   rdfs:subClassOf service:入る_サービス .
+
+service:入れ墨_サービス a owl:Class;
+   rdfs:label "入れ墨_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:入れる;
+     servicevoc:target target:入れ墨
+   ];
+   rdfs:subClassOf service:入れる_サービス .
+
+service:動かす_バイク_サービス a owl:Class;
+   rdfs:label "動かす_バイク_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:動かす;
+     servicevoc:target target:バイク
+   ];
+   rdfs:subClassOf service:動かす_サービス .
+
+service:動かす_体_サービス a owl:Class;
+   rdfs:label "動かす_体_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:動かす;
+     servicevoc:target target:体
+   ];
+   rdfs:subClassOf service:動かす_サービス .
+
+service:参加する_イベント_サービス a owl:Class;
+   rdfs:label "参加する_イベント_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:参加する;
+     servicevoc:target target:イベント
+   ];
+   rdfs:subClassOf service:参加する_サービス .
+
+service:図書館_サービス a owl:Class;
+   rdfs:label "図書館_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:読む;
+     servicevoc:target target:本
+   ],  [
+     servicevoc:action action:返す;
+     servicevoc:target target:本
+   ];
+   rdfs:subClassOf service:行政_サービス .
+
+service:売る_被服及び履物_サービス a owl:Class;
+   rdfs:label "売る_被服及び履物_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:売る;
+     servicevoc:target target:被服及び履物
+   ];
+   rdfs:subClassOf service:売る_サービス .
+
+service:学ぶ_語学_サービス a owl:Class;
+   rdfs:label "学ぶ_語学_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:学ぶ;
+     servicevoc:target target:語学
+   ];
+   rdfs:subClassOf service:学ぶ_サービス .
+
+service:展示する_他の教養娯楽用品のその他_サービス a owl:Class;
+   rdfs:label "展示する_他の教養娯楽用品のその他_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:展示する;
+     servicevoc:target target:他の教養娯楽用品のその他
+   ];
+   rdfs:subClassOf service:展示する_サービス .
+
+service:座る_サービス a owl:Class;
+   rdfs:label "座る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:座る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:撮る_写真_サービス a owl:Class;
+   rdfs:label "撮る_写真_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:撮る;
+     servicevoc:target target:写真
+   ];
+   rdfs:subClassOf service:撮る_サービス .
+
+service:撮る_映像_サービス a owl:Class;
+   rdfs:label "撮る_映像_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:撮る;
+     servicevoc:target target:音楽・映像収録済メディア
+   ],  [
+     servicevoc:action action:撮る;
+     servicevoc:target target:映像
+   ];
+   rdfs:subClassOf service:撮る_サービス .
+
+service:救急_サービス a owl:Class;
+   rdfs:label "救急_サービス";
+   rdfs:subClassOf service:行政_サービス .
+
+service:教える_子供_サービス a owl:Class;
+   rdfs:label "教える_子供_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:教える;
+     servicevoc:target target:子供
+   ];
+   rdfs:subClassOf service:教える_サービス .
+
+service:止める_バイク_サービス a owl:Class;
+   rdfs:label "止める_バイク_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:止める;
+     servicevoc:target target:バイク
+   ];
+   rdfs:subClassOf service:止める_サービス .
+
+service:止める_自動車_サービス a owl:Class;
+   rdfs:label "止める_自動車_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:止める;
+     servicevoc:target target:自動車
+   ];
+   rdfs:subClassOf service:止める_サービス .
+
+service:止める_自転車_サービス a owl:Class;
+   rdfs:label "止める_自転車_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:止める;
+     servicevoc:target target:自転車
+   ];
+   rdfs:subClassOf service:止める_サービス .
+
+service:治す_動物_サービス a owl:Class;
+   rdfs:label "治す_動物_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:治す;
+     servicevoc:target target:動物
+   ];
+   rdfs:subClassOf service:治す_サービス .
+
+service:治す_歯_サービス a owl:Class;
+   rdfs:label "治す_歯_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:治す;
+     servicevoc:target target:歯
+   ];
+   rdfs:subClassOf service:治す_サービス .
+
+service:治す_病気_サービス a owl:Class;
+   rdfs:label "治す_病気_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:治す;
+     servicevoc:target target:病気
+   ];
+   rdfs:subClassOf service:治す_サービス .
+
+service:泊まる_サービス a owl:Class;
+   rdfs:label "泊まる_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:泊まる;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:泳ぐ_サービス a owl:Class;
+   rdfs:label "泳ぐ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:泳ぐ;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:洗う_体_サービス a owl:Class;
+   rdfs:label "洗う_体_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:洗う;
+     servicevoc:target target:体
+   ];
+   rdfs:subClassOf service:洗う_サービス .
+
+service:洗う_手_サービス a owl:Class;
+   rdfs:label "洗う_手_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:洗う;
+     servicevoc:target target:手
+   ];
+   rdfs:subClassOf service:洗う_サービス .
+
+service:演じる_劇_サービス a owl:Class;
+   rdfs:label "演じる_劇_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:演じる;
+     servicevoc:target target:劇
+   ];
+   rdfs:subClassOf service:演じる_サービス .
+
+service:演じる_音楽_サービス a owl:Class;
+   rdfs:label "演じる_音楽_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:演じる;
+     servicevoc:target target:音楽
+   ];
+   rdfs:subClassOf service:演じる_サービス .
+
+service:祈る_サービス a owl:Class;
+   rdfs:label "祈る_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:習う_スキー_サービス a owl:Class;
+   rdfs:label "習う_スキー_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:習う;
+     servicevoc:target target:スキー
+   ];
+   rdfs:subClassOf service:習う_サービス .
+
+service:聞く_音楽_サービス a owl:Class;
+   rdfs:label "聞く_音楽_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:聞く;
+     servicevoc:target target:音楽
+   ];
+   rdfs:subClassOf service:聞く_サービス .
+
+service:育てる_花_サービス a owl:Class;
+   rdfs:label "育てる_花_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:育てる;
+     servicevoc:target target:花
+   ];
+   rdfs:subClassOf service:育てる_サービス .
+
+service:裁判所_サービス a owl:Class;
+   rdfs:label "裁判所_サービス";
+   rdfs:subClassOf service:行政_サービス .
+
+service:見る_スポーツ_サービス a owl:Class;
+   rdfs:label "見る_スポーツ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:スポーツ
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_他の教養娯楽用品のその他_サービス a owl:Class;
+   rdfs:label "見る_他の教養娯楽用品のその他_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:他の教養娯楽用品のその他
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_動物_サービス a owl:Class;
+   rdfs:label "見る_動物_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:動物
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_噴水_サービス a owl:Class;
+   rdfs:label "見る_噴水_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:噴水
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_城_サービス a owl:Class;
+   rdfs:label "見る_城_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:城
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_広告_サービス a owl:Class;
+   rdfs:label "見る_広告_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:広告
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_景色_サービス a owl:Class;
+   rdfs:label "見る_景色_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:景色
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_水_サービス a owl:Class;
+   rdfs:label "見る_水_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:水
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_滝_サービス a owl:Class;
+   rdfs:label "見る_滝_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:滝
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_美術品_サービス a owl:Class;
+   rdfs:label "見る_美術品_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:美術品
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_花_サービス a owl:Class;
+   rdfs:label "見る_花_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:花
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:見る_野鳥_サービス a owl:Class;
+   rdfs:label "見る_野鳥_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target target:野鳥
+   ];
+   rdfs:subClassOf service:見る_サービス .
+
+service:観る_オペラ_サービス a owl:Class;
+   rdfs:label "観る_オペラ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:観る;
+     servicevoc:target target:オペラ
+   ];
+   rdfs:subClassOf service:観る_サービス .
+
+service:観る_劇_サービス a owl:Class;
+   rdfs:label "観る_劇_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:観る;
+     servicevoc:target target:劇
+   ];
+   rdfs:subClassOf service:観る_サービス .
+
+service:観る_映画_サービス a owl:Class;
+   rdfs:label "観る_映画_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:観る;
+     servicevoc:target target:映画
+   ];
+   rdfs:subClassOf service:観る_サービス .
+
+service:警察署_サービス a owl:Class;
+   rdfs:label "警察署_サービス";
+   rdfs:subClassOf service:行政_サービス .
+
+service:貸借_スキー用品_サービス a owl:Class;
+   rdfs:label "貸借_スキー用品_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:借りる;
+     servicevoc:target target:スキー用品
+   ],  [
+     servicevoc:action action:返す;
+     servicevoc:target target:スキー用品
+   ];
+   rdfs:subClassOf service:貸借_サービス .
+
+service:貸借_ボート_サービス a owl:Class;
+   rdfs:label "貸借_ボート_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:返す;
+     servicevoc:target target:ボート
+   ],  [
+     servicevoc:action action:借りる;
+     servicevoc:target target:ボート
+   ];
+   rdfs:subClassOf service:貸借_サービス .
+
+service:貸借_自動車_サービス a owl:Class;
+   rdfs:label "貸借_自動車_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:借りる;
+     servicevoc:target target:自動車
+   ],  [
+     servicevoc:action action:返す;
+     servicevoc:target target:自動車
+   ];
+   rdfs:subClassOf service:貸借_サービス .
+
+service:貸借_自転車_サービス a owl:Class;
+   rdfs:label "貸借_自転車_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:借りる;
+     servicevoc:target target:自転車
+   ],  [
+     servicevoc:action action:返す;
+     servicevoc:target target:自転車
+   ];
+   rdfs:subClassOf service:貸借_サービス .
+
+service:貸借_音楽・映像収録済メディア_サービス a owl:Class;
+   rdfs:label "貸借_音楽・映像収録済メディア_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:借りる;
+     servicevoc:target target:音楽・映像収録済メディア
+   ],  [
+     servicevoc:action action:返す;
+     servicevoc:target target:音楽・映像収録済メディア
+   ];
+   rdfs:subClassOf service:貸借_サービス .
+
+service:走る_サービス a owl:Class;
+   rdfs:label "走る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:走る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:踊る_サービス a owl:Class;
+   rdfs:label "踊る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:踊る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:送る_手紙_サービス a owl:Class;
+   rdfs:label "送る_手紙_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:送る;
+     servicevoc:target target:手紙
+   ];
+   rdfs:subClassOf service:送る_サービス .
+
+service:送る_荷物_サービス a owl:Class;
+   rdfs:label "送る_荷物_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:送る;
+     servicevoc:target target:荷物
+   ];
+   rdfs:subClassOf service:送る_サービス .
+
+service:遊ぶ_サービス a owl:Class;
+   rdfs:label "遊ぶ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:遊ぶ;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:金融_サービス a owl:Class;
+   rdfs:label "金融_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:返す;
+     servicevoc:target target:金
+   ],  [
+     servicevoc:action action:入れる;
+     servicevoc:target target:金
+   ],  [
+     servicevoc:action action:借りる;
+     servicevoc:target target:金
+   ],  [
+     servicevoc:action action:振り込む;
+     servicevoc:target target:金
+   ],  [
+     servicevoc:action action:引き出す;
+     servicevoc:target target:金
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:釣る_生鮮魚介_サービス a owl:Class;
+   rdfs:label "釣る_生鮮魚介_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:釣る;
+     servicevoc:target target:生鮮魚介
+   ];
+   rdfs:subClassOf service:釣る_サービス .
+
+service:録る_音楽_サービス a owl:Class;
+   rdfs:label "録る_音楽_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:録る;
+     servicevoc:target target:音楽・映像収録済メディア
+   ],  [
+     servicevoc:action action:録る;
+     servicevoc:target target:音楽
+   ];
+   rdfs:subClassOf service:録る_サービス .
+
+service:開く_イベント_サービス a owl:Class;
+   rdfs:label "開く_イベント_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:開く;
+     servicevoc:target target:イベント
+   ];
+   rdfs:subClassOf service:開く_サービス .
+
+service:預ける_動物_サービス a owl:Class;
+   rdfs:label "預ける_動物_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:預ける;
+     servicevoc:target target:動物
+   ];
+   rdfs:subClassOf service:預ける_サービス .
+
+service:預ける_子供_サービス a owl:Class;
+   rdfs:label "預ける_子供_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:預ける;
+     servicevoc:target target:子供
+   ];
+   rdfs:subClassOf service:預ける_サービス .
+
+service:食べる_サービス a owl:Class;
+   rdfs:label "食べる_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:食べる;
+     servicevoc:target target:食料
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:飲む_サービス a owl:Class;
+   rdfs:label "飲む_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:飲む;
+     servicevoc:target target:飲料
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:会う_サービス a owl:Class;
+   rdfs:label "会う_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:会う;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:入れる_サービス a owl:Class;
+   rdfs:label "入れる_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:参加する_サービス a owl:Class;
+   rdfs:label "参加する_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:参加する;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:売る_サービス a owl:Class;
+   rdfs:label "売る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:売る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:学ぶ_サービス a owl:Class;
+   rdfs:label "学ぶ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:学ぶ;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:展示する_サービス a owl:Class;
+   rdfs:label "展示する_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:展示する;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:教える_サービス a owl:Class;
+   rdfs:label "教える_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:教える;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:直す_サービス a owl:Class;
+   rdfs:label "直す_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:直す;
+     servicevoc:target owl:Thing
+   ],  [
+     servicevoc:action action:直す;
+     servicevoc:target target:履物類
+   ];
+   rdfs:subClassOf service:活動_サービス,
+     service:直す_サービス .
+
+service:習う_サービス a owl:Class;
+   rdfs:label "習う_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:習う;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:聞く_サービス a owl:Class;
+   rdfs:label "聞く_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:聞く;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:育てる_サービス a owl:Class;
+   rdfs:label "育てる_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:育てる;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:釣る_サービス a owl:Class;
+   rdfs:label "釣る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:釣る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:録る_サービス a owl:Class;
+   rdfs:label "録る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:録る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:開く_サービス a owl:Class;
+   rdfs:label "開く_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:開く;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:動かす_サービス a owl:Class;
+   rdfs:label "動かす_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:動かす;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:撮る_サービス a owl:Class;
+   rdfs:label "撮る_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:洗う_サービス a owl:Class;
+   rdfs:label "洗う_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:演じる_サービス a owl:Class;
+   rdfs:label "演じる_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:送る_サービス a owl:Class;
+   rdfs:label "送る_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:預ける_サービス a owl:Class;
+   rdfs:label "預ける_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:預ける;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:入る_サービス a owl:Class;
+   rdfs:label "入る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:入る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:止める_サービス a owl:Class;
+   rdfs:label "止める_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:止める;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:治す_サービス a owl:Class;
+   rdfs:label "治す_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:治す;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:観る_サービス a owl:Class;
+   rdfs:label "観る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:観る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:行政_サービス a owl:Class;
+   rdfs:label "行政_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:貸借_サービス a owl:Class;
+   rdfs:label "貸借_サービス";
+   rdfs:subClassOf service:活動_サービス .
+
+service:する_スポーツ_サービス a owl:Class;
+   rdfs:label "する_スポーツ_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target target:スポーツ
+   ];
+   rdfs:subClassOf service:する_サービス .
+
+service:する_サービス a owl:Class;
+   rdfs:label "する_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:する;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:見る_サービス a owl:Class;
+   rdfs:label "見る_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:見る;
+     servicevoc:target owl:Thing
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:乗降_サービス a owl:Class;
+   rdfs:label "乗降_サービス";
+   servicevoc:hasService [
+     servicevoc:action action:乗る;
+     servicevoc:target target:交通
+   ];
+   rdfs:subClassOf service:活動_サービス .
+
+service:活動_サービス a owl:Class;
+   rdfs:label "活動_サービス" .

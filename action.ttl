@@ -1,0 +1,213 @@
+@prefix action: <http://tp.lodac.nii.ac.jp/action/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix servicevoc: <http://tp.lodac.nii.ac.jp/ns/service#> .
+@prefix wnja11instances: <http://wordnet.jp/ja11/instances/> .
+
+action:する a owl:Class;
+   rdfs:label "する";
+   servicevoc:wordnet wnja11instances:word-する .
+
+action:乗る a owl:Class;
+   rdfs:label "乗る";
+   servicevoc:wordnet wnja11instances:word-乗る .
+
+action:交換する a owl:Class;
+   rdfs:label "交換する" .
+
+action:介護する a owl:Class;
+   rdfs:label "介護する" .
+
+action:休む a owl:Class;
+   rdfs:label "休む";
+   servicevoc:wordnet wnja11instances:word-休む .
+
+action:会う a owl:Class;
+   rdfs:label "会う";
+   servicevoc:wordnet wnja11instances:word-会う .
+
+action:使う a owl:Class;
+   rdfs:label "使う";
+   servicevoc:wordnet wnja11instances:word-使う .
+
+action:修理する a owl:Class;
+   rdfs:label "修理する" .
+
+action:借りる a owl:Class;
+   rdfs:label "借りる";
+   servicevoc:wordnet wnja11instances:word-借りる .
+
+action:入る a owl:Class;
+   rdfs:label "入る";
+   servicevoc:wordnet wnja11instances:word-入る .
+
+action:入れる a owl:Class;
+   rdfs:label "入れる";
+   servicevoc:wordnet wnja11instances:word-入れる .
+
+action:出る a owl:Class;
+   rdfs:label "出る";
+   servicevoc:wordnet wnja11instances:word-出る .
+
+action:動かす a owl:Class;
+   rdfs:label "動かす";
+   servicevoc:wordnet wnja11instances:word-動かす .
+
+action:参加する a owl:Class;
+   rdfs:label "参加する" .
+
+action:受ける a owl:Class;
+   rdfs:label "受ける";
+   servicevoc:wordnet wnja11instances:word-受ける .
+
+action:売る a owl:Class;
+   rdfs:label "売る";
+   servicevoc:wordnet wnja11instances:word-売る .
+
+action:大便する a owl:Class;
+   rdfs:label "大便する" .
+
+action:学ぶ a owl:Class;
+   rdfs:label "学ぶ";
+   servicevoc:wordnet wnja11instances:word-学ぶ .
+
+action:小便する a owl:Class;
+   rdfs:label "小便する" .
+
+action:展示する a owl:Class;
+   rdfs:label "展示する" .
+
+action:座る a owl:Class;
+   rdfs:label "座る";
+   servicevoc:wordnet wnja11instances:word-座る .
+
+action:引き出す a owl:Class;
+   rdfs:label "引き出す";
+   servicevoc:wordnet wnja11instances:word-引き出す .
+
+action:引き取る a owl:Class;
+   rdfs:label "引き取る";
+   servicevoc:wordnet wnja11instances:word-引き取る .
+
+action:振り込む a owl:Class;
+   rdfs:label "振り込む" .
+
+action:撮る a owl:Class;
+   rdfs:label "撮る";
+   servicevoc:wordnet wnja11instances:word-撮る .
+
+action:教育する a owl:Class;
+   rdfs:label "教育する" .
+
+action:止める a owl:Class;
+   rdfs:label "止める";
+   servicevoc:wordnet wnja11instances:word-止める .
+
+action:治す a owl:Class;
+   rdfs:label "治す";
+   servicevoc:wordnet wnja11instances:word-治す .
+
+action:泊まる a owl:Class;
+   rdfs:label "泊まる";
+   servicevoc:wordnet wnja11instances:word-泊まる .
+
+action:泳ぐ a owl:Class;
+   rdfs:label "泳ぐ";
+   servicevoc:wordnet wnja11instances:word-泳ぐ .
+
+action:洗う a owl:Class;
+   rdfs:label "洗う";
+   servicevoc:wordnet wnja11instances:word-洗う .
+
+action:演奏する a owl:Class;
+   rdfs:label "演奏する" .
+
+action:狩る a owl:Class;
+   rdfs:label "狩る";
+   servicevoc:wordnet wnja11instances:word-狩る .
+
+action:直す a owl:Class;
+   rdfs:label "直す";
+   servicevoc:wordnet wnja11instances:word-直す .
+
+action:祈る a owl:Class;
+   rdfs:label "祈る";
+   servicevoc:wordnet wnja11instances:word-祈る .
+
+action:習う a owl:Class;
+   rdfs:label "習う";
+   servicevoc:wordnet wnja11instances:word-習う .
+
+action:聞く a owl:Class;
+   rdfs:label "聞く";
+   servicevoc:wordnet wnja11instances:word-聞く .
+
+action:育てる a owl:Class;
+   rdfs:label "育てる";
+   servicevoc:wordnet wnja11instances:word-育てる .
+
+action:見る a owl:Class;
+   rdfs:label "見る";
+   servicevoc:wordnet wnja11instances:word-見る .
+
+action:観る a owl:Class;
+   rdfs:label "観る";
+   servicevoc:wordnet wnja11instances:word-観る .
+
+action:読む a owl:Class;
+   rdfs:label "読む";
+   servicevoc:wordnet wnja11instances:word-読む .
+
+action:走る a owl:Class;
+   rdfs:label "走る";
+   servicevoc:wordnet wnja11instances:word-走る .
+
+action:踊る a owl:Class;
+   rdfs:label "踊る";
+   servicevoc:wordnet wnja11instances:word-踊る .
+
+action:返す a owl:Class;
+   rdfs:label "返す";
+   servicevoc:wordnet wnja11instances:word-返す .
+
+action:送る a owl:Class;
+   rdfs:label "送る";
+   servicevoc:wordnet wnja11instances:word-送る .
+
+action:遊ぶ a owl:Class;
+   rdfs:label "遊ぶ";
+   servicevoc:wordnet wnja11instances:word-遊ぶ .
+
+action:運動させる a owl:Class;
+   rdfs:label "運動させる" .
+
+action:釣る a owl:Class;
+   rdfs:label "釣る";
+   servicevoc:wordnet wnja11instances:word-釣る .
+
+action:録る a owl:Class;
+   rdfs:label "録る";
+   servicevoc:wordnet wnja11instances:word-録る .
+
+action:開く a owl:Class;
+   rdfs:label "開く";
+   servicevoc:wordnet wnja11instances:word-開く .
+
+action:降りる a owl:Class;
+   rdfs:label "降りる";
+   servicevoc:wordnet wnja11instances:word-降りる .
+
+action:預ける a owl:Class;
+   rdfs:label "預ける";
+   servicevoc:wordnet wnja11instances:word-預ける .
+
+action:食べる a owl:Class;
+   rdfs:label "食べる";
+   servicevoc:wordnet wnja11instances:word-食べる .
+
+action:飲ませる a owl:Class;
+   rdfs:label "飲ませる" .
+
+action:飲む a owl:Class;
+   rdfs:label "飲む";
+   servicevoc:wordnet wnja11instances:word-飲む .

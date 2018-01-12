@@ -1,0 +1,250 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix servicevoc: <http://tp.lodac.nii.ac.jp/ns/service#> .
+@prefix target: <http://tp.lodac.nii.ac.jp/target/> .
+@prefix wnja11instances: <http://wordnet.jp/ja11/instances/> .
+
+target:ATMサービス rdfs:label "ATMサービス" .
+
+target:アイスホッケー rdfs:label "アイスホッケー";
+   servicevoc:wordnet wnja11instances:word-アイスホッケー .
+
+target:アルコール飲料 rdfs:label "アルコール飲料";
+   servicevoc:wordnet wnja11instances:word-アルコール飲料 .
+
+target:イベント rdfs:label "イベント";
+   servicevoc:wordnet wnja11instances:word-イベント .
+
+target:インターネット rdfs:label "インターネット";
+   servicevoc:wordnet wnja11instances:word-インターネット .
+
+target:オペラ rdfs:label "オペラ";
+   servicevoc:wordnet wnja11instances:word-オペラ .
+
+target:コミュニケーション rdfs:label "コミュニケーション";
+   servicevoc:wordnet wnja11instances:word-コミュニケーション .
+
+target:コーヒー rdfs:label "コーヒー";
+   servicevoc:wordnet wnja11instances:word-コーヒー .
+
+target:ゴルフ rdfs:label "ゴルフ";
+   servicevoc:wordnet wnja11instances:word-ゴルフ .
+
+target:サウナ rdfs:label "サウナ";
+   servicevoc:wordnet wnja11instances:word-サウナ .
+
+target:スキューバダイビング rdfs:label "スキューバダイビング" .
+
+target:スキー rdfs:label "スキー";
+   servicevoc:wordnet wnja11instances:word-スキー .
+
+target:スキー用品 rdfs:label "スキー用品" .
+
+target:スケート rdfs:label "スケート";
+   servicevoc:wordnet wnja11instances:word-スケート .
+
+target:ストリップショー rdfs:label "ストリップショー";
+   servicevoc:wordnet wnja11instances:word-ストリップショー .
+
+target:スノーボード rdfs:label "スノーボード" .
+
+target:スポーツ rdfs:label "スポーツ";
+   servicevoc:wordnet wnja11instances:word-スポーツ .
+
+target:タクシー rdfs:label "タクシー";
+   servicevoc:wordnet wnja11instances:word-タクシー .
+
+target:トラム rdfs:label "トラム" .
+
+target:ハンバーガー rdfs:label "ハンバーガー";
+   servicevoc:wordnet wnja11instances:word-ハンバーガー .
+
+target:バイク rdfs:label "バイク";
+   servicevoc:wordnet wnja11instances:word-バイク .
+
+target:バス rdfs:label "バス";
+   servicevoc:wordnet wnja11instances:word-バス .
+
+target:バーベキュー rdfs:label "バーベキュー";
+   servicevoc:wordnet wnja11instances:word-バーベキュー .
+
+target:ピクニック rdfs:label "ピクニック";
+   servicevoc:wordnet wnja11instances:word-ピクニック .
+
+target:フェリー rdfs:label "フェリー";
+   servicevoc:wordnet wnja11instances:word-フェリー .
+
+target:プログラミング rdfs:label "プログラミング";
+   servicevoc:wordnet wnja11instances:word-プログラミング .
+
+target:ボート rdfs:label "ボート";
+   servicevoc:wordnet wnja11instances:word-ボート .
+
+target:ミニチュアゴルフ rdfs:label "ミニチュアゴルフ" .
+
+target:モーターボート rdfs:label "モーターボート";
+   servicevoc:wordnet wnja11instances:word-モーターボート .
+
+target:ヨット rdfs:label "ヨット";
+   servicevoc:wordnet wnja11instances:word-ヨット .
+
+target:ワイン rdfs:label "ワイン";
+   servicevoc:wordnet wnja11instances:word-ワイン .
+
+target:三輪車 rdfs:label "三輪車";
+   servicevoc:wordnet wnja11instances:word-三輪車 .
+
+target:人 rdfs:label "人";
+   servicevoc:wordnet wnja11instances:word-人 .
+
+target:他の主食的外食 rdfs:label "他の主食的外食" .
+
+target:他の教養娯楽用品のその他 rdfs:label "他の教養娯楽用品のその他" .
+
+target:体 rdfs:label "体";
+   servicevoc:wordnet wnja11instances:word-体 .
+
+target:入れ墨 rdfs:label "入れ墨";
+   servicevoc:wordnet wnja11instances:word-入れ墨 .
+
+target:動物 rdfs:label "動物";
+   servicevoc:wordnet wnja11instances:word-動物 .
+
+target:噴水 rdfs:label "噴水";
+   servicevoc:wordnet wnja11instances:word-噴水 .
+
+target:図書館サービス rdfs:label "図書館サービス" .
+
+target:国 rdfs:label "国";
+   servicevoc:wordnet wnja11instances:word-国 .
+
+target:地下鉄 rdfs:label "地下鉄";
+   servicevoc:wordnet wnja11instances:word-地下鉄 .
+
+target:城 rdfs:label "城";
+   servicevoc:wordnet wnja11instances:word-城 .
+
+target:子供 rdfs:label "子供";
+   servicevoc:wordnet wnja11instances:word-子供 .
+
+target:履物類 rdfs:label "履物類" .
+
+target:広告 rdfs:label "広告";
+   servicevoc:wordnet wnja11instances:word-広告 .
+
+target:手 rdfs:label "手";
+   servicevoc:wordnet wnja11instances:word-手 .
+
+target:手紙 rdfs:label "手紙";
+   servicevoc:wordnet wnja11instances:word-手紙 .
+
+target:放送 rdfs:label "放送";
+   servicevoc:wordnet wnja11instances:word-放送 .
+
+target:救急サービス rdfs:label "救急サービス" .
+
+target:日焼け rdfs:label "日焼け";
+   servicevoc:wordnet wnja11instances:word-日焼け .
+
+target:映像 rdfs:label "映像";
+   servicevoc:wordnet wnja11instances:word-映像 .
+
+target:映画 rdfs:label "映画";
+   servicevoc:wordnet wnja11instances:word-映画 .
+
+target:景色 rdfs:label "景色";
+   servicevoc:wordnet wnja11instances:word-景色 .
+
+target:本 rdfs:label "本";
+   servicevoc:wordnet wnja11instances:word-本 .
+
+target:歯 rdfs:label "歯";
+   servicevoc:wordnet wnja11instances:word-歯 .
+
+target:水 rdfs:label "水";
+   servicevoc:wordnet wnja11instances:word-水 .
+
+target:温泉 rdfs:label "温泉";
+   servicevoc:wordnet wnja11instances:word-温泉 .
+
+target:滝 rdfs:label "滝";
+   servicevoc:wordnet wnja11instances:word-滝 .
+
+target:演劇 rdfs:label "演劇";
+   servicevoc:wordnet wnja11instances:word-演劇 .
+
+target:犬 rdfs:label "犬";
+   servicevoc:wordnet wnja11instances:word-犬 .
+
+target:生鮮魚介 rdfs:label "生鮮魚介" .
+
+target:病気 rdfs:label "病気";
+   servicevoc:wordnet wnja11instances:word-病気 .
+
+target:美術品 rdfs:label "美術品";
+   servicevoc:wordnet wnja11instances:word-美術品 .
+
+target:自動車 rdfs:label "自動車";
+   servicevoc:wordnet wnja11instances:word-自動車 .
+
+target:自動車整備費 rdfs:label "自動車整備費" .
+
+target:自転車 rdfs:label "自転車";
+   servicevoc:wordnet wnja11instances:word-自転車 .
+
+target:船 rdfs:label "船";
+   servicevoc:wordnet wnja11instances:word-船 .
+
+target:花 rdfs:label "花";
+   servicevoc:wordnet wnja11instances:word-花 .
+
+target:荷物 rdfs:label "荷物";
+   servicevoc:wordnet wnja11instances:word-荷物 .
+
+target:行政サービス rdfs:label "行政サービス" .
+
+target:被服及び履物 rdfs:label "被服及び履物" .
+
+target:裁判サービス rdfs:label "裁判サービス" .
+
+target:語学 rdfs:label "語学";
+   servicevoc:wordnet wnja11instances:word-語学 .
+
+target:警察サービス rdfs:label "警察サービス" .
+
+target:軽食 rdfs:label "軽食";
+   servicevoc:wordnet wnja11instances:word-軽食 .
+
+target:酒類 rdfs:label "酒類";
+   servicevoc:wordnet wnja11instances:word-酒類 .
+
+target:野鳥 rdfs:label "野鳥" .
+
+target:金 rdfs:label "金";
+   servicevoc:wordnet wnja11instances:word-金 .
+
+target:鉄道 rdfs:label "鉄道";
+   servicevoc:wordnet wnja11instances:word-鉄道 .
+
+target:銀行サービス rdfs:label "銀行サービス" .
+
+target:電車 rdfs:label "電車";
+   servicevoc:wordnet wnja11instances:word-電車 .
+
+target:音楽 rdfs:label "音楽";
+   servicevoc:wordnet wnja11instances:word-音楽 .
+
+target:音楽・映像収録済メディア rdfs:label "音楽・映像収録済メディア" .
+
+target:風呂 rdfs:label "風呂" .
+
+target:飛行機 rdfs:label "飛行機";
+   servicevoc:wordnet wnja11instances:word-飛行機 .
+
+target:食料 rdfs:label "食料";
+   servicevoc:wordnet wnja11instances:word-食料 .
+
+target:飲料 rdfs:label "飲料";
+   servicevoc:wordnet wnja11instances:word-飲料 .
+
+target:馬 rdfs:label "馬";
+   servicevoc:wordnet wnja11instances:word-馬 .
