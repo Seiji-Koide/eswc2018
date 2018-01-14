@@ -10,4 +10,5 @@ This repository includes:
 6. target_wordnet.ttl
 7. targets.ttl
 
-DBpedia Japanese can be download from http://ja.dbpedia.org/dumps/ .
+DBpedia Japanese can be downloaded from http://ja.dbpedia.org/dumps/ .
+WordNet Japanese can be downloaded from http://ontologies.jp/wnja/ .
