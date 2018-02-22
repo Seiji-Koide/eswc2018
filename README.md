@@ -24,7 +24,7 @@ DBpedia Japanese can be downloaded from http://ja.dbpedia.org/dumps/ .
 
 WordNet Japanese can be downloaded from http://ontologies.jp/wnja/ .
 
-### Japanese WordNet license.
+### Japanese WordNet License
 
 The followings are the copy of Japanese WordNet license.
 
