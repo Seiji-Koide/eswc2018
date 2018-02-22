@@ -11,6 +11,7 @@ This repository includes:
 5. services_targets.ttl
 6. target_wordnet.ttl
 7. targets.ttl
+
 We call these 1 to 7 ontology files as 'glue' ontologies.
 
 ## Licenses
